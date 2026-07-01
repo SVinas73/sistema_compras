@@ -1,0 +1,731 @@
+cod_articulo,nom_articulo,clase_abc,urgencia,comprar,cant_master,inversion_usd,pred_esperada,objetivo,stock_seguridad,posicion,alcance_meses,prob_demanda,tendencia,meses_desde_ultima_venta,Fob
+GHPW2003-SP-W.S.R.K,Water seal repair kit,C,CRITICO: sin stock y con pedidos,3,1,6.0,0.6,1.3,0.6,-1.0,-6.3,23.0,2.0,1,2.0
+GRT75-2-SP-53,CYLINDERASSEMBLY,C,ALTO: quiebra antes de que llegue el pedido,2,1,488.0,1.3,1.8,0.5,0.0,0.0,42.0,2.0,0,243.8
+GE90006-SP-1,GENERATOR HEAD ASSY,C,ALTO: quiebra antes de que llegue el pedido,2,1,354.0,0.7,1.3,0.6,0.0,0.0,22.0,0.0,3,177.1
+WAP4R22-SP-53,Motor,A,ALTO: quiebra antes de que llegue el pedido,3,1,293.0,0.5,2.7,2.2,0.0,0.0,17.0,,9,97.6
+AC1301008-SP-M.A,Motor assembly,A,ALTO: quiebra antes de que llegue el pedido,3,1,261.0,0.6,2.7,2.0,0.0,0.0,23.0,2.0,1,87.1
+GEI47506E-SP-23,Inverter Module,C,ALTO: quiebra antes de que llegue el pedido,2,1,246.0,0.7,1.3,0.6,0.0,0.0,22.0,0.0,3,123.2
+GHPW2103-SP-27,High Pressure Pipe,A,ALTO: quiebra antes de que llegue el pedido,14,1,226.0,4.1,13.4,9.2,0.0,0.0,69.0,1.5,1,16.2
+GDE50001-SP-55-4-NEW,Generator Rotator,A,ALTO: quiebra antes de que llegue el pedido,3,1,160.0,0.5,2.7,2.2,0.0,0.0,16.0,,14,53.4
+DP133505-SP-23,REPUESTODP133505-SP-23MOTOR,B,ALTO: quiebra antes de que llegue el pedido,4,1,160.0,1.3,3.6,2.3,0.0,0.0,42.0,2.0,0,40.0
+AGL02301-SP-1-77,Pump Head,C,ALTO: quiebra antes de que llegue el pedido,3,1,154.0,2.6,2.5,0.0,0.0,0.0,76.0,,28,51.3
+AGL02301-SP-GUN,gun,A,ALTO: quiebra antes de que llegue el pedido,17,1,153.0,6.0,16.1,10.2,0.0,0.0,80.0,1.1,0,9.0
+PDB15006-SP-72,REPUESTOPDB15006-SP-72ARMATURE220-240V,A,ALTO: quiebra antes de que llegue el pedido,8,1,152.0,2.2,7.9,5.7,0.0,0.0,56.0,1.5,2,19.0
+WCM1A200-SP-13,Assembly For Motor,C,ALTO: quiebra antes de que llegue el pedido,2,1,111.0,1.0,1.4,0.3,0.0,0.0,35.0,1.0,2,55.6
+PDB22001-SP-80-98,Handle components,B,ALTO: quiebra antes de que llegue el pedido,4,1,107.0,1.2,3.7,2.5,0.0,0.0,32.0,2.0,1,26.8
+LM321-SP-M.A,Motor assembly,C,ALTO: quiebra antes de que llegue el pedido,7,1,105.0,3.8,6.9,3.2,0.0,0.0,68.0,0.8,1,15.0
+GEI35006-SP-48,Inveter Module,C,ALTO: quiebra antes de que llegue el pedido,1,1,97.0,0.5,0.1,0.0,0.0,0.0,16.0,,12,96.8
+CS18528-SP-39,rotor,A,ALTO: quiebra antes de que llegue el pedido,10,1,90.0,2.2,9.4,7.2,0.0,0.0,44.0,0.0,3,9.0
+GEI47506E-SP-1-80,Stator,C,ALTO: quiebra antes de que llegue el pedido,2,1,81.0,0.7,1.3,0.6,0.0,0.0,22.0,0.0,3,40.3
+ACS215506-SP-MOTOR,motor,C,ALTO: quiebra antes de que llegue el pedido,2,1,80.0,0.6,1.3,0.7,0.0,0.0,22.0,2.0,2,40.2
+WCM1A200-SP-58,Motor,C,ALTO: quiebra antes de que llegue el pedido,2,1,79.0,0.6,1.3,0.7,0.0,0.0,22.0,2.0,2,39.6
+CRHLI20208-SP-10,Gear Box Assy,C,ALTO: quiebra antes de que llegue el pedido,5,1,77.0,2.4,4.5,2.1,0.0,0.0,67.0,1.0,0,15.5
+TS15008-SP-207,REPUESTOTS15008-SP-207ROTOR,B,ALTO: quiebra antes de que llegue el pedido,2,1,71.0,0.6,1.4,0.8,0.0,0.0,17.0,,16,35.6
+WAP3A24-SP-56,Ball Valve,A,ALTO: quiebra antes de que llegue el pedido,73,1,65.0,20.4,72.3,52.0,0.0,0.0,65.0,2.0,0,0.9
+ACS175406-SP-M.H,Machine Head,C,ALTO: quiebra antes de que llegue el pedido,1,1,65.0,0.5,0.1,0.0,0.0,0.0,16.0,,12,64.8
+ING-MMA18058-SP-8,Main PCB,C,ALTO: quiebra antes de que llegue el pedido,1,1,63.0,0.7,0.7,0.0,0.0,0.0,21.0,,17,62.6
+GEI47506E-SP-1-81,Rotor,C,ALTO: quiebra antes de que llegue el pedido,2,1,58.0,0.7,1.3,0.6,0.0,0.0,22.0,0.0,3,29.0
+HLRL30051-SP-A,Acceptor,C,ALTO: quiebra antes de que llegue el pedido,1,1,57.0,0.5,0.4,0.0,0.0,0.0,16.0,,20,56.6
+DDM38001-SP-1,Rotor,C,ALTO: quiebra antes de que llegue el pedido,2,1,53.0,0.8,1.2,0.5,0.0,0.0,26.0,2.0,0,26.7
+ING-MMA18049-SP-6,Main PCB,C,ALTO: quiebra antes de que llegue el pedido,2,1,49.0,0.7,1.3,0.6,0.0,0.0,22.0,0.0,3,24.6
+WQX01202-SP-8,Motor pump group,C,ALTO: quiebra antes de que llegue el pedido,4,1,45.0,2.2,3.5,1.3,0.0,0.0,61.0,0.5,0,11.2
+DDM38001-SP-6,stator component,C,ALTO: quiebra antes de que llegue el pedido,2,1,44.0,0.8,1.2,0.5,0.0,0.0,26.0,2.0,0,22.2
+RH1500528-SP-78,Eccentric gear subassembl,C,ALTO: quiebra antes de que llegue el pedido,2,1,43.0,1.3,1.8,0.5,0.0,0.0,42.0,2.0,0,21.6
+AC255011-SP-37,Coil,B,ALTO: quiebra antes de que llegue el pedido,2,1,42.0,0.6,1.2,0.6,0.0,0.0,17.0,,21,21.2
+CPWLI20082-SP-2,Pumpassembly,C,ALTO: quiebra antes de que llegue el pedido,7,1,41.0,3.9,6.7,2.8,0.0,0.0,79.0,1.3,0,5.9
+GSE80001-SP-P-3,Muffler,C,ALTO: quiebra antes de que llegue el pedido,1,1,41.0,0.7,0.7,0.0,0.0,0.0,21.0,,17,41.3
+CIWLI20208-SP-4,Stator & Controller Assy,B,ALTO: quiebra antes de que llegue el pedido,4,1,40.0,1.4,3.1,1.7,0.0,0.0,19.0,,9,9.9
+JAP15001-SP-174,ROTOR,B,ALTO: quiebra antes de que llegue el pedido,2,1,40.0,0.5,1.4,0.9,0.0,0.0,16.0,,12,20.0
+CIDLI201452-SP-2,Drill Chuck 0.8-10mm,A,ALTO: quiebra antes de que llegue el pedido,12,1,39.0,3.4,11.2,7.9,0.0,0.0,55.0,0.0,3,3.3
+JAP15001-SP-175,Stator,B,ALTO: quiebra antes de que llegue el pedido,2,1,36.0,0.5,1.4,0.9,0.0,0.0,16.0,,12,17.8
+P08-51-062,starter assembly,B,ALTO: quiebra antes de que llegue el pedido,24,1,33.0,6.5,23.6,17.1,0.0,0.0,38.0,0.0,3,1.4
+ING-MMA16018-SP-5,DC fan,B,ALTO: quiebra antes de que llegue el pedido,11,1,33.0,4.0,10.4,6.4,0.0,0.0,68.0,1.1,1,3.0
+SPD10001-SP-18-28,MOTOR ASSY,C,ALTO: quiebra antes de que llegue el pedido,1,1,30.0,0.6,0.8,0.2,0.0,0.0,20.0,,6,29.8
+TS15007-SP-98,On/Offswitch,A,ALTO: quiebra antes de que llegue el pedido,8,1,27.0,1.4,7.8,6.4,0.0,0.0,31.0,0.0,5,3.3
+PDB17008-SP-1-5/8/9,Block Blessing Assy,B,ALTO: quiebra antes de que llegue el pedido,5,1,27.0,1.4,4.2,2.8,0.0,0.0,40.0,0.7,2,5.5
+GE15005-SP-25,Carburetor,B,ALTO: quiebra antes de que llegue el pedido,6,1,26.0,2.1,5.5,3.4,0.0,0.0,57.0,0.5,2,4.3
+WLAPM22-SP-30-33,Angle grinding controller,C,ALTO: quiebra antes de que llegue el pedido,3,1,26.0,2.6,2.5,0.0,0.0,0.0,76.0,,27,8.6
+GEI30001-SP-12-49,Carburetor Assembly,B,ALTO: quiebra antes de que llegue el pedido,2,1,25.0,0.6,1.6,1.0,0.0,0.0,22.0,2.0,2,12.4
+MX214008-SP-53,SoftStart,B,ALTO: quiebra antes de que llegue el pedido,13,1,23.0,4.7,12.8,8.1,0.0,0.0,68.0,0.2,1,1.8
+CBSLI20127-SP-103,Saw Blade,A,ALTO: quiebra antes de que llegue el pedido,3,1,22.0,0.7,2.9,2.2,0.0,0.0,19.0,,22,7.4
+HPWR18008-SP-E-3,Gear Box Kit,B,ALTO: quiebra antes de que llegue el pedido,4,1,22.0,1.1,3.4,2.3,0.0,0.0,30.0,2.0,2,5.5
+SPD7508-SP-16-25,MOTOR ASSY,C,ALTO: quiebra antes de que llegue el pedido,1,1,22.0,0.5,0.1,0.0,0.0,0.0,16.0,,14,22.0
+CIDLI20668-SP-7/10/12,Stator and electric control assembly,C,ALTO: quiebra antes de que llegue el pedido,2,1,21.0,0.9,1.3,0.4,0.0,0.0,26.0,0.0,5,10.6
+CRSLI2108-SP-30,Reciprocating Rod Assembly,B,ALTO: quiebra antes de que llegue el pedido,7,1,20.0,2.6,6.3,3.7,0.0,0.0,64.0,1.5,0,2.9
+GEI23006-SP-1-29,Carburetor Assembly,C,ALTO: quiebra antes de que llegue el pedido,2,1,20.0,0.6,1.3,0.6,0.0,0.0,21.0,0.0,5,10.2
+CDLI20011-SP-13,Switch,B,ALTO: quiebra antes de que llegue el pedido,4,1,19.0,2.6,3.5,0.9,0.0,0.0,76.0,,25,4.7
+ING-MMA16049-SP-5,Fan,B,ALTO: quiebra antes de que llegue el pedido,12,1,19.0,4.7,11.3,6.6,0.0,0.0,75.0,1.0,0,1.6
+AG24008-SP-44,CordAndPlug,C,ALTO: quiebra antes de que llegue el pedido,7,1,19.0,4.7,6.7,2.0,0.0,0.0,55.0,0.0,3,2.7
+AAC1601-SP-C.P.A,AAC1601-SP-C.P.A,C,ALTO: quiebra antes de que llegue el pedido,2,1,17.0,0.7,1.3,0.6,0.0,0.0,22.0,0.0,3,8.4
+GC6101-SP-8-6,InnerTube,B,ALTO: quiebra antes de que llegue el pedido,9,1,16.0,3.0,8.0,5.0,0.0,0.0,50.0,2.0,1,1.8
+CDLI20028-SP-3,CDLI20028-SP-3,C,ALTO: quiebra antes de que llegue el pedido,3,1,15.0,1.6,2.7,1.1,0.0,0.0,39.0,0.0,5,5.2
+HLL255267-SP-C.A.C,Charger + adapter cable,B,ALTO: quiebra antes de que llegue el pedido,4,1,14.0,1.8,4.0,2.2,0.0,0.0,38.0,2.0,0,3.4
+WAY1A10-SP-N.J,Nozzle jacket,B,ALTO: quiebra antes de que llegue el pedido,17,1,14.0,5.5,16.2,10.8,0.0,0.0,62.0,0.6,2,0.8
+ING-MMA18049-SP-4,DC fan,B,ALTO: quiebra antes de que llegue el pedido,9,1,14.0,3.3,8.4,5.1,0.0,0.0,71.0,1.6,0,1.6
+CVLI2006-SP-6,Dust cup,B,ALTO: quiebra antes de que llegue el pedido,10,1,14.0,4.1,9.6,5.5,0.0,0.0,70.0,2.0,0,1.4
+GHPW2003-SP-1-75,The Fuel Tank,B,ALTO: quiebra antes de que llegue el pedido,2,1,13.0,0.6,1.6,1.0,0.0,0.0,22.0,2.0,2,6.6
+WXU1307-SP-E-12-2,Muffler Comp,C,ALTO: quiebra antes de que llegue el pedido,2,1,13.0,1.3,1.6,0.3,0.0,0.0,36.0,0.0,4,6.6
+ING-MMA1606-SP-10,EarthClampSubassembly,A,ALTO: quiebra antes de que llegue el pedido,3,1,11.0,0.7,2.8,2.1,0.0,0.0,21.0,,17,3.8
+WHP3A12-SP-16,Gun handle,A,ALTO: quiebra antes de que llegue el pedido,3,1,11.0,0.6,2.8,2.3,0.0,0.0,19.0,,7,3.8
+CM30-1-SP-26,REPUESTOHORMIGONERACM30-1-SP-26BELTWHEEL,B,ALTO: quiebra antes de que llegue el pedido,7,1,11.0,2.3,6.9,4.5,0.0,0.0,54.0,0.4,2,1.6
+AG1100385-SP-43,Constant Work Governor,C,ALTO: quiebra antes de que llegue el pedido,2,1,11.0,1.3,1.6,0.3,0.0,0.0,37.0,0.0,3,5.6
+EH5001-SP-6-13,Rope drum and wire rope assembly(12 m.),C,ALTO: quiebra antes de que llegue el pedido,1,1,11.0,0.7,0.4,0.0,0.0,0.0,19.0,,22,10.8
+CIDLI20608-SP-POTHOOK,pothook,A,ALTO: quiebra antes de que llegue el pedido,90,1,10.0,43.6,89.9,46.3,0.0,0.0,89.0,1.2,0,0.1
+WETH1A02-SP-83,up and down switch,C,ALTO: quiebra antes de que llegue el pedido,2,1,10.0,0.6,1.3,0.6,0.0,0.0,23.0,2.0,1,5.2
+GWP202-SP-1-25,Carburetor,B,ALTO: quiebra antes de que llegue el pedido,2,1,9.0,0.4,1.4,1.0,0.0,0.0,15.0,,11,4.7
+CDLI20051-SP-11/12,Switch,B,ALTO: quiebra antes de que llegue el pedido,2,1,9.0,0.7,1.4,0.7,0.0,0.0,21.0,,17,4.7
+CIDLI201452-SP-13,Switch,B,ALTO: quiebra antes de que llegue el pedido,2,1,9.0,0.7,1.4,0.7,0.0,0.0,21.0,,17,4.7
+PDB22001-SP-54,YTypeSealingRing45.7×55.2×7,C,ALTO: quiebra antes de que llegue el pedido,2,1,9.0,1.2,1.5,0.2,0.0,0.0,41.0,1.0,0,4.3
+GLM196202-SP-48,Lower Handle,B,ALTO: quiebra antes de que llegue el pedido,2,1,8.0,0.7,1.6,0.9,0.0,0.0,22.0,0.0,3,4.1
+ID211008-SP-40,Rotor,C,ALTO: quiebra antes de que llegue el pedido,1,1,8.0,0.5,0.2,0.0,0.0,0.0,17.0,,9,8.2
+LM385-SP-8,ARMATURE,C,ALTO: quiebra antes de que llegue el pedido,1,1,8.0,0.6,0.5,0.0,0.0,0.0,19.0,,7,8.4
+CVLI2001-SP-7,Motor,C,ALTO: quiebra antes de que llegue el pedido,2,1,8.0,0.6,1.3,0.7,0.0,0.0,22.0,2.0,2,4.1
+RH1600388-SP-16,Impact hammer,C,ALTO: quiebra antes de que llegue el pedido,5,1,8.0,2.5,4.0,1.5,0.0,0.0,57.0,2.0,1,1.5
+WLC15008-SP-55,Stator,C,ALTO: quiebra antes de que llegue el pedido,1,1,8.0,0.5,0.1,0.0,0.0,0.0,16.0,,14,7.6
+CIWLI20010-SP-5,Rotor,C,ALTO: quiebra antes de que llegue el pedido,3,1,8.0,2.6,2.5,0.0,0.0,0.0,76.0,,28,2.7
+CSSLI2001-SP-9,UpCutterBlade,A,ALTO: quiebra antes de que llegue el pedido,3,1,7.0,0.7,2.3,1.6,0.0,0.0,20.0,,18,2.2
+WAP4R22-SP-73,Air Cock Assembly,B,ALTO: quiebra antes de que llegue el pedido,5,1,7.0,1.6,4.6,2.9,0.0,0.0,44.0,1.3,2,1.3
+MD541141-SP-1-43,The Ignition Coil,B,ALTO: quiebra antes de que llegue el pedido,5,1,7.0,1.6,4.3,2.7,0.0,0.0,41.0,0.0,3,1.3
+WAP4R11-SP-63,Check Valve,B,ALTO: quiebra antes de que llegue el pedido,5,1,7.0,1.2,4.2,3.1,0.0,0.0,32.0,0.0,4,1.4
+GE65006-SP-34-3,Voltmeter,C,ALTO: quiebra antes de que llegue el pedido,2,1,6.0,0.7,1.3,0.6,0.0,0.0,22.0,0.0,3,3.0
+CRTLI2005-SP-1,Outer Tube,C,ALTO: quiebra antes de que llegue el pedido,2,1,6.0,0.7,1.3,0.6,0.0,0.0,22.0,0.0,3,2.8
+CIDLI20602-SP-2,Drill Chuck 1/2-13mm,B,ALTO: quiebra antes de que llegue el pedido,2,1,5.0,0.5,1.4,0.9,0.0,0.0,16.0,,13,2.7
+AG200018-SP-44/47/48,Switch,B,ALTO: quiebra antes de que llegue el pedido,2,1,5.0,0.6,1.8,1.2,0.0,0.0,23.0,2.0,1,2.3
+CIWLI20010-SP-10,Controller,C,ALTO: quiebra antes de que llegue el pedido,1,1,5.0,0.7,0.4,0.0,0.0,0.0,19.0,,22,5.5
+DP207505-SP-10,Rocker,C,ALTO: quiebra antes de que llegue el pedido,2,1,5.0,0.7,1.3,0.6,0.0,0.0,22.0,0.0,3,2.5
+SPDB22008-SP-33,Bearing,C,ALTO: quiebra antes de que llegue el pedido,3,1,5.0,2.6,2.5,0.0,0.0,0.0,76.0,,26,1.6
+GHPW2003-SP-1-13,"Rod Assembly., Connecting",C,ALTO: quiebra antes de que llegue el pedido,2,1,5.0,1.3,1.6,0.3,0.0,0.0,36.0,0.0,4,2.6
+PS2408-SP-38,foamplate,B,ALTO: quiebra antes de que llegue el pedido,12,1,4.0,4.4,11.1,6.6,0.0,0.0,71.0,1.6,0,0.4
+RH10506-SP-1,RubberHead,B,ALTO: quiebra antes de que llegue el pedido,16,1,4.0,5.4,15.2,9.8,0.0,0.0,58.0,0.0,3,0.3
+PL7508-SP-10,Cutter Holder,C,ALTO: quiebra antes de que llegue el pedido,1,1,4.0,0.6,0.8,0.1,0.0,0.0,21.0,,8,3.6
+CVLI2001-SP-16,DustCup,C,ALTO: quiebra antes de que llegue el pedido,2,1,4.0,0.6,1.3,0.7,0.0,0.0,22.0,2.0,2,1.8
+MD541141-SP-2-104,Long Bend,C,ALTO: quiebra antes de que llegue el pedido,3,1,4.0,2.6,2.5,0.0,0.0,0.0,76.0,,25,1.5
+PDB17026-SP-74,Cable,C,ALTO: quiebra antes de que llegue el pedido,1,1,4.0,0.7,0.4,0.0,0.0,0.0,19.0,,22,3.7
+CDLI20028-SP-2,Drill Chuck 0.8-10mm,A,ALTO: quiebra antes de que llegue el pedido,3,1,3.0,0.7,2.9,2.2,0.0,0.0,19.0,,22,1.1
+AC255011-SP-46,Pressure Regulating Valve,B,ALTO: quiebra antes de que llegue el pedido,2,1,3.0,0.7,1.4,0.7,0.0,0.0,21.0,,17,1.4
+WAP4R22-SP-61,Check Valve,B,ALTO: quiebra antes de que llegue el pedido,2,1,3.0,0.6,1.8,1.2,0.0,0.0,23.0,2.0,1,1.4
+CIWLI20010-SP-11,Switch,C,ALTO: quiebra antes de que llegue el pedido,2,1,3.0,1.9,1.6,0.0,0.0,0.0,52.0,,24,1.5
+TS150078-SP-35,Riving knife,C,ALTO: quiebra antes de que llegue el pedido,2,1,3.0,0.8,1.2,0.5,0.0,0.0,26.0,2.0,0,1.3
+MD541141-SP-1-38,The Stator Coil,C,ALTO: quiebra antes de que llegue el pedido,1,1,3.0,0.6,0.5,0.0,0.0,0.0,19.0,,7,2.9
+CRSLI1152-SP-23,Reciprocating Rod Assembly,C,ALTO: quiebra antes de que llegue el pedido,1,0,3.0,0.5,0.2,0.0,0.0,0.0,16.0,,10,2.9
+CIWLI2001-SP-3,STATOR,C,ALTO: quiebra antes de que llegue el pedido,1,1,3.0,0.6,0.4,0.0,0.0,0.0,17.0,,21,2.7
+BMS14007-SP-123,Cable,C,ALTO: quiebra antes de que llegue el pedido,1,1,3.0,0.7,0.5,0.0,0.0,0.0,20.0,,18,3.2
+AC202411-SP-51,Check Valve,B,ALTO: quiebra antes de que llegue el pedido,2,1,2.0,0.6,1.8,1.2,0.0,0.0,16.0,,11,0.9
+CSPLI2001-SP-G.B,gun barrel,B,ALTO: quiebra antes de que llegue el pedido,2,1,2.0,0.6,1.4,0.8,0.0,0.0,17.0,,16,0.8
+ING-MMA1805-SP-18,Quick Commector Subassembly Red,B,ALTO: quiebra antes de que llegue el pedido,2,1,2.0,0.5,1.1,0.6,0.0,0.0,16.0,,20,0.8
+AC255011-SP-59,Drain Valve,B,ALTO: quiebra antes de que llegue el pedido,2,1,2.0,0.5,1.4,0.9,0.0,0.0,18.0,,8,0.9
+AC202411-SP-45,Ball Valve,B,ALTO: quiebra antes de que llegue el pedido,2,1,2.0,0.6,1.2,0.6,0.0,0.0,17.0,,21,0.8
+AC1301008-SP-26,Protector,B,ALTO: quiebra antes de que llegue el pedido,2,1,2.0,0.6,1.4,0.8,0.0,0.0,20.0,,6,1.1
+PDB130018-SP-18,piston,B,ALTO: quiebra antes de que llegue el pedido,2,1,2.0,0.8,2.0,1.2,0.0,0.0,17.0,,11,1.1
+AAC1408-SP-14,Pressure Gage,C,ALTO: quiebra antes de que llegue el pedido,1,1,2.0,0.6,0.5,0.0,0.0,0.0,19.0,,7,1.6
+ACN18641-SP-D,Main Piston Assy,C,ALTO: quiebra antes de que llegue el pedido,1,1,2.0,0.6,0.5,0.0,0.0,0.0,19.0,,7,1.7
+CRTLI2005-SP-2,Claw Sets,C,ALTO: quiebra antes de que llegue el pedido,2,1,2.0,0.7,1.3,0.6,0.0,0.0,22.0,0.0,3,0.9
+CIRLI2002-SP-11,TRIGGER,C,ALTO: quiebra antes de que llegue el pedido,1,1,2.0,0.5,0.2,0.0,0.0,0.0,16.0,,15,1.5
+CRSLI1152-SP-11,Pinion,C,ALTO: quiebra antes de que llegue el pedido,2,1,2.0,0.9,1.3,0.4,0.0,0.0,32.0,2.0,1,1.2
+PDB130018-SP-69,Cable 2X1Mm2 2M,C,ALTO: quiebra antes de que llegue el pedido,1,1,2.0,0.5,0.1,0.0,0.0,0.0,16.0,,13,2.0
+GWP202-SP-1-37,"Gasket,CylinderHead",B,ALTO: quiebra antes de que llegue el pedido,2,1,1.0,0.5,1.4,0.9,0.0,0.0,16.0,,14,0.3
+PDB17026-SP-1,StopLever,B,ALTO: quiebra antes de que llegue el pedido,2,1,1.0,0.6,1.4,0.8,0.0,0.0,19.0,,7,0.5
+GWP202-SP-25,PackingOutlet,B,ALTO: quiebra antes de que llegue el pedido,8,1,1.0,2.4,7.2,4.7,0.0,0.0,64.0,0.5,1,0.1
+AC202411-SP-5,Air Filter,B,ALTO: quiebra antes de que llegue el pedido,4,1,1.0,1.9,3.2,1.3,0.0,0.0,52.0,,24,0.3
+RH150028-SP-1,Rubber Head,B,ALTO: quiebra antes de que llegue el pedido,3,1,1.0,1.1,2.6,1.5,0.0,0.0,22.0,,8,0.3
+VC24751-SP-74,Handrail Inner Retainer,B,ALTO: quiebra antes de que llegue el pedido,2,0,1.0,0.6,1.2,0.6,0.0,0.0,17.0,,21,0.3
+VC12202-SP-29,Crevice Nozzle,C,ALTO: quiebra antes de que llegue el pedido,4,1,1.0,2.0,3.2,1.1,0.0,0.0,48.0,0.0,4,0.2
+GE30005-SP-37,"GASKET,CYLINDER   HEAD",C,ALTO: quiebra antes de que llegue el pedido,3,1,1.0,2.0,3.0,0.9,0.0,0.0,47.0,0.0,3,0.3
+CGSLI20682-SP-5,Tensioning mechanism,C,ALTO: quiebra antes de que llegue el pedido,1,1,1.0,0.6,0.2,0.0,0.0,0.0,18.0,,10,1.3
+AC255011-SP-54,High Pressure Pipe,C,ALTO: quiebra antes de que llegue el pedido,2,1,1.0,0.8,1.3,0.5,0.0,0.0,26.0,0.0,3,0.4
+RGH6528-SP-82,Switch,C,ALTO: quiebra antes de que llegue el pedido,1,1,1.0,0.5,0.2,0.0,0.0,0.0,16.0,,15,1.3
+RH150038-SP-25-V1,gear,C,ALTO: quiebra antes de que llegue el pedido,1,1,1.0,0.6,0.2,0.0,0.0,0.0,16.0,,11,1.4
+RS4508-SP-23,BEARING 6002,C,ALTO: quiebra antes de que llegue el pedido,1,1,1.0,0.5,0.1,0.0,0.0,0.0,16.0,,12,0.6
+WGM1543-SP-1-42,Spark Plug,C,ALTO: quiebra antes de que llegue el pedido,1,1,1.0,0.5,0.4,0.0,0.0,0.0,16.0,,19,0.7
+AAC1408-SP-15/18-20/29-30,Cylinder head assembly,C,ALTO: quiebra antes de que llegue el pedido,1,1,1.0,0.7,0.4,0.0,0.0,0.0,19.0,,22,1.3
+PC3558-SP-90,SawBlade,A,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,0.7,2.3,1.6,0.0,0.0,20.0,,18,0.0
+GE150006ES-SP-A.C.A,AircleanerAssy,A,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,0.4,2.7,2.3,0.0,0.0,15.0,,11,0.0
+APS1501-SP-49,Pad,A,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,0.6,2.9,2.3,0.0,0.0,20.0,,6,0.0
+GBC5434411-SP-2-21,NylonCutter,A,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,0.6,2.7,2.2,0.0,0.0,17.0,,16,0.0
+GDW65001-SP-71,Rectifierbridge,A,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,0.5,2.7,2.2,0.0,0.0,16.0,,15,0.0
+GCP060-2-SP-CAR,Carburetorassembly,A,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,0.6,2.9,2.3,0.0,0.0,22.0,2.0,2,0.0
+CSSLI2001-SP-7,DownCutterBlade,A,ALTO: quiebra antes de que llegue el pedido,7,1,0.0,1.2,6.6,5.4,0.0,0.0,18.0,,10,0.0
+WEL_MIG160-SP-TORCHAMIG,MIG torch for MIG160,A,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,0.6,2.7,2.1,0.0,0.0,17.0,,21,0.0
+AG8508-SP-3,WheelGuard,B,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.5,1.4,0.9,0.0,0.0,16.0,,14,0.0
+SS852-SAWBLADE4,SIERRA SS852 SAWBLAD 39D,B,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.5,1.4,0.9,0.0,0.0,16.0,,15,0.0
+EN5002-SP-24,BLADE,B,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,1.8,2.9,1.1,0.0,0.0,15.0,,11,0.0
+PDB22001-SP-5,BrushCap,B,ALTO: quiebra antes de que llegue el pedido,7,1,0.0,2.4,6.1,3.6,0.0,0.0,56.0,1.2,2,0.0
+VC24751-SP-S.E.H,Steel Extension Hose,B,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.6,1.4,0.8,0.0,0.0,17.0,,16,0.0
+GCP060-2-SP-P.R.S,PistonRingSet,B,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.7,1.4,0.7,0.0,0.0,21.0,,17,0.0
+RH10506-SP-10,StellBall7.14,B,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,1.2,1.8,0.6,0.0,0.0,31.0,,23,0.0
+GHT5265511-SP-1-38,Carburetor Assy,B,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.5,1.1,0.6,0.0,0.0,16.0,,20,0.0
+GCP060-2-SP-R.S,RecoilStarter,B,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.7,1.2,0.5,0.0,0.0,19.0,,22,0.0
+GWP302-SP-1-78,FuelTank,B,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.7,0.1,0.0,0.0,76.0,,27,0.0
+VC24751-SP-76,Handrail Outer Retainer,B,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.6,1.2,0.6,0.0,0.0,17.0,,21,0.2
+CIDLI2002-SP-12/13,Switch&Terminal,B,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.7,0.1,0.0,0.0,76.0,,28,0.0
+WAP3A24-SP-50,Drain Valve,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.8,1.3,0.5,0.0,0.0,25.0,0.0,4,0.2
+ING-MMA1602-SP-22,DcFan,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.1,0.0,0.0,0.0,16.0,,12,0.0
+ING-MMA1606-SP-14,QuickConnectorSubassembly2,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.7,0.5,0.0,0.0,0.0,20.0,,18,0.0
+SS852-SAWBLADE1,SIERRA SS852 SAWBLADE 109D,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.6,0.2,0.0,0.0,0.0,17.0,,16,0.0
+CIDLI20031-SP-12/13,Switch,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.2,0.0,0.0,0.0,16.0,,15,0.0
+DP207502-SP-64,switch,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.3,0.0,0.0,0.0,18.0,,8,0.0
+CDLI2003-SP-2,DRILLCHUCK0.8-13MM,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,26,0.0
+AG90028-SP-13,GearBox,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.6,1.3,0.6,0.0,0.0,23.0,2.0,1,0.0
+CS1858-SP-32,REPUESTOCS1858-SP-32ROTOR,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.2,0.0,0.0,0.0,16.0,,10,0.0
+GE65006-SP-34-1,SWITCHASSEMBLY,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.2,0.0,0.0,0.0,16.0,,10,0.0
+ING-MMA1602-SP-23,DcFan,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.2,0.0,0.0,0.0,16.0,,15,0.0
+JS57028-SP-8,ReciprocatingRodAssembly,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.3,2.5,0.2,0.0,0.0,45.0,2.0,1,0.0
+VC24751-SP-75,Locknut,C,ALTO: quiebra antes de que llegue el pedido,1,0,0.0,0.6,0.4,0.0,0.0,0.0,17.0,,21,0.0
+TS15008-SP-160,REPUESTOINGCOTS15008-SP-160SWITCH,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.8,1.2,0.5,0.0,0.0,26.0,2.0,0,0.0
+GE30005-SP-39,PISTON,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.7,0.5,0.0,0.0,0.0,20.0,,18,0.0
+PDB130018-SP-17,piston pin,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.6,0.4,0.0,0.0,0.0,17.0,,21,0.1
+ING-MMA2006-SP-10,EarthClampSubassembly,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,26,0.0
+GE30005-SP-28,AIRFILTER,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.2,0.0,0.0,0.0,16.0,,15,0.0
+HG2000385-SP-10,PowerCord2M,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.6,0.4,0.0,0.0,0.0,17.0,,21,0.0
+AG95018-SP-11/21,Gear/Pinion,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,1.9,1.6,0.0,0.0,0.0,52.0,,24,0.0
+GRT75-2-SP-53-12,BellowClamp,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.6,0.8,0.2,0.0,0.0,20.0,,6,0.0
+CSSLI2001-SP-11,Pin,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.4,0.1,0.0,0.0,0.0,15.0,,11,0.0
+AG90028-SP-3,wheelguard,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,1.9,1.6,0.0,0.0,0.0,52.0,,24,0.0
+AC25508-SP-13,Capacitor,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,26,0.0
+CS1858-SP-49,REPUESTOCS1858-SP-49SWITCH,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.1,0.0,0.0,0.0,16.0,,12,0.0
+ACS215506-SP-47,BallValve,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,26,0.0
+PBS12001-SP-54,BallBearing6001/C3-Zrs,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,1.2,0.4,0.0,0.0,0.0,31.0,,23,0.0
+RH18008-SP-9,OilSealFb35×51×6,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,25,0.0
+RH10508-SP-13,X-RING,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,25,0.0
+AG24008-SP-45/48/49,Switch,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,1.8,2.3,0.4,0.0,0.0,38.0,2.0,0,0.0
+RS8008-SP-19,bearing6000,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.7,0.7,0.0,0.0,0.0,21.0,,17,0.0
+RH17001-SP-85,Stator,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,27,0.0
+RS4508-SP-17,Stator,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,1.3,1.6,0.3,0.0,0.0,36.0,0.0,4,0.0
+WRH2D26-SP-14,Hammer,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.4,0.0,0.0,0.0,16.0,,20,0.4
+AAC1408-SP-5,Switch,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,1.2,0.4,0.0,0.0,0.0,31.0,,23,0.5
+WLC30001-SP-48,SoftStart,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.6,1.3,0.6,0.0,0.0,21.0,0.0,5,0.0
+SPG3508-SP-19,nozzlesets,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.1,0.0,0.0,0.0,16.0,,14,0.0
+AG220018-SP-26,Bearing6201,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,1.9,1.6,0.0,0.0,0.0,52.0,,24,0.0
+VCRG30261-SP-12-2,RWheelAssy,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.3,0.0,0.0,0.0,18.0,,8,0.0
+GCP100-2-SP-AF,AirFilter,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,25,0.0
+VCRR30201-SP-17-1,LSideBrushesAssy,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.2,0.0,0.0,0.0,17.0,,9,0.0
+AG10108-5-SP-1,OuterFlange,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.6,0.4,0.0,0.0,0.0,17.0,,21,0.0
+AG10108-5-SP-47,Wrench,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,26,0.0
+GE55003-SP-57,IgnitionCoil,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.1,0.0,0.0,0.0,16.0,,14,0.0
+HPWR18008-SP-33,LANCE,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.6,0.5,0.0,0.0,0.0,19.0,,7,0.0
+HPWR18008-SP-32,GUN,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.6,1.3,0.6,0.0,0.0,23.0,2.0,1,0.0
+GE55003-SP-43,Tie-RodAssembly,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.1,0.0,0.0,0.0,16.0,,14,0.0
+CIDLI2002-SP-11-13,Switch&Terminal,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,28,0.0
+HPWR15028-SP-2-29,stator,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.7,0.5,0.0,0.0,0.0,20.0,,18,0.0
+HPWR13018-SP-1,Micro switch+copper value,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.1,0.0,0.0,0.0,16.0,,13,0.0
+ID6808-SP-2,Chuck,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.4,0.0,0.0,0.0,16.0,,19,0.0
+CDLI20012-SP-2,DrillChuck0.8-10mm,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,25,0.0
+CDLI12325-SP-2,DrillChuck10mm,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,1.9,1.6,0.0,0.0,0.0,52.0,,24,0.0
+CDLI12415-SP-13,SwitchAssy,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.6,0.2,0.0,0.0,0.0,17.0,,16,0.0
+CROSLI2001-SP-7,Motorassembly,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.2,0.0,0.0,0.0,16.0,,15,0.0
+CPM15008-SP-9,Impeller,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.3,0.0,0.0,0.0,18.0,,8,0.0
+GE8002-SP-1-4,Muffler,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,1.6,2.7,1.0,0.0,0.0,45.0,2.0,1,0.0
+CIDLI20608-SP-2,Motor   Assy,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,28,0.0
+GWP202-SP-1-16,CylinderHead,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.2,0.0,0.0,0.0,17.0,,9,0.0
+CJSLI8501-SP-25,SwitchComponents,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.6,1.3,0.6,0.0,0.0,22.0,0.0,4,0.0
+ING-CD2201-SP-11,Transformer,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,1.3,1.8,0.5,0.0,0.0,42.0,2.0,0,0.0
+PDB17008-SP-9,BLOCKBLESSING,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.7,0.4,0.0,0.0,0.0,19.0,,22,0.0
+CSLI1651-SP-23,Pcb,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.7,0.7,0.0,0.0,0.0,21.0,,17,0.0
+CSTLI20018-SP-17/18,MOTOR,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.4,0.0,0.0,0.0,16.0,,19,0.0
+RH10506-SP-100,Cable2*1.02m,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,1.2,0.4,0.0,0.0,0.0,31.0,,23,0.0
+RGH9028-SP-64,33 Dens Slanting Gear,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,0.6,1.3,0.6,0.0,0.0,22.0,0.0,4,0.0
+RGH9028-SP-44,Piston,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.5,0.2,0.0,0.0,0.0,16.0,,10,0.0
+RGH6508-SP-21,REPUESTOSINGCORGH6508-SP-21SWITCH,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,25,0.0
+GDE50001-SP-75,PanelAssembly,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,0.7,0.5,0.0,0.0,0.0,20.0,,18,0.0
+RGH6508-SP-6-2,O-Ring,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,1.9,1.6,0.0,0.0,0.0,52.0,,24,0.0
+CAGLI1152-SP-23,Motor,C,ALTO: quiebra antes de que llegue el pedido,3,1,0.0,2.6,2.5,0.0,0.0,0.0,76.0,,25,0.0
+ING-MGT1601-SP-C.T,Contact tubeM6X25/0.6mm,A,ALTO: quiebra antes de que llegue el pedido,76,1,14.0,20.8,76.9,56.1,1.0,0.2,78.0,0.7,1,0.2
+HPWR14008-SP-C.B,CarbonBrush,A,ALTO: quiebra antes de que llegue el pedido,36,1,0.0,14.9,36.6,21.7,1.0,0.3,88.0,1.1,0,0.0
+WRAP5030-SP-17,Chassis,A,ALTO: quiebra antes de que llegue el pedido,48,1,60.0,11.4,48.0,36.7,1.0,0.4,40.0,0.0,4,1.2
+GBC5434411-SP-2-29,DoubleBelt,A,ALTO: quiebra antes de que llegue el pedido,72,1,310.0,32.1,75.0,42.9,4.0,0.5,91.0,1.6,0,4.3
+PDB13008-SP-72,Cable 2X1Mm2 2M,C,ALTO: quiebra antes de que llegue el pedido,23,1,45.0,15.1,24.7,9.5,2.0,0.5,85.0,1.7,0,2.0
+CIDLI20768-SP-4,Gear box Assy,C,ALTO: quiebra antes de que llegue el pedido,16,1,104.0,12.5,17.8,5.2,2.0,0.6,66.0,0.9,2,6.5
+ING-MGT1601-SP-CT,Contact tubeM6X25/1.0mm,A,ALTO: quiebra antes de que llegue el pedido,59,1,11.0,21.7,61.9,40.2,3.0,0.6,85.0,0.5,0,0.2
+AG90028-SP-45,SwitchKnob,C,ALTO: quiebra antes de que llegue el pedido,20,1,0.0,12.8,21.1,8.3,2.0,0.6,90.0,1.0,0,0.0
+ID8108-SP-32,Powercord2M,C,ALTO: quiebra antes de que llegue el pedido,11,1,0.0,6.6,11.1,4.4,1.0,0.6,76.0,2.0,0,0.0
+ING-MGT16058-SP-G.C,MIG gun contact nozzle holder,B,ALTO: quiebra antes de que llegue el pedido,13,1,8.0,6.1,14.0,7.9,1.0,0.7,77.0,1.8,0,0.6
+UNQ_HEF82A,FRITADOR FREIDORA ELECTRICA 2 CUBAS,A,ALTO: quiebra antes de que llegue el pedido,62,1,0.0,10.9,64.0,53.1,2.0,0.7,28.0,0.0,5,0.0
+GE30005-SP-25,CARBURETOR,A,ALTO: quiebra antes de que llegue el pedido,10,1,47.0,4.4,10.7,6.3,1.0,0.9,69.0,2.0,0,4.7
+AC255011-SP-5,Air Filter,A,ALTO: quiebra antes de que llegue el pedido,23,1,8.0,8.5,24.4,15.8,2.0,0.9,70.0,1.2,1,0.3
+CS18568-SP-41,Rotor,A,ALTO: quiebra antes de que llegue el pedido,10,1,93.0,3.9,10.8,6.9,1.0,1.0,75.0,0.9,0,9.3
+CIWLI2038-SP-F.S.S,square shaft,A,ALTO: quiebra antes de que llegue el pedido,16,0,34.0,4.0,16.8,12.8,1.0,1.0,63.0,0.9,2,2.1
+APG15012-SP-S,Sponge,B,ALTO: quiebra antes de que llegue el pedido,10,1,20.0,4.0,10.2,6.2,1.0,1.0,65.0,1.8,1,2.0
+APG15012-SP-W.B,Wool braid,B,ALTO: quiebra antes de que llegue el pedido,10,1,19.0,4.0,10.2,6.2,1.0,1.0,65.0,1.8,1,1.9
+SPG3508-SP-5,Motor,C,ALTO: quiebra antes de que llegue el pedido,5,1,33.0,3.6,5.3,1.7,1.0,1.1,76.0,1.0,0,6.6
+PDB13008-SP-28,oilcover,A,ALTO: quiebra antes de que llegue el pedido,13,1,3.0,3.6,13.7,10.1,1.0,1.1,68.0,0.2,2,0.2
+AG24008-SP-39,CARBONBRUSH,A,ALTO: quiebra antes de que llegue el pedido,23,1,18.0,3.3,23.9,20.6,1.0,1.2,30.0,2.0,2,0.8
+HPWR30018-SP-67,Overload Protector,B,ALTO: quiebra antes de que llegue el pedido,13,1,14.0,6.4,15.0,8.5,2.0,1.2,79.0,2.0,0,1.1
+CGTLI20018-SP-1/5,Left &Right handle,C,ALTO: quiebra antes de que llegue el pedido,5,1,14.0,3.4,5.5,2.1,1.0,1.2,72.0,1.6,0,2.9
+AG75016-SP-13,Gear Box,B,ALTO: quiebra antes de que llegue el pedido,7,1,9.0,3.3,7.9,4.5,1.0,1.2,54.0,0.0,4,1.3
+VC14301-SP-26,Switch,B,ALTO: quiebra antes de que llegue el pedido,9,1,5.0,3.5,9.0,5.6,1.0,1.2,71.0,1.6,1,0.6
+CIDLI20968-SP-1,Screw,C,ALTO: quiebra antes de que llegue el pedido,18,1,1.0,13.4,21.0,7.6,4.0,1.2,75.0,2.0,0,0.0
+CPWLI4006-SP-17,Brushless Motor Pump,B,ALTO: quiebra antes de que llegue el pedido,7,1,331.0,3.1,7.8,4.8,1.0,1.3,64.0,1.6,0,47.2
+WEN3201-SP-22,Motor Assembly,C,ALTO: quiebra antes de que llegue el pedido,4,1,49.0,3.0,4.1,1.0,1.0,1.3,43.0,2.0,2,12.3
+AC25508-SP-41,FilterElement,A,ALTO: quiebra antes de que llegue el pedido,23,1,20.0,9.0,25.1,16.1,3.0,1.3,75.0,0.8,1,0.9
+DDM38001-SP-13,Carbon Brush,B,ALTO: quiebra antes de que llegue el pedido,14,1,12.0,6.3,15.1,8.8,2.0,1.3,71.0,2.0,0,0.9
+PDB22001-SP-21,ROTOR,A,ALTO: quiebra antes de que llegue el pedido,10,1,287.0,2.8,10.1,7.3,1.0,1.4,66.0,1.6,0,28.7
+CIDLI20968-SP-2,drill chuck,C,ALTO: quiebra antes de que llegue el pedido,28,1,71.0,25.5,36.9,11.4,9.0,1.4,56.0,2.0,0,2.5
+CABLI20028-SP-6/7,Motor assy,C,ALTO: quiebra antes de que llegue el pedido,4,1,17.0,2.9,4.3,1.4,1.0,1.4,66.0,1.2,0,4.3
+WGTP511-SP-M.B,Metal Blade,A,ALTO: quiebra antes de que llegue el pedido,47,1,16.0,25.7,55.8,30.1,9.1,1.4,82.0,2.0,0,0.3
+WAP3A50-SP-45,Exhaust Pipe Group,C,ALTO: quiebra antes de que llegue el pedido,4,1,6.0,2.8,4.5,1.6,1.0,1.4,64.0,0.8,1,1.5
+GDE50001-SP-55,MachineAssembly,A,ALTO: quiebra antes de que llegue el pedido,2,1,282.0,2.6,2.7,0.1,1.0,1.5,76.0,,25,140.8
+VCRR30201-SP-31,LithiumBatteryAssy,A,ALTO: quiebra antes de que llegue el pedido,18,1,140.0,7.8,20.5,12.7,3.0,1.5,86.0,1.1,0,7.8
+PDB22001-SP-1/7/15,Housing AsS y,C,ALTO: quiebra antes de que llegue el pedido,2,1,97.0,2.6,2.5,0.0,1.0,1.5,76.0,,26,48.4
+GCP100-2-SP-C.S,GCP100-2-SP-C.S,C,ALTO: quiebra antes de que llegue el pedido,2,1,47.0,2.6,2.5,0.0,1.0,1.5,76.0,,27,23.3
+GCP100-2-SP-6,Belt Cover,C,ALTO: quiebra antes de que llegue el pedido,2,1,23.0,2.6,2.5,0.0,1.0,1.5,76.0,,28,11.3
+WVR4A20-SP-I-4,Wet brush,B,ALTO: quiebra antes de que llegue el pedido,7,1,8.0,2.7,7.6,5.0,1.0,1.5,43.0,2.0,0,1.1
+GE150026-SP-66,GE150026-SP-66,C,ALTO: quiebra antes de que llegue el pedido,2,1,8.0,2.6,2.5,0.0,1.0,1.5,76.0,,25,4.1
+PDB17008-SP-69/71,BrushCover/Brushholder,B,ALTO: quiebra antes de que llegue el pedido,6,1,4.0,2.6,6.6,4.0,1.0,1.5,61.0,0.8,1,0.7
+MD541141-SP-2-105/106,Connecting Pipe/Guide Duct,C,ALTO: quiebra antes de que llegue el pedido,2,1,3.0,2.6,2.5,0.0,1.0,1.5,76.0,,25,1.5
+AC202411-SP-52,High Pressure Pipe,C,ALTO: quiebra antes de que llegue el pedido,2,1,1.0,2.6,2.5,0.0,1.0,1.5,76.0,,27,0.4
+GCP125-2-SP-CAR,carburetor,A,ALTO: quiebra antes de que llegue el pedido,5,1,0.0,2.6,5.6,3.0,1.0,1.5,76.0,,25,0.0
+GDE30001-SP-32-20,Fuelinjector,B,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.7,0.1,1.0,1.5,76.0,,26,0.0
+HPWR18008-SP-35,Highpressurehose,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.5,0.0,1.0,1.5,76.0,,28,0.0
+SPG5008-SP-38,nozzlesets,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.5,0.0,1.0,1.5,76.0,,26,0.0
+HG200028-SP-13/14/15,SwitchAssembly,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.5,0.0,1.0,1.5,76.0,,26,0.0
+ID8508-SP-2,Chuck(13mm),C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.5,0.0,1.0,1.5,76.0,,26,0.0
+CDLI2003-SP-3,GEARBOXASSY,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.5,0.0,1.0,1.5,76.0,,25,0.0
+GSE50001-SP-1-1-30,Crankcasecover,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.5,0.0,1.0,1.5,76.0,,27,0.0
+PDB17008-SP-66,House Assy,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.5,0.0,1.0,1.5,76.0,,28,0.0
+AP12008-SP-26,MotorHousing,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.5,0.0,1.0,1.5,76.0,,28,0.0
+AIW341301-SP-26,Cylinder,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.5,0.0,1.0,1.5,76.0,,25,0.0
+GE30005-SP-62,"GASKET,  CRANKCASE   COVER",C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,2.6,2.5,0.0,1.0,1.5,76.0,,27,0.1
+CRHLI20208-SP-3/5/6,Stator/Controller components,C,ALTO: quiebra antes de que llegue el pedido,7,1,98.0,4.9,8.2,3.3,2.0,1.6,81.0,1.1,0,14.0
+CTVLI20101-SP-13-15,PCB  Assembly,C,ALTO: quiebra antes de que llegue el pedido,4,1,13.0,2.4,4.5,2.1,1.0,1.6,66.0,1.0,0,3.3
+RH150028-SP-91,Motor housing,C,ALTO: quiebra antes de que llegue el pedido,3,1,7.0,2.5,3.9,1.4,1.0,1.6,64.0,1.5,0,2.2
+ING-MMA16069-SP-G.C.G,Ground clamp group,A,ALTO: quiebra antes de que llegue el pedido,63,1,223.0,39.1,79.9,40.9,17.0,1.7,93.0,1.1,0,3.5
+WVR2A20-SP-30,Cloth dustbag,B,ALTO: quiebra antes de que llegue el pedido,18,1,24.0,9.4,21.3,11.9,4.0,1.7,60.0,2.0,0,1.3
+WAP4R11-SP-46,Motor,B,ALTO: quiebra antes de que llegue el pedido,5,1,403.0,2.2,5.8,3.7,1.0,1.8,52.0,2.0,0,80.6
+GCP100-2-SP-R.S,RecoilStarter,A,ALTO: quiebra antes de que llegue el pedido,33,1,293.0,15.8,39.3,23.5,7.0,1.8,86.0,1.6,0,8.9
+DWS105016-SP-4/5/6/8,Lower disc assembly,C,ALTO: quiebra antes de que llegue el pedido,176,1,292.0,44.8,195.9,151.2,20.0,1.8,39.0,2.0,1,1.7
+RGH9028-SP-77,Spring Piece,C,ALTO: quiebra antes de que llegue el pedido,16,1,8.0,13.7,21.6,8.0,6.0,1.8,87.0,1.6,0,0.5
+GE150006ES-SP-36,Battery,A,ALTO: quiebra antes de que llegue el pedido,8,1,298.0,2.2,8.1,5.9,1.0,1.9,53.0,1.3,0,37.3
+CSTLI20018-SP-16-21/46,Motor Assy,C,ALTO: quiebra antes de que llegue el pedido,3,1,78.0,2.1,3.4,1.3,1.0,1.9,54.0,1.0,2,26.0
+GE55003-SP-98,Voltage  Regulator,A,ALTO: quiebra antes de que llegue el pedido,7,1,42.0,2.1,7.6,5.5,1.0,1.9,58.0,1.0,1,6.1
+CABLI20428-SP-17,Circuit board,C,ALTO: quiebra antes de que llegue el pedido,3,1,22.0,2.2,3.3,1.1,1.0,1.9,53.0,1.3,0,7.3
+RS3208-SP-7,Bearings6202,B,ALTO: quiebra antes de que llegue el pedido,24,1,11.0,14.7,30.0,15.3,7.0,1.9,82.0,2.0,0,0.5
+CVLI2001-SP-11,Filter,A,ALTO: quiebra antes de que llegue el pedido,10,1,0.0,2.1,10.3,8.2,1.0,1.9,42.0,0.0,4,0.0
+CIDLI20668-SP-4,Gear case,B,ALTO: quiebra antes de que llegue el pedido,42,1,265.0,30.2,56.5,26.3,15.0,2.0,92.0,1.5,0,6.3
+PBS12001-SP-40,frontwheelframe,B,ALTO: quiebra antes de que llegue el pedido,10,1,36.0,4.0,11.5,7.5,2.0,2.0,65.0,0.5,2,3.6
+AG220018-SP-4,WheelGuard,A,ALTO: quiebra antes de que llegue el pedido,10,1,15.0,3.9,11.4,7.4,2.0,2.0,81.0,1.1,0,1.5
+AAC2508-SP-49,LED Switch,C,ALTO: quiebra antes de que llegue el pedido,2,1,1.0,2.0,2.9,1.0,1.0,2.0,49.0,0.0,3,0.5
+CPWLI2036-SP-7,Motor pump group,C,ALTO: quiebra antes de que llegue el pedido,5,1,56.0,3.8,6.2,2.4,2.0,2.1,73.0,0.6,0,11.2
+HPWR30008-SP-2,HoseReelAssembly,B,ALTO: quiebra antes de que llegue el pedido,3,1,34.0,1.9,3.2,1.3,1.0,2.1,52.0,,24,11.3
+AG110038-SP-45,SWITCH,B,ALTO: quiebra antes de que llegue el pedido,11,1,11.0,5.7,13.6,7.8,3.0,2.1,83.0,1.4,0,1.0
+WCDS511-SP-2,Drill Chuck 0.8-10mm,A,ALTO: quiebra antes de que llegue el pedido,5,1,4.0,1.9,5.4,3.5,1.0,2.1,52.0,,24,0.8
+CSLI1402-SP-6,Lower Guard,B,ALTO: quiebra antes de que llegue el pedido,9,1,4.0,3.9,10.3,6.4,2.0,2.1,70.0,0.4,1,0.5
+GEA55221-1-SP-1-34,Oil Tank Assy,B,ALTO: quiebra antes de que llegue el pedido,8,1,0.0,3.8,9.2,5.4,2.0,2.1,75.0,1.4,0,0.0
+GPT361-2-SP-28/37,Adjustingcableassembly,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,1.9,1.6,0.0,1.0,2.1,52.0,,24,0.0
+GHPW2003-SP-A.F,airfilter,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,1.9,1.6,0.0,1.0,2.1,52.0,,24,0.0
+RH16008-SP-8,oilsealFB35X55X8,C,ALTO: quiebra antes de que llegue el pedido,6,1,0.0,3.7,7.7,3.9,2.0,2.1,72.0,1.0,1,0.0
+GHPW2003-SP-CRANKSHAFT,Crankshaft ,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,1.9,1.6,0.0,1.0,2.1,52.0,,24,0.0
+PDB15006-SP-33,Connecting Rod Assy,C,ALTO: quiebra antes de que llegue el pedido,1,1,0.0,1.9,1.6,0.0,1.0,2.1,52.0,,24,0.0
+HPWR30018-SP-H.P.H,High Pressure Hose,A,ALTO: quiebra antes de que llegue el pedido,13,1,121.0,5.6,15.1,9.6,3.0,2.2,82.0,1.4,0,9.3
+AC1301008-SP-1,Filter,A,ALTO: quiebra antes de que llegue el pedido,20,1,22.0,8.9,24.7,15.8,5.0,2.2,84.0,0.8,0,1.1
+LM321-SP-34,Wheel,B,ALTO: quiebra antes de que llegue el pedido,4,1,10.0,1.8,4.9,3.1,1.0,2.2,56.0,1.3,0,2.4
+AC202416-SP-5,Air Filter,B,ALTO: quiebra antes de que llegue el pedido,11,1,4.0,5.4,13.0,7.6,3.0,2.2,76.0,1.1,0,0.3
+HPWR15028-SP-2-14,valve element,C,ALTO: quiebra antes de que llegue el pedido,3,1,4.0,1.8,3.1,1.3,1.0,2.2,52.0,0.5,1,1.4
+VCRG30261-SP-R.T.R.P,Roll the rubber plug,C,ALTO: quiebra antes de que llegue el pedido,2,1,1.0,1.8,2.4,0.6,1.0,2.2,30.0,0.0,5,0.3
+AG10108-SP-18,BEARING629,C,ALTO: quiebra antes de que llegue el pedido,2,1,0.0,1.8,2.7,0.9,1.0,2.2,54.0,1.3,0,0.0
+GE150006ES-SP-S.T,starting motor,A,ALTO: quiebra antes de que llegue el pedido,5,1,276.0,1.8,5.3,3.6,1.0,2.3,52.0,0.7,0,55.1
+GGLI2010-SP-7,Pump Block Component,C,ALTO: quiebra antes de que llegue el pedido,2,1,87.0,1.7,2.7,1.0,1.0,2.3,46.0,1.3,1,43.5
+AC255016-SP-5,Air Filter,A,ALTO: quiebra antes de que llegue el pedido,53,1,17.0,29.3,69.3,40.1,17.0,2.3,82.0,2.0,0,0.3
+CGSLI2066-SP-21,Oil pot component,C,ALTO: quiebra antes de que llegue el pedido,4,1,5.0,3.4,5.4,2.0,2.0,2.3,68.0,1.3,0,1.3
+WAP4R11-SP-4,Air Filter,B,ALTO: quiebra antes de que llegue el pedido,4,1,3.0,1.8,4.2,2.5,1.0,2.3,40.0,2.0,0,0.8
+GE150006ES-SP-13,Isolator A,A,ALTO: quiebra antes de que llegue el pedido,6,1,77.0,3.4,8.0,4.6,2.0,2.4,61.0,1.5,0,12.8
+ING-MMA1805-SP-2,Power cable 1.5M,C,ALTO: quiebra antes de que llegue el pedido,2,1,7.0,1.7,2.6,0.9,1.0,2.4,45.0,2.0,2,3.6
+CIRLI2028-SP-1-26,Gear Box Assy,B,ALTO: quiebra antes de que llegue el pedido,10,1,90.0,6.4,13.6,7.3,4.0,2.5,83.0,1.5,0,9.0
+ING-MGT1601-SP-NOZZLE,nozzle,A,ALTO: quiebra antes de que llegue el pedido,84,1,61.0,42.2,109.1,66.9,26.0,2.5,91.0,1.6,0,0.7
+HLL255245-SP-C,Charger (including cable 1.5m),B,ALTO: quiebra antes de que llegue el pedido,4,1,23.0,1.6,4.3,2.8,1.0,2.5,48.0,0.7,2,5.7
+PDB170068-SP-65,Carbon Brush,B,ALTO: quiebra antes de que llegue el pedido,9,1,14.0,4.8,11.3,6.5,3.0,2.5,74.0,0.6,0,1.6
+GWP102-SP-1-2,FUELTANK,B,ALTO: quiebra antes de que llegue el pedido,4,1,13.0,1.6,4.3,2.7,1.0,2.5,44.0,1.3,2,3.3
+CGTLI20328-SP-20/35/41-45,Cover Grass assy,B,ALTO: quiebra antes de que llegue el pedido,4,1,6.0,1.6,4.2,2.6,1.0,2.5,42.0,0.0,4,1.4
+HPWR30018-SP-59,Stator,C,ALTO: quiebra antes de que llegue el pedido,2,1,88.0,1.5,2.5,1.0,1.0,2.6,45.0,0.7,0,44.1
+WHP3A22-SP-A-1,HC9650H_LV motor,C,ALTO: quiebra antes de que llegue el pedido,2,1,47.0,1.5,2.5,1.0,1.0,2.6,45.0,0.7,0,23.3
+AG26008-SP-42/45/46,Switch,C,ALTO: quiebra antes de que llegue el pedido,6,1,9.0,6.1,9.7,3.7,4.0,2.6,67.0,0.2,1,1.4
+WGC1552-SP-58,Clutch Assy,C,ALTO: quiebra antes de que llegue el pedido,3,1,2.0,3.1,4.8,1.7,2.0,2.6,69.0,0.7,0,0.6
+GMT55231-SP-2-17,QUICH CHANGE,A,ALTO: quiebra antes de que llegue el pedido,11,1,30.0,4.5,13.3,8.9,3.0,2.7,77.0,1.4,0,2.8
+DWS10501-SP-42,460 hose,B,ALTO: quiebra antes de que llegue el pedido,5,1,2.0,1.5,5.6,4.1,1.0,2.7,37.0,2.0,1,0.5
+CABLI20028-SP-1,Air duct assy,B,ALTO: quiebra antes de que llegue el pedido,5,1,2.0,1.5,5.6,4.1,1.0,2.7,37.0,2.0,1,0.5
+GHPW2003-SP-31,SprayGun,A,ALTO: quiebra antes de que llegue el pedido,17,1,203.0,8.4,22.0,13.6,6.0,2.8,85.0,0.8,0,11.9
+CCSNLI6008-SP-98,Pcba Assembly,C,ALTO: quiebra antes de que llegue el pedido,2,1,36.0,1.4,2.2,0.8,1.0,2.9,36.0,2.0,2,18.2
+GCP125-2-SP-11,Throttleleverassy,B,ALTO: quiebra antes de que llegue el pedido,4,1,27.0,1.4,4.7,3.4,1.0,2.9,32.0,0.0,3,6.7
+RH10506-SP-23,Gear34,C,ALTO: quiebra antes de que llegue el pedido,3,1,4.0,2.8,4.3,1.5,2.0,2.9,59.0,0.3,0,1.4
+VC20258-SP-HEPA,HepaFrame,B,ALTO: quiebra antes de que llegue el pedido,4,1,0.0,1.4,4.7,3.3,1.0,2.9,31.0,0.0,4,0.0
+HPWR30008-SP-9,CRANKSHAFTPUMP,A,"MEDIO: cubre el viaje, sin margen",8,1,941.0,2.7,9.7,7.0,2.0,3.0,60.0,0.8,2,117.6
+WWPFW03-SP-13-19,Motor,C,"MEDIO: cubre el viaje, sin margen",4,1,47.0,4.0,6.3,2.3,3.0,3.0,74.0,0.7,0,11.8
+SPDB15008-SP-17/18,Stator/Housing,C,"MEDIO: cubre el viaje, sin margen",1,1,38.0,1.4,1.9,0.6,1.0,3.0,44.0,2.0,0,38.1
+CIDLI20031-SP-8,Motor,B,"MEDIO: cubre el viaje, sin margen",7,1,28.0,4.0,9.7,5.7,3.0,3.0,76.0,1.0,0,4.1
+AG110028-SP-38,Carbon Brush,B,"MEDIO: cubre el viaje, sin margen",15,1,11.0,12.0,23.9,11.9,9.0,3.0,83.0,1.1,0,0.8
+CRHLI20208-SP-6,Switch,C,"MEDIO: cubre el viaje, sin margen",1,1,2.0,1.4,1.9,0.6,1.0,3.0,44.0,2.0,0,1.8
+GE65006-SP-14-52,"Gasket,CylinderHead",B,"MEDIO: cubre el viaje, sin margen",3,1,0.0,1.3,3.4,2.1,1.0,3.0,37.0,0.0,3,0.0
+DWS10501-SP-122,sandingpaper225MM,A,"MEDIO: cubre el viaje, sin margen",85,1,65.0,25.7,104.6,79.0,20.0,3.1,60.0,1.9,1,0.8
+HPWR30018-SP-5,Finishing Pump Body,B,"MEDIO: cubre el viaje, sin margen",1,1,33.0,2.6,2.7,0.1,2.0,3.1,76.0,,27,33.1
+PL5508-SP-10,Cutter Holder,C,"MEDIO: cubre el viaje, sin margen",1,1,4.0,1.3,1.6,0.3,1.0,3.1,36.0,0.0,4,3.6
+BMS18001-SP-51,Movingguard,C,"MEDIO: cubre el viaje, sin margen",1,1,3.0,1.3,1.6,0.3,1.0,3.1,36.0,0.0,4,2.7
+AC202416-SP-6,Cylinder Head,C,"MEDIO: cubre el viaje, sin margen",1,1,2.0,1.3,1.8,0.5,1.0,3.1,42.0,2.0,0,2.0
+AC20248-SP-10,CRANKCASE,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,2.6,2.5,0.0,2.0,3.1,76.0,,28,0.0
+GBC5434421-SP-2-21,GearCase,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,2.6,2.5,0.0,2.0,3.1,76.0,,25,0.0
+SPDB15008-SP-22,Cuttingwheel,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,2.6,2.5,0.0,2.0,3.1,76.0,,27,0.0
+GE30005-SP-33,EXHAUSTVAVLE,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,2.6,2.5,0.0,2.0,3.1,76.0,,25,0.0
+ED2808-SP-5,housing,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,2.6,2.5,0.0,2.0,3.1,76.0,,25,0.0
+AC402001-SP-41,CylinderHead,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,2.6,2.5,0.0,2.0,3.1,76.0,,25,0.0
+ACS215506-SP-5,Crank,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,2.6,2.5,0.0,2.0,3.1,76.0,,27,0.0
+HPWR25008-SP-P.T.B,Plainthrustbearing,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,2.6,2.5,0.0,2.0,3.1,76.0,,25,0.0
+GT3501-SP-22,Guard,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,2.6,2.5,0.0,2.0,3.1,76.0,,28,0.0
+SPD7508-SP-6,Back Pump Case,C,"MEDIO: cubre el viaje, sin margen",1,1,1.0,1.2,1.5,0.2,1.0,3.2,41.0,1.0,0,1.4
+GBC5434411-SP-1-40,ElectricalIgnition,B,"MEDIO: cubre el viaje, sin margen",3,1,0.0,1.2,3.1,1.9,1.0,3.2,41.0,1.0,0,0.0
+TP15003-SP-48,PlanerCutter,A,"MEDIO: cubre el viaje, sin margen",22,1,318.0,14.6,33.0,18.4,12.0,3.3,87.0,1.1,0,14.4
+CIWLI2038-SP-4,Stator & Controller Assy,B,"MEDIO: cubre el viaje, sin margen",19,0,189.0,13.4,29.0,15.6,11.0,3.3,87.0,0.8,0,9.9
+GHPW2003-SP-R.S.A,RecoilStarterAssembly,A,"MEDIO: cubre el viaje, sin margen",16,1,62.0,7.4,21.3,14.0,6.0,3.3,81.0,1.0,0,3.9
+CPWLI20082-SP-9,Innerinlethose,C,"MEDIO: cubre el viaje, sin margen",8,1,15.0,9.7,15.9,6.2,8.0,3.3,81.0,1.3,0,1.9
+HPWR16008-SP-16,lance,B,"MEDIO: cubre el viaje, sin margen",8,1,14.0,3.6,10.8,7.1,3.0,3.3,64.0,0.2,1,1.8
+WGEAA01-SP-1-30,Carburetor,C,"MEDIO: cubre el viaje, sin margen",3,1,9.0,2.4,4.7,2.3,2.0,3.3,64.0,0.5,2,2.9
+CGTLI20018-SP-32,TimmerGrass,A,"MEDIO: cubre el viaje, sin margen",46,1,56.0,29.1,70.2,41.1,25.0,3.4,91.0,0.8,0,1.2
+AG110028-SP-26,Armature,C,"MEDIO: cubre el viaje, sin margen",3,1,21.0,4.7,6.7,2.0,4.0,3.4,55.0,0.0,3,7.0
+CIWLI2040-SP-5/6,Output shaft assembly,B,"MEDIO: cubre el viaje, sin margen",4,1,5.0,1.2,4.3,3.1,1.0,3.4,33.0,0.0,3,1.2
+AC202411-SP-26,Breathing Plug,A,"MEDIO: cubre el viaje, sin margen",18,1,2.0,5.9,22.8,16.9,5.0,3.4,62.0,0.4,2,0.1
+HPWR14008-SP-I.T,inltetube,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,1.2,1.4,0.2,1.0,3.4,32.0,2.0,1,0.0
+GDW65001-SP-9,Wheel,A,"MEDIO: cubre el viaje, sin margen",4,1,74.0,1.1,4.5,3.4,1.0,3.5,33.0,0.0,3,18.4
+VC24751-SP-95,Clothdustfilter,A,"MEDIO: cubre el viaje, sin margen",14,1,67.0,5.7,18.7,12.9,5.0,3.5,76.0,1.8,0,4.8
+WRH1D26-SP-45,Piston O Ring,C,"MEDIO: cubre el viaje, sin margen",7,1,1.0,11.5,16.5,5.0,10.0,3.5,76.0,2.0,0,0.1
+GBC5434411-SP-2-24,Protect Cover Plate,B,"MEDIO: cubre el viaje, sin margen",6,1,0.0,3.4,8.5,5.1,3.0,3.5,71.0,0.9,0,0.1
+CIDLI20031-SP-2,GearBoxAssy,A,"MEDIO: cubre el viaje, sin margen",17,1,158.0,11.1,26.9,15.8,10.0,3.6,88.0,1.3,0,9.3
+WLBS1501-SP-55,Sand belt,A,"MEDIO: cubre el viaje, sin margen",325,1,153.0,230.0,529.2,299.2,205.0,3.6,92.0,1.2,0,0.5
+GMT55231-SP-R.S.H.A,Rod saw head assy,A,"MEDIO: cubre el viaje, sin margen",5,1,147.0,1.1,5.3,4.2,1.0,3.6,30.0,2.0,2,29.4
+WETH1A02-SP-11,Rope Drum Assembly,B,"MEDIO: cubre el viaje, sin margen",3,1,66.0,1.1,3.4,2.3,1.0,3.6,30.0,2.0,2,21.9
+JAP15001-SP-56,Compression Roller,B,"MEDIO: cubre el viaje, sin margen",5,1,17.0,2.2,6.6,4.4,2.0,3.6,52.0,0.4,0,3.3
+GPT241-2-SP-18,Shift Lever,B,"MEDIO: cubre el viaje, sin margen",3,1,10.0,1.1,3.4,2.3,1.0,3.6,30.0,2.0,2,3.4
+AG8508-SP-36,CARBONBRUSH,A,"MEDIO: cubre el viaje, sin margen",8,1,5.0,2.2,9.3,7.1,2.0,3.6,16.0,,11,0.6
+CGSLI2085-SP-27,stator,C,"MEDIO: cubre el viaje, sin margen",1,1,3.0,1.1,1.6,0.5,1.0,3.6,37.0,2.0,1,2.8
+PS2416-SP-33,Baseplate pad,C,"MEDIO: cubre el viaje, sin margen",1,1,1.0,1.1,1.6,0.5,1.0,3.6,37.0,2.0,1,0.6
+PDB13008-SP-1-5/8,headstrong0845B,A,"MEDIO: cubre el viaje, sin margen",13,1,83.0,5.4,17.1,11.7,5.0,3.7,80.0,1.2,0,6.4
+GHT5265511-SP-2-19-21,Knife blade,A,"MEDIO: cubre el viaje, sin margen",4,1,57.0,1.1,4.5,3.4,1.0,3.7,37.0,1.0,1,14.3
+RS8008-SP-R.S.A,Reciprocating shaft Assy,C,"MEDIO: cubre el viaje, sin margen",1,1,3.0,1.1,1.4,0.3,1.0,3.7,37.0,1.0,1,2.7
+WBA15921-SP-102,Fork Assembly,C,"MEDIO: cubre el viaje, sin margen",1,1,2.0,1.1,1.4,0.3,1.0,3.7,37.0,1.0,1,1.9
+WHP3A18-SP-29,High Pressure Tube,A,"MEDIO: cubre el viaje, sin margen",10,1,49.0,3.2,12.2,9.0,3.0,3.8,46.0,0.0,4,4.9
+VC12202-SP-D.B,Paper dust bag,A,"MEDIO: cubre el viaje, sin margen",40,1,27.0,24.1,62.9,38.8,23.0,3.8,91.0,0.9,0,0.7
+WAP3A24-SP-54,Safety Valve,B,"MEDIO: cubre el viaje, sin margen",15,1,16.0,10.6,24.5,13.9,10.0,3.8,57.0,2.0,0,1.0
+ID11008-SP-28,Stator,C,"MEDIO: cubre el viaje, sin margen",3,1,15.0,3.1,5.3,2.2,3.0,3.8,66.0,0.9,1,5.0
+HPWR18008-SP-Q.A,HPWR18008-SP-Q.A,A,"MEDIO: cubre el viaje, sin margen",29,1,8.0,13.8,41.1,27.2,13.0,3.8,91.0,0.7,0,0.3
+PS2416-SP-30/31,Handle subassembly,C,"MEDIO: cubre el viaje, sin margen",2,1,1.0,2.1,3.3,1.3,2.0,3.8,45.0,2.0,2,0.3
+CIWLI2001-SP-2,GEARBOXASSY&HAMMERASSY,A,"MEDIO: cubre el viaje, sin margen",13,1,151.0,7.1,19.1,12.0,7.0,3.9,88.0,1.1,0,11.6
+CCNLI420602-SP-1-18,Nail Clamp Assembly,C,"MEDIO: cubre el viaje, sin margen",1,1,17.0,1.0,1.4,0.3,1.0,3.9,35.0,1.0,2,17.2
+PDB170068-SP-1-5/7,Steel Head Assy,B,"MEDIO: cubre el viaje, sin margen",2,1,12.0,1.0,2.9,1.8,1.0,3.9,35.0,1.0,2,5.8
+CJSLI1008-SP-7,Sliding  rod assy,C,"MEDIO: cubre el viaje, sin margen",2,1,5.0,2.1,3.2,1.1,2.0,3.9,54.0,2.0,0,2.5
+TS15007-SP-41,holder,C,"MEDIO: cubre el viaje, sin margen",1,1,0.0,1.0,1.4,0.3,1.0,3.9,35.0,1.0,2,0.0
+CIWLI2040-SP-2-21,Gear Box Assy,B,BAJO: con cobertura,7,1,63.0,4.0,10.2,6.2,4.0,4.0,73.0,0.7,0,9.1
+GCP100-2-SP-32,Throttleleverassy,B,BAJO: con cobertura,8,1,21.0,5.0,12.3,7.4,5.0,4.0,58.0,2.0,0,2.6
+CS23522-SP-45,Bearing 6202,C,BAJO: con cobertura,21,1,14.0,36.2,56.5,20.3,36.0,4.0,92.0,1.5,0,0.7
+CIDLI20968-SP-4,Gear case,C,BAJO: con cobertura,5,1,60.0,11.6,17.0,5.4,12.0,4.2,86.0,1.2,0,11.9
+RGH9028-SP-82,Switch,A,BAJO: con cobertura,10,1,16.0,2.9,13.0,10.1,3.0,4.2,55.0,0.4,2,1.6
+CDRLI206015-SP-10/11,Motor ASSY,C,BAJO: con cobertura,2,1,5.0,2.8,4.8,2.0,3.0,4.2,68.0,1.5,0,2.6
+WRH2D26-SP-10,Steel Ball,C,BAJO: con cobertura,7,1,0.0,10.4,17.4,7.0,11.0,4.2,43.0,0.0,3,0.1
+RS3216-SP-20,Rotor,C,BAJO: con cobertura,1,1,5.0,1.9,2.7,0.9,2.0,4.3,56.0,1.3,0,4.6
+RH10508-SP-1-25,FrontAssemblyModule,A,BAJO: con cobertura,8,1,0.0,3.7,12.0,8.3,4.0,4.3,76.0,1.6,0,0.0
+GHPW2003-SP-3,SoapTank,B,BAJO: con cobertura,3,1,0.0,1.9,4.6,2.7,2.0,4.3,56.0,1.3,0,0.0
+RH18008-SP-101,REPUESTORH18008-SP-101POWERCORD,C,BAJO: con cobertura,8,1,0.0,12.1,20.1,8.0,13.0,4.3,85.0,1.1,0,0.0
+RH16008-SP-89,Rotor,A,BAJO: con cobertura,3,1,20.0,0.9,3.4,2.5,1.0,4.4,32.0,2.0,1,6.7
+CIWLI2038-SP-2,Gear Box Assy & Hammer Assy,B,BAJO: con cobertura,2,0,19.0,0.9,2.5,1.6,1.0,4.4,31.0,0.0,3,9.6
+SPDS7508-SP-2,FloatSwitch,B,BAJO: con cobertura,6,1,18.0,9.0,16.0,7.0,10.0,4.4,58.0,2.0,0,3.0
+VC14301-SP-60,flexible pipe,B,BAJO: con cobertura,5,1,10.0,3.6,9.0,5.4,4.0,4.4,70.0,1.3,0,2.0
+HPWR30018-SP-68,Rocker Switch,C,BAJO: con cobertura,1,1,1.0,1.8,2.8,0.9,2.0,4.4,53.0,0.7,0,1.1
+PDB22001-SP-18,STATOR,B,BAJO: con cobertura,7,1,151.0,4.5,11.0,6.6,5.0,4.5,78.0,1.5,0,21.5
+AC25508-SP-60,Regulatorkits,A,BAJO: con cobertura,19,1,42.0,2.7,21.1,18.5,3.0,4.5,32.0,0.0,5,2.2
+WHP3A22-SP-31,High Pressure Pipe,B,BAJO: con cobertura,5,1,32.0,2.7,7.6,5.0,3.0,4.5,43.0,2.0,0,6.5
+RS3216-SP-38,Dust bag assembly,B,BAJO: con cobertura,7,1,5.0,5.4,12.5,7.1,6.0,4.5,83.0,1.1,0,0.8
+GE150006ES-SP-1-142,CARBURETOR ASSEMBLY,A,BAJO: con cobertura,4,1,201.0,0.9,4.2,3.3,1.0,4.6,26.0,0.0,5,50.2
+COS223589-SP-17,Rotor,C,BAJO: con cobertura,1,1,13.0,0.9,1.3,0.4,1.0,4.6,26.0,0.0,5,13.3
+CIDLI20668-SP-10,Switch  Assy,C,BAJO: con cobertura,2,1,3.0,6.0,8.9,2.8,7.0,4.6,83.0,1.3,0,1.7
+RH18008-SP-13,X-ring,B,BAJO: con cobertura,7,1,0.0,5.2,12.6,7.5,6.0,4.6,78.0,1.7,0,0.0
+EH10001-SP-55-57,Switchcomponents,B,BAJO: con cobertura,1,1,0.0,2.6,3.5,0.9,3.0,4.6,76.0,,25,0.0
+AG110038-SP-15,Locking Pin,C,BAJO: con cobertura,1,1,0.0,0.9,1.3,0.4,1.0,4.6,26.0,0.0,5,0.1
+GHPW2003-SP-30,Wand,A,BAJO: con cobertura,15,1,114.0,12.6,29.4,16.8,15.0,4.7,86.0,1.1,0,7.6
+GBC5434411-SP-1-5,StarterAssy,A,BAJO: con cobertura,7,1,14.0,2.6,9.5,6.9,3.0,4.7,66.0,2.0,0,2.0
+GE150006ES-SP-1-50,GASKET,B,BAJO: con cobertura,3,1,7.0,1.7,4.8,3.1,2.0,4.7,46.0,1.3,1,2.2
+RGH9028-SP-78,Carbon Brush Holder,B,BAJO: con cobertura,5,1,0.0,4.3,10.0,5.7,5.0,4.7,45.0,2.0,1,0.0
+WXM3502-SP-21,Motor,C,BAJO: con cobertura,10,1,82.0,22.3,36.2,13.9,27.0,4.8,89.0,0.9,0,8.2
+WAY1A10-SP-H.P,High pressure paint delivery pipe,B,BAJO: con cobertura,5,1,36.0,3.4,8.5,5.1,4.0,4.8,65.0,2.0,0,7.1
+GPT361-2-SP-46,Belt,B,BAJO: con cobertura,5,1,15.0,2.5,7.2,4.7,3.0,4.8,57.0,2.0,1,3.0
+RH18008-SP-102,Cable2*1.02m,C,BAJO: con cobertura,4,1,7.0,11.7,17.2,5.6,14.0,4.8,83.0,1.1,0,1.6
+SCM120-SP-15/17-19/21/22/26,Terminal cover,C,BAJO: con cobertura,1,1,3.0,1.7,2.4,0.7,2.0,4.8,43.0,0.0,3,2.8
+HPWR15028-SP-1,SprayGun,A,BAJO: con cobertura,12,1,61.0,9.9,23.2,13.4,12.0,4.9,84.0,1.4,0,5.1
+BM2S180017-SP-129/134,Transparent cover component,B,BAJO: con cobertura,3,1,8.0,1.6,4.8,3.2,2.0,4.9,45.0,2.0,1,2.8
+RH1600388-SP-50,Carbon Brush,B,BAJO: con cobertura,6,1,3.0,4.9,11.7,6.8,6.0,4.9,69.0,0.5,1,0.4
+VC10101-SP-17,Inlet Air Filter,C,BAJO: con cobertura,1,1,0.0,2.5,4.0,1.5,3.0,4.9,63.0,1.0,1,0.1
+GCS5451811-SP-A/127,BrakeHousingAssy,C,BAJO: con cobertura,2,1,0.0,2.5,4.6,2.1,3.0,4.9,68.0,1.0,0,0.0
+RH10506-SP-1-5/7-26,Front sleeve assembly,A,BAJO: con cobertura,3,1,27.0,0.8,4.0,3.2,1.0,5.0,25.0,,6,9.1
+CSSLI202581-SP-12,Moving blade,A,BAJO: con cobertura,8,1,13.0,1.6,9.6,8.0,2.0,5.0,23.0,,7,1.6
+UNQ_HEF81A,FRITADOR FREIDORA ELECTRICO UNA CUBA 6 LT CON TAPA COMERCIAL,A,BAJO: con cobertura,3,1,0.0,0.8,4.0,3.2,1.0,5.0,25.0,,6,0.0
+RS3208-SP-2,Base,A,BAJO: con cobertura,229,1,330.0,247.2,541.7,294.5,313.0,5.1,92.0,1.0,0,1.4
+ING-MMA16069-SP-W.A,Welder assembly,A,BAJO: con cobertura,26,1,129.0,37.6,73.2,35.6,48.0,5.1,92.0,1.1,0,5.0
+SPC5508-SP-37,Outfall,C,BAJO: con cobertura,1,1,1.0,0.8,1.3,0.5,1.0,5.1,26.0,0.0,3,0.6
+GE150006ES-SP-4,AlternatorAssembly,A,BAJO: con cobertura,2,1,716.0,0.8,2.7,1.9,1.0,5.2,26.0,2.0,0,357.9
+GHPW2003-SP-27,WATERPUMP,A,BAJO: con cobertura,4,1,289.0,0.8,4.6,3.8,1.0,5.2,22.0,,8,72.2
+PDB17008-SP-17,CylinderHouse,B,BAJO: con cobertura,2,1,25.0,0.8,2.4,1.6,1.0,5.2,26.0,2.0,0,12.5
+DDM38001-SP-22,control component,C,BAJO: con cobertura,1,1,9.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,9.3
+GE15005-SP-20,Cylinder  Head  Assembly,C,BAJO: con cobertura,1,1,8.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,7.5
+GEI35006-SP-1-24,Ignition Coil,C,BAJO: con cobertura,1,1,6.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,5.6
+GE30005-SP-86,Generator Support,C,BAJO: con cobertura,1,1,4.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,4.1
+WGW1A21-SP-7,Crankshaft,C,BAJO: con cobertura,1,1,4.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,3.7
+CGTLI20328-SP-36,Motor,C,BAJO: con cobertura,1,1,4.0,3.1,4.7,1.6,4.0,5.2,63.0,1.0,1,3.7
+VCH22111-SP-2,Metal tube assembly,C,BAJO: con cobertura,1,1,3.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,2.9
+AC255011-SP-25,Crankshaft Case Cover,C,BAJO: con cobertura,1,1,2.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,2.0
+WAP4R11-SP-81,Plug Cord,C,BAJO: con cobertura,1,1,1.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,1.2
+AP12008-SP-25,Stator,B,BAJO: con cobertura,2,1,0.0,0.8,2.4,1.6,1.0,5.2,26.0,2.0,0,0.0
+AC301008-SP-90/91,Wheel/Pin,C,BAJO: con cobertura,1,1,0.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,0.0
+GWP402-SP-1,EngineFc177,C,BAJO: con cobertura,1,1,0.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,0.0
+APS1512-SP-1,Housing,C,BAJO: con cobertura,1,1,0.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,0.0
+GE30005-SP-16,CylinderHeadAssembly,C,BAJO: con cobertura,1,1,0.0,0.8,1.2,0.5,1.0,5.2,26.0,2.0,0,0.0
+WAY1A10-SP-N.A,Nozzle Assembly,A,BAJO: con cobertura,9,1,118.0,5.2,15.6,10.4,7.0,5.3,75.0,2.0,0,13.1
+ACS2241001-SP-26,Air Filter,B,BAJO: con cobertura,5,1,6.0,3.0,8.0,5.0,4.0,5.3,50.0,2.0,1,1.1
+GLM141181-SP-B52,"8""rightwheelset",B,BAJO: con cobertura,2,1,0.0,0.8,2.4,1.6,1.0,5.3,25.0,0.0,4,0.0
+RGH9028-SP-73,Stator,C,BAJO: con cobertura,2,1,0.0,3.8,6.1,2.3,5.0,5.3,64.0,2.0,0,0.0
+GHPW2003-SP-O.S,oil seal,C,BAJO: con cobertura,1,1,0.0,2.3,3.3,1.0,3.0,5.3,52.0,0.5,1,0.0
+SPG5008-SP-18,Hose Joints,C,BAJO: con cobertura,1,1,0.0,0.8,1.3,0.5,1.0,5.3,25.0,0.0,4,0.2
+GHPW2003-SP-W.S,Water seal,C,BAJO: con cobertura,1,1,0.0,2.3,3.3,1.0,3.0,5.3,52.0,0.5,1,0.0
+GE75006-SP-14-73,RECOILSTARTERASSEMBLY,A,BAJO: con cobertura,5,1,46.0,2.2,7.8,5.5,3.0,5.4,57.0,1.0,1,9.3
+DWS10501-SP-123,DustBag,A,BAJO: con cobertura,7,1,17.0,3.0,10.6,7.6,4.0,5.4,68.0,0.8,0,2.4
+HPWR18008-SP-P.T.B,Plainthrustbearing,B,BAJO: con cobertura,6,1,7.0,9.7,18.9,9.2,13.0,5.4,81.0,0.9,0,1.2
+CGSLI2058-SP-18/19,motor assembly,C,BAJO: con cobertura,2,1,7.0,3.7,6.6,2.9,5.0,5.4,76.0,1.3,0,3.7
+HPWR18008-SP-O.R,O-ring,B,BAJO: con cobertura,17,1,1.0,17.0,39.5,22.5,23.0,5.4,52.0,2.0,1,0.0
+GRT75-2-SP-CAR,Carburetorassy.,A,BAJO: con cobertura,4,1,64.0,1.5,5.3,3.9,2.0,5.5,47.0,1.0,0,16.0
+CACLI2018-SP-2,Inflator Assembly,C,BAJO: con cobertura,1,1,8.0,2.2,3.5,1.4,3.0,5.5,52.0,2.0,0,7.6
+RH1500528-SP-38,Fluorin O-RingF30.5×F3.5,C,BAJO: con cobertura,1,1,4.0,2.2,3.5,1.4,3.0,5.5,52.0,2.0,0,3.9
+AG110028-SP-18,Gear Box,C,BAJO: con cobertura,1,1,2.0,2.9,4.6,1.7,4.0,5.5,63.0,0.7,1,1.5
+VC12202-SP-6,1000W Motor,B,BAJO: con cobertura,4,1,34.0,2.9,7.5,4.7,4.0,5.6,68.0,1.2,1,8.4
+AG110038-SP-13,Gear Box,C,BAJO: con cobertura,1,1,2.0,0.7,1.1,0.4,1.0,5.6,23.0,,7,1.5
+RGH9028-2-SP-89,Carbon Brush,B,BAJO: con cobertura,1,1,0.0,0.7,1.2,0.5,1.0,5.6,19.0,,22,0.0
+GWP202-SP-1-42,ConnectingRod,C,BAJO: con cobertura,1,1,0.0,2.2,3.3,1.1,3.0,5.6,53.0,1.3,0,0.0
+AC25508-SP-55,Safety valve,A,BAJO: con cobertura,31,1,48.0,16.7,54.9,38.2,24.0,5.7,74.0,0.6,1,1.6
+WVR2A20-SP-9,Motor,C,BAJO: con cobertura,1,1,9.0,2.8,4.6,1.8,4.0,5.7,68.0,2.0,0,9.5
+APG15012-SP-S.P,Sanding paper,B,BAJO: con cobertura,7,1,8.0,5.6,14.5,8.9,8.0,5.7,65.0,1.8,1,1.1
+CRTLI2005-SP-7-1,Head Box Assembly,C,BAJO: con cobertura,1,1,2.0,1.4,2.4,1.0,2.0,5.7,43.0,0.7,1,1.7
+RT160028-SP-S.C,Spring chuck 1/2,B,BAJO: con cobertura,4,1,1.0,3.5,8.6,5.0,5.0,5.7,76.0,1.0,0,0.3
+ING-MMA2006-SP-13,Quickconnector(red),A,BAJO: con cobertura,20,1,14.0,2.7,23.9,21.2,4.0,5.8,30.0,0.0,5,0.7
+AC25508-SP-45,WaterDrainValve,B,BAJO: con cobertura,6,1,7.0,5.5,13.7,8.2,8.0,5.8,65.0,1.8,1,1.1
+DWS10508-SP-44,Dust bag assembly,B,BAJO: con cobertura,3,1,6.0,3.5,7.7,4.2,5.0,5.8,62.0,1.2,0,1.9
+WEG1A02-SP-25,Plastic Pot Gasket,B,BAJO: con cobertura,9,1,1.0,6.9,18.1,11.2,10.0,5.8,75.0,0.9,1,0.1
+HPWR18008-SP-39-B,MOTOR,A,BAJO: con cobertura,9,1,190.0,6.8,18.7,11.9,10.0,5.9,81.0,1.8,0,21.1
+ING-FC1301-SP-36,MIG torch,B,BAJO: con cobertura,2,1,22.0,1.4,3.6,2.3,2.0,5.9,44.0,2.0,0,10.9
+ING-MMA13049-SP-5,DC fan,B,BAJO: con cobertura,4,1,4.0,4.1,10.0,5.9,6.0,5.9,71.0,1.7,0,1.1
+GMT55231-SP-CHAIN,CHAIN,B,BAJO: con cobertura,5,1,0.0,4.8,11.7,6.9,7.0,5.9,76.0,1.8,0,0.0
+ING-MMA18058-SP-15,Quick Connector Subassembly Red,B,BAJO: con cobertura,6,1,4.0,7.4,16.6,9.2,11.0,6.0,72.0,2.0,0,0.8
+RT160028-SP-S.C.8,Spring chuck 8mm,B,BAJO: con cobertura,7,1,2.0,4.6,13.5,8.9,7.0,6.0,71.0,0.2,0,0.3
+VC14301-SP-20,REPUESTOVC14301-SP-20ESCOBILLACONGOMAGRANDE,A,BAJO: con cobertura,9,1,0.0,5.3,16.6,11.3,8.0,6.0,65.0,1.8,1,0.0
+CAGLI4128112-SP-40,Grinding wheel pressing plate,C,BAJO: con cobertura,1,1,0.0,6.1,9.0,3.0,9.0,6.0,77.0,1.8,0,0.4
+RS4508-SP-22,BaseOfBallBearing,C,BAJO: con cobertura,1,1,0.0,2.7,4.2,1.5,4.0,6.0,64.0,1.0,0,0.3
+GBC5434411-SP-2-19,GearCase,A,BAJO: con cobertura,11,1,66.0,8.5,23.5,15.0,13.0,6.1,87.0,0.9,0,6.0
+CSSLI202581-SP-13,Fixed blade,A,BAJO: con cobertura,5,1,8.0,1.3,6.9,5.5,2.0,6.1,19.0,,9,1.5
+PDB17008-SP-63,Cable3M,C,BAJO: con cobertura,1,1,3.0,5.9,9.4,3.5,9.0,6.1,82.0,1.3,0,2.6
+GDW65001-SP-3-7-4,Startingmotorassembly,A,BAJO: con cobertura,2,1,68.0,2.6,5.6,3.0,4.0,6.2,76.0,,27,34.0
+GSE50001-SP-1-7-4,Startingmotorassembly,A,BAJO: con cobertura,2,1,68.0,0.7,2.7,2.0,1.0,6.2,22.0,0.0,3,34.0
+ING-CB1601-SP-30-34,Transformer,C,BAJO: con cobertura,1,1,11.0,0.7,1.3,0.6,1.0,6.2,22.0,0.0,3,11.0
+AGL02301-SP-73,Presses Oil Disk,B,BAJO: con cobertura,1,1,9.0,0.7,1.6,0.9,1.0,6.2,22.0,0.0,3,9.3
+AG220018-SP-15/25,Big/SmallGear,B,BAJO: con cobertura,2,1,8.0,0.6,2.2,1.5,1.0,6.2,21.0,,8,4.0
+GLM196202-SP-42,Upper Handle,C,BAJO: con cobertura,1,1,4.0,0.7,1.3,0.6,1.0,6.2,22.0,0.0,3,4.2
+GSE50001-SP-B7-2,Fuel Tank Cover,B,BAJO: con cobertura,4,1,0.0,2.6,7.8,5.2,4.0,6.2,51.0,2.0,1,0.0
+VPM7508-SP-4,Pumpbody,C,BAJO: con cobertura,1,1,0.0,0.7,1.3,0.6,1.0,6.2,22.0,0.0,3,0.0
+GDW65001-SP-55,MachineAssembly,C,BAJO: con cobertura,1,1,341.0,0.6,1.3,0.6,1.0,6.3,22.0,0.0,4,341.5
+DP3211005-SP-17,Table Top,C,BAJO: con cobertura,1,1,44.0,0.6,1.3,0.6,1.0,6.3,23.0,2.0,1,44.4
+SPDB150068-SP-9/10,Coil/Tube Assembly,C,BAJO: con cobertura,1,1,31.0,0.6,1.3,0.6,1.0,6.3,22.0,0.0,4,31.3
+GE90006-SP-25,STORAGE BATTERY6DM14,B,BAJO: con cobertura,1,1,24.0,0.6,1.5,0.9,1.0,6.3,21.0,0.0,5,23.6
+GHPW2003-SP-1-1,Crankcase,C,BAJO: con cobertura,1,1,21.0,0.6,1.3,0.6,1.0,6.3,22.0,0.0,4,21.0
+LMLI2014-SP-1,motor,B,BAJO: con cobertura,1,1,16.0,0.6,1.5,0.9,1.0,6.3,21.0,0.0,5,16.2
+GE90006-SP-14-22,CYLINDER HEAD,C,BAJO: con cobertura,1,1,16.0,0.6,1.3,0.6,1.0,6.3,21.0,0.0,5,16.4
+CTLI2002-SP-60,Shell-Right,C,BAJO: con cobertura,1,1,14.0,0.6,1.3,0.6,1.0,6.3,22.0,0.0,4,14.4
+GC6101-SP-E4-1,Crank Shaft Assy,C,BAJO: con cobertura,1,1,8.0,0.6,1.3,0.6,1.0,6.3,23.0,2.0,1,8.0
+CVLI2006-SP-1,Brush assembly,C,BAJO: con cobertura,1,1,7.0,0.6,1.3,0.6,1.0,6.3,23.0,2.0,1,7.2
+RH1700558-SP-133,Side Handle Subassembly,C,BAJO: con cobertura,1,1,7.0,0.6,1.3,0.6,1.0,6.3,23.0,2.0,1,6.7
+CIDLI201452-SP-3/6,Gear Box Assy,C,BAJO: con cobertura,1,1,6.0,5.1,8.7,3.7,8.0,6.3,72.0,0.3,0,6.0
+CM30-1-SP-15,STAND TUBE,C,BAJO: con cobertura,1,1,4.0,0.6,1.3,0.6,1.0,6.3,23.0,2.0,1,4.1
+GE15005-SP-95,Ignition  Coil,C,BAJO: con cobertura,1,1,3.0,0.6,1.3,0.6,1.0,6.3,22.0,0.0,4,2.9
+GRT75-2-SP-PISTON,Piston,C,BAJO: con cobertura,1,1,3.0,0.6,1.3,0.6,1.0,6.3,21.0,0.0,5,3.1
+ID211008-SP-52/57,Right/Left Housing,C,BAJO: con cobertura,1,1,3.0,0.6,1.3,0.6,1.0,6.3,22.0,0.0,4,2.6
+CS23522-SP-38,Blade Cover,C,BAJO: con cobertura,1,1,3.0,0.6,1.3,0.6,1.0,6.3,21.0,0.0,5,3.1
+WGC1552-SP-60,Drum-Clutch,C,BAJO: con cobertura,1,1,1.0,0.6,1.3,0.6,1.0,6.3,21.0,0.0,5,0.7
+TS150078-SP-28,Left extension table,C,BAJO: con cobertura,1,1,1.0,0.6,1.3,0.6,1.0,6.3,23.0,2.0,1,1.4
+ID11008-1-SP-21,ROTOR,C,BAJO: con cobertura,1,1,0.0,0.6,1.3,0.6,1.0,6.3,22.0,0.0,4,0.0
+GHPW2003-SP-R.S,Reciprocating seal,C,BAJO: con cobertura,1,1,0.0,0.6,1.3,0.6,1.0,6.3,23.0,2.0,1,0.0
+CPSLI20141-SP-23,Finger sand panel assembly,C,BAJO: con cobertura,1,1,0.0,0.6,1.3,0.6,1.0,6.3,21.0,0.0,5,0.2
+GHPW2003-SP-1,Engine,C,BAJO: con cobertura,1,1,0.0,0.6,1.3,0.6,1.0,6.3,23.0,2.0,1,0.0
+CDSLI20428-SP-2,Depth control unit,C,BAJO: con cobertura,1,1,2.0,2.5,4.1,1.6,4.0,6.4,57.0,2.0,1,2.1
+RT22008-SP-S.C,Spring chuck 1/4,B,BAJO: con cobertura,2,1,1.0,2.5,5.7,3.2,4.0,6.4,50.0,2.0,0,0.3
+GSE50001-SP-B2-10-NEW,Stator,A,BAJO: con cobertura,2,1,0.0,0.6,2.7,2.0,1.0,6.4,17.0,,21,0.0
+GCS62241-SP-E9,CylinderBody,B,BAJO: con cobertura,1,1,0.0,1.9,3.2,1.3,3.0,6.4,52.0,,24,0.0
+GDE50001-SP-55-11,Alternator Rare Cover,B,BAJO: con cobertura,1,1,0.0,1.9,3.2,1.3,3.0,6.4,52.0,,24,0.0
+RH10506-SP-3,Steel Frame,C,BAJO: con cobertura,1,1,0.0,2.5,4.0,1.5,4.0,6.4,60.0,1.0,0,0.0
+GDW65001-SP-64,Stator single-phase,A,BAJO: con cobertura,2,1,317.0,0.6,2.7,2.1,1.0,6.5,22.0,2.0,2,158.7
+GPT361-2-SP-44,Blade,A,BAJO: con cobertura,12,1,200.0,17.3,39.7,22.3,28.0,6.5,91.0,0.9,0,16.7
+AC402001-SP-M.H,MachineHead,A,BAJO: con cobertura,2,1,150.0,0.6,2.9,2.3,1.0,6.5,22.0,2.0,2,75.1
+HPWR18008-SP-39-A,pump  assembly,B,BAJO: con cobertura,7,1,71.0,31.4,57.3,25.9,51.0,6.5,92.0,1.2,0,10.1
+CIWLI20010-SP-2,Gear Box Assy & Hammer Assy,A,BAJO: con cobertura,3,1,35.0,1.2,4.2,3.0,2.0,6.5,31.0,,23,11.6
+CPWLI20082-SP-1,Lance,A,BAJO: con cobertura,5,1,22.0,1.8,7.3,5.5,3.0,6.5,56.0,1.3,0,4.3
+GWP102-SP-1-52,CARBURETOR,B,BAJO: con cobertura,3,1,12.0,4.3,10.0,5.7,7.0,6.5,74.0,2.0,0,4.1
+WLKP530-SP-45,Motor,C,BAJO: con cobertura,1,1,12.0,3.1,5.8,2.7,5.0,6.5,69.0,1.2,1,11.8
+WAP3A24-SP-19,Breath Pipe,B,BAJO: con cobertura,7,1,3.0,11.1,24.2,13.1,18.0,6.5,87.0,0.7,0,0.4
+RGH9028-SP-46,Cylinder,C,BAJO: con cobertura,1,1,1.0,4.3,7.7,3.3,7.0,6.5,72.0,1.7,0,0.7
+AG8008-SP-37,SWITCH,B,BAJO: con cobertura,2,1,0.0,3.1,6.4,3.3,5.0,6.5,23.0,,6,0.0
+GE30005-SP-38,PISTONRINGSET,B,BAJO: con cobertura,1,1,0.0,0.6,1.6,1.0,1.0,6.5,22.0,2.0,2,0.0
+DDM28001-SP-1,Rotor,B,BAJO: con cobertura,1,1,0.0,0.6,1.6,1.0,1.0,6.5,22.0,2.0,2,0.0
+BAS3502-SP-42,RubberBand,C,BAJO: con cobertura,1,1,0.0,0.6,1.3,0.7,1.0,6.5,22.0,2.0,2,0.0
+MXLI2001-SP-34,Switch+Actiyator,C,BAJO: con cobertura,1,1,0.0,0.6,1.3,0.7,1.0,6.5,22.0,2.0,2,0.0
+GPT361-2-SP-68,Throttble Cable,A,BAJO: con cobertura,9,1,28.0,9.0,23.4,14.4,15.0,6.6,58.0,2.0,0,3.1
+APLI2001-SP-19-26,Stator Assy,B,BAJO: con cobertura,1,0,16.0,0.6,1.4,0.8,1.0,6.6,20.0,,6,16.2
+GSF16-2-SP-R.S,GSF16-2-SP-R.S,B,BAJO: con cobertura,1,1,14.0,0.6,1.4,0.8,1.0,6.6,20.0,,6,14.1
+BM2S180017-SP-129,Safety guard,A,BAJO: con cobertura,2,1,5.0,0.6,2.9,2.3,1.0,6.6,20.0,,6,2.6
+AG7118-SP-33,Carbon Brush,A,BAJO: con cobertura,8,1,3.0,2.4,11.4,8.9,4.0,6.6,41.0,2.0,0,0.3
+RT22008-SP-C.N.12,Chuck nut 12mm,B,BAJO: con cobertura,1,1,1.0,0.6,1.4,0.8,1.0,6.6,20.0,,6,1.1
+CSSLI203083-SP-M.B,Moving blade,A,BAJO: con cobertura,12,1,27.0,10.7,29.1,18.4,18.0,6.7,86.0,1.7,0,2.2
+WTS1A1500-SP-98,On/Off switch,B,BAJO: con cobertura,4,1,15.0,4.8,11.5,6.7,8.0,6.7,66.0,2.0,0,3.7
+PDB17008-SP-65,STATOR,C,BAJO: con cobertura,1,1,10.0,5.4,9.2,3.9,9.0,6.7,84.0,0.9,0,9.8
+ING-MMA1302-SP-13,Quick Connector(Red),A,BAJO: con cobertura,11,1,7.0,13.2,32.5,19.3,22.0,6.7,86.0,1.2,0,0.6
+CGTLI20301-SP-30,Cover Grass,B,BAJO: con cobertura,4,1,3.0,4.8,11.6,6.8,8.0,6.7,69.0,2.0,0,0.7
+WXU1307-SP-2-5,Branch cutter blade,A,BAJO: con cobertura,4,1,176.0,1.2,5.3,4.2,2.0,6.8,32.0,2.0,1,43.9
+CSTLI2001-SP-C.T.G,Cut The Grass On The Blade  Assy,A,BAJO: con cobertura,6,1,32.0,3.5,11.0,7.5,6.0,6.8,75.0,1.0,0,5.3
+WAP3A24-SP-59,Check Valve,A,BAJO: con cobertura,12,1,12.0,7.7,24.4,16.7,13.0,6.8,83.0,0.8,0,1.0
+PDG5501-SP-1,chuck,B,BAJO: con cobertura,5,1,6.0,5.3,13.3,8.1,9.0,6.8,76.0,1.1,0,1.1
+CAGLI4128112-SP-39,Grinding wheel seat,B,BAJO: con cobertura,4,1,2.0,5.3,12.2,7.0,9.0,6.8,74.0,1.8,0,0.4
+RH10506-SP-11,Ratchet sleeve,A,BAJO: con cobertura,17,1,33.0,20.9,52.5,31.6,36.0,6.9,91.0,0.7,0,2.0
+HPWR30018-SP-H.V.T,high-voltage tube ,A,BAJO: con cobertura,3,1,22.0,1.2,4.2,3.0,2.0,6.9,38.0,2.0,0,7.2
+GE150006ES-SP-38.1,ONEKEYTOSTARTTHESWITCH,B,BAJO: con cobertura,1,1,5.0,2.3,4.5,2.2,4.0,6.9,49.0,2.0,0,4.8
+PDB13008-SP-77-82,Auxiliary handle assembly,A,BAJO: con cobertura,8,1,15.0,6.8,19.2,12.4,12.0,7.0,83.0,1.3,0,1.9
+WAP3A24-SP-3,AIR FILTER,A,BAJO: con cobertura,20,1,11.0,26.1,65.6,39.5,46.0,7.0,91.0,1.4,0,0.5
+GBC5524411-SP-O.V,Primer Bulb,B,BAJO: con cobertura,13,1,8.0,18.9,45.7,26.8,33.0,7.0,70.0,0.7,1,0.6
+CSTLI202522-SP-49,trimmerhead,A,BAJO: con cobertura,3,1,0.0,1.1,4.5,3.4,2.0,7.0,33.0,0.0,3,0.0
+GE150006ES-SP-1-125,AIR CLEANER ASSEMBLY,A,BAJO: con cobertura,5,1,54.0,3.9,11.8,7.8,7.0,7.1,79.0,1.0,0,10.9
+AHM008-SP-F.P.P,Frontprotectionplate,A,BAJO: con cobertura,59,1,24.0,274.6,544.5,270.0,486.0,7.1,92.0,1.0,0,0.4
+CDLI16682-SP-2,Drill Chuck 1/2-13mm,B,BAJO: con cobertura,4,1,11.0,8.4,18.0,9.6,15.0,7.1,87.0,0.9,0,2.7
+AG110038-SP-36,Carbon Brush,A,BAJO: con cobertura,13,1,10.0,50.6,103.0,52.4,90.0,7.1,93.0,1.1,0,0.8
+AB8008-SP-27,DustBag,B,BAJO: con cobertura,4,1,3.0,5.1,12.6,7.5,9.0,7.1,69.0,1.6,1,0.7
+CM30-1-SP-13,LOCKING PLATE,B,BAJO: con cobertura,1,1,1.0,0.6,1.4,0.8,1.0,7.1,17.0,,16,1.0
+HPWR15028-SP-2,HighPressureHose,A,BAJO: con cobertura,11,1,102.0,19.5,45.0,25.6,35.0,7.2,89.0,1.2,0,9.3
+AC1301008-SP-56,Main Wheel,B,BAJO: con cobertura,1,1,12.0,0.6,1.4,0.8,1.0,7.2,19.0,,7,12.1
+RGH9528-SP-84,Switch,B,BAJO: con cobertura,4,1,9.0,3.9,10.1,6.2,7.0,7.2,77.0,1.4,0,2.2
+PTC11002-SP-24,Blade,A,BAJO: con cobertura,2,1,8.0,0.6,2.8,2.3,1.0,7.2,19.0,,7,4.0
+RGH9028-2-SP-77,Rotor,B,BAJO: con cobertura,1,1,5.0,0.6,1.8,1.2,1.0,7.2,16.0,,11,4.9
+LMLI20202-SP-28,LMLI20202-SP-28,B,BAJO: con cobertura,2,1,5.0,1.1,3.3,2.2,2.0,7.2,37.0,2.0,1,2.6
+GHPW2003-SP-34,HighPressureHose,A,BAJO: con cobertura,26,1,327.0,16.4,55.4,39.0,30.0,7.3,76.0,0.5,0,12.6
+GCP100-2-SP-7,SHOCKABSORBERFORVIBRATINGPLATE,A,BAJO: con cobertura,5,1,39.0,4.9,13.4,8.5,9.0,7.3,86.0,1.0,0,7.7
+GDE50001-SP-32-20,Fuel injector,B,BAJO: con cobertura,2,1,15.0,1.1,3.4,2.3,2.0,7.3,30.0,2.0,2,7.5
+CIDLI20668-SP-2,drill chuck,A,BAJO: con cobertura,12,1,30.0,58.0,119.8,61.7,108.0,7.4,92.0,1.2,0,2.5
+MG1309-SP-3,Springcollect,B,BAJO: con cobertura,3,1,0.0,8.1,17.2,9.1,15.0,7.4,76.0,2.0,0,0.0
+GHPW2103-SP-34,WATER PUMP,A,BAJO: con cobertura,1,1,99.0,3.7,8.0,4.3,7.0,7.5,72.0,0.8,0,98.8
+GPT361-2-SP-49,BeltCover,B,BAJO: con cobertura,3,1,7.0,2.7,7.6,5.0,5.0,7.5,43.0,2.0,0,2.2
+GMT55231-SP-1-40,ELECTRICALIGNITION,B,BAJO: con cobertura,3,1,0.0,2.7,7.6,5.0,5.0,7.5,43.0,2.0,0,0.0
+RH18008-SP-11,Teleflex,A,BAJO: con cobertura,21,1,36.0,47.4,110.5,63.0,90.0,7.6,88.0,1.7,0,1.7
+RGH9528-2-SP-1-13,Short head,B,BAJO: con cobertura,3,1,9.0,3.1,8.6,5.4,6.0,7.6,61.0,0.4,0,3.0
+PDB13008-SP-25,piston,A,BAJO: con cobertura,7,1,8.0,22.7,49.4,26.7,43.0,7.6,90.0,1.0,0,1.1
+VCH22111-SP-21,HEPA,A,BAJO: con cobertura,5,1,3.0,13.6,30.8,17.2,26.0,7.6,90.0,1.2,0,0.6
+PDB17018-SP-1,Locking Lever,B,BAJO: con cobertura,1,1,3.0,0.5,1.1,0.6,1.0,7.6,16.0,,20,2.5
+GC6101-SP-8-7,OuterRubberTyre3.5-6,B,BAJO: con cobertura,3,1,0.0,2.6,7.8,5.2,5.0,7.7,51.0,2.0,1,0.0
+GE65006-SP-25,Battery6-FM-9 12V9AH,A,BAJO: con cobertura,3,1,68.0,1.0,4.4,3.3,2.0,7.8,35.0,1.0,2,22.6
+SWP7501-SP-24/25/27,Universal Coupling/Screw/Screw cover,A,BAJO: con cobertura,10,1,41.0,7.7,24.5,16.8,15.0,7.8,82.0,0.9,0,4.1
+GWP202-SP-1-52,RecoilStarter,A,BAJO: con cobertura,7,1,29.0,15.9,37.3,21.5,31.0,7.8,91.0,1.0,0,4.1
+HPWR16008-SP-13,Water Connector,B,BAJO: con cobertura,1,1,1.0,0.5,1.4,0.9,1.0,7.9,18.0,,8,0.8
+CS18568-SP-51,Carbon Brush,A,BAJO: con cobertura,10,1,0.0,5.1,19.2,14.2,10.0,7.9,54.0,0.0,4,0.0
+SPDB15008-SP-36,Floatswitch,B,BAJO: con cobertura,1,1,3.0,2.5,5.8,3.3,5.0,8.0,65.0,1.5,0,3.1
+DWS10501-SP-55,CARBONBRUSH,A,BAJO: con cobertura,6,1,2.0,6.0,17.0,11.1,12.0,8.0,85.0,0.5,0,0.3
+VC14122-SP-31,Fb18PlasticBrush,B,BAJO: con cobertura,2,1,3.0,2.5,6.5,4.1,5.0,8.1,55.0,0.8,2,1.4
+GCP100-2-SP-22,CLUTCHASSEMBLY,A,BAJO: con cobertura,5,1,94.0,2.0,8.1,6.1,4.0,8.2,52.0,2.0,0,18.9
+CROSLI2001-SP-9,Chassis,A,BAJO: con cobertura,8,1,12.0,19.1,46.1,27.0,39.0,8.2,77.0,2.0,0,1.6
+SPC7508-SP-1,FloatSwitch,B,BAJO: con cobertura,3,1,0.0,2.4,7.5,5.1,5.0,8.2,41.0,0.0,5,0.0
+GSE80001-SP-P2-5,AVR,A,BAJO: con cobertura,3,1,32.0,1.4,5.1,3.7,3.0,8.3,47.0,1.0,0,10.8
+PDB17008-SP-23,RING,A,BAJO: con cobertura,12,1,7.0,25.6,64.1,38.5,53.0,8.3,91.0,1.1,0,0.6
+CRSLI1151-SP-2/3/4,Terminal/PCB/SWITCH,B,BAJO: con cobertura,1,1,6.0,0.5,1.4,0.9,1.0,8.4,17.0,,9,6.0
+ING-CUT401-SP-C.G,Cutting gun,A,BAJO: con cobertura,4,1,71.0,3.3,11.0,7.7,7.0,8.5,62.0,1.2,0,17.8
+GRT75-2-SP-A.F.A,Airfilterassembly,A,BAJO: con cobertura,4,1,79.0,3.3,10.7,7.4,7.0,8.6,65.0,2.0,0,19.8
+VC13301-SP-9,Motor,A,BAJO: con cobertura,4,1,34.0,1.4,6.4,5.0,3.0,8.6,40.0,0.7,2,8.4
+WEN3201-SP-51,Blade,A,BAJO: con cobertura,13,1,23.0,13.0,40.1,27.1,28.0,8.6,90.0,0.8,0,1.8
+HPWR28008-SP-32,Spray Lance,A,BAJO: con cobertura,5,1,15.0,5.6,16.9,11.3,12.0,8.6,80.0,0.5,1,2.9
+HPWR15028-SP-6,pumpassembly,B,BAJO: con cobertura,1,1,11.0,7.9,17.2,9.3,17.0,8.6,86.0,0.9,0,11.1
+AC25508-SP-56,pressureswitch,A,BAJO: con cobertura,1,1,4.0,29.0,62.3,33.3,62.0,8.6,91.0,1.5,0,4.0
+HPWR-ORING HOSE,Oring chico para mangueras de hidrolavadoras,A,BAJO: con cobertura,15,1,0.0,14.0,44.6,30.6,30.0,8.6,70.0,0.8,2,0.0
+GPT361-2-SP-65,CrossShaft,B,BAJO: con cobertura,1,1,0.0,0.5,1.4,0.9,1.0,8.6,16.0,,13,0.0
+GWP302-SP-1-16,CylinderHead,B,BAJO: con cobertura,2,1,0.0,1.4,4.1,2.7,3.0,8.6,43.0,0.7,2,0.0
+GLM141181-SP-B46,Deck,B,BAJO: con cobertura,1,1,31.0,0.5,1.4,0.9,1.0,8.7,16.0,,10,31.1
+MX214008-SP-57-58,MixingPaddle,A,BAJO: con cobertura,5,1,16.0,1.4,7.4,6.0,3.0,8.7,36.0,2.0,2,3.2
+DP133505-SP-80,Chuck,A,BAJO: con cobertura,4,1,16.0,2.7,10.0,7.2,6.0,8.7,65.0,1.2,0,4.0
+WAY1A10-SP-N,Nozzle,A,BAJO: con cobertura,7,1,15.0,10.1,28.6,18.5,22.0,8.7,89.0,0.9,0,2.1
+AC402001-SP-25,ConnectingRod,B,BAJO: con cobertura,1,1,0.0,0.5,1.4,0.9,1.0,8.7,16.0,,10,0.0
+SPD7501-SP-2,REPUESTOSPD7501-SP-2INFLOATSWITCH,B,BAJO: con cobertura,1,1,0.0,0.5,1.4,0.9,1.0,8.7,16.0,,10,0.0
+VC24751-SP-M.B.B,40 Metal Bottom Belt Wheel Earth Brush Assembly,B,BAJO: con cobertura,1,1,4.0,1.4,3.3,2.0,3.0,8.8,40.0,2.0,0,4.4
+AC402001-SP-MOTOR,Motor,A,BAJO: con cobertura,3,1,388.0,1.4,5.3,3.9,3.0,8.9,44.0,2.0,0,129.3
+GRT75-2-SP-14-CAP,FuelTankCap,B,BAJO: con cobertura,1,1,2.0,5.8,13.6,7.8,13.0,8.9,53.0,0.0,3,2.0
+GSE50001-SP-1-3-3,Piston,B,BAJO: con cobertura,1,1,0.0,1.4,3.6,2.3,3.0,8.9,44.0,2.0,0,0.0
+HPWR28008-SP-30,Spray Gun,A,BAJO: con cobertura,6,1,29.0,6.2,19.8,13.6,14.0,9.0,78.0,0.7,1,4.8
+SPDB22008-SP-42,Float switch,B,BAJO: con cobertura,1,1,4.0,4.0,9.4,5.4,9.0,9.0,66.0,0.6,0,3.8
+GRT75-2-SP-8-E4,Carburetor,A,BAJO: con cobertura,5,1,53.0,6.6,19.7,13.1,15.0,9.1,80.0,1.8,0,10.6
+GE30005-SP-52,STARTER,A,BAJO: con cobertura,3,1,11.0,4.9,13.3,8.4,11.0,9.1,81.0,1.1,0,3.6
+GE30005-SP-87,AUTOMATICVOLTAGEREGULATOR,A,BAJO: con cobertura,3,1,10.0,2.2,7.5,5.3,5.0,9.1,62.0,1.0,0,3.5
+PBS12001-SP-AC,Accessory,B,BAJO: con cobertura,1,1,1.0,4.3,10.5,6.1,10.0,9.2,69.0,1.0,1,0.8
+AGL02301-SP-1-68,pump head,B,BAJO: con cobertura,1,1,0.0,0.4,1.4,1.0,1.0,9.2,15.0,,11,0.0
+CVLI201261-SP-4,HEPA filter assembly,A,BAJO: con cobertura,9,1,5.0,21.1,57.3,36.2,49.0,9.3,90.0,1.6,0,0.6
+AP140016-SP-42,Speed Controller,B,BAJO: con cobertura,2,1,5.0,4.3,11.1,6.8,10.0,9.3,75.0,1.3,1,2.7
+MX214008-SP-32,Rotor,B,BAJO: con cobertura,1,1,5.0,1.3,3.3,2.0,3.0,9.3,36.0,0.0,4,5.3
+GRT75-2-SP-14,FUELTANK,A,BAJO: con cobertura,5,1,51.0,7.2,21.1,13.9,17.0,9.4,82.0,0.9,0,10.2
+AC402001-SP-19,BreathPipe,B,BAJO: con cobertura,1,1,0.0,8.1,19.2,11.1,19.0,9.4,80.0,1.3,0,0.0
+HPWR14008-SP-16,Water connector,A,BAJO: con cobertura,15,1,0.0,19.4,60.3,41.0,46.0,9.5,81.0,1.9,0,0.0
+DP207502-SP-73,chuck,A,BAJO: con cobertura,4,1,0.0,2.5,9.3,6.8,6.0,9.6,57.0,0.8,1,0.0
+WLC30001-SP-W.P,Water Pump,A,BAJO: con cobertura,2,1,6.0,1.2,4.8,3.5,3.0,9.7,41.0,1.0,0,3.2
+LMLI2014-SP-22,34cm Blade,B,BAJO: con cobertura,2,1,4.0,1.6,5.1,3.4,4.0,9.7,45.0,2.0,1,2.2
+BM2S24007-SP-145,Carbon Brush,B,BAJO: con cobertura,2,1,2.0,4.1,11.3,7.1,10.0,9.7,56.0,0.0,3,0.9
+RS3208-SP-33,carbonbrush,A,BAJO: con cobertura,3,1,0.0,1.2,5.3,4.1,3.0,9.8,36.0,0.0,5,0.0
+HPWR30008-SP-6,QCNozzles,A,BAJO: con cobertura,7,1,5.0,6.0,21.1,15.0,15.0,9.9,76.0,1.3,1,0.7
+TS15008-SP-213,Brush,A,BAJO: con cobertura,3,1,0.0,3.2,10.5,7.3,8.0,9.9,74.0,1.2,0,0.0
+CIDLI20602-SP-5,Gear box Assy,B,BAJO: con cobertura,3,1,19.0,8.8,24.7,15.9,22.0,10.0,79.0,0.6,1,6.2
+GWP302-SP-13,Case Volute,B,BAJO: con cobertura,1,1,3.0,0.8,2.3,1.5,2.0,10.0,25.0,,6,3.2
+VCRR30201-SP-11,HepaFilter,B,BAJO: con cobertura,2,1,0.0,1.6,5.1,3.5,4.0,10.0,39.0,0.0,5,0.0
+GRT75-2-SP-53-13,Bellow,A,BAJO: con cobertura,3,1,180.0,1.2,5.6,4.4,3.0,10.2,32.0,2.0,1,60.0
+GLM141181-SP-B3,Blade,A,BAJO: con cobertura,6,1,19.0,5.1,18.5,13.4,13.0,10.2,66.0,1.2,2,3.2
+GWP202-SP-A.F.E,Air filter element,A,BAJO: con cobertura,22,1,18.0,23.9,82.0,58.2,61.0,10.2,68.0,0.1,2,0.8
+AC25508-SP-59,BallValve,A,BAJO: con cobertura,6,1,7.0,15.3,44.3,29.1,39.0,10.2,83.0,0.8,0,1.2
+ING-MMA2506-SP-G.M,Grounding module,B,BAJO: con cobertura,1,1,4.0,1.2,3.7,2.5,3.0,10.2,32.0,2.0,1,4.4
+GPT241-2-SP-62,Disc Pan,A,BAJO: con cobertura,5,1,201.0,5.4,18.2,12.8,14.0,10.3,73.0,1.2,1,40.2
+GE150006ES-SP-1-91,GASKET,A,BAJO: con cobertura,4,1,11.0,3.1,11.4,8.3,8.0,10.3,62.0,1.6,1,2.8
+JAP15001-SP-152,Motor,B,BAJO: con cobertura,1,1,40.0,0.8,2.4,1.6,2.0,10.4,26.0,2.0,0,40.0
+AP140016-SP-26,Rotor,B,BAJO: con cobertura,1,1,11.0,0.8,2.4,1.6,2.0,10.4,26.0,2.0,0,11.1
+GBC5434411-SP-F.T.C,fueltankcap,A,BAJO: con cobertura,35,1,9.0,47.5,157.6,110.1,123.0,10.4,82.0,0.6,0,0.3
+SS852-SP-30-8PCS,Saw blade,A,BAJO: con cobertura,4,1,7.0,77.8,207.8,130.0,204.0,10.5,92.0,1.3,0,1.8
+EH5001-SP-55-58,Switch&Handlecomponents,A,BAJO: con cobertura,3,1,42.0,5.7,17.4,11.8,15.0,10.6,78.0,1.1,1,13.9
+GEA55221-SP-A.200,Auger200mm,A,BAJO: con cobertura,2,1,31.0,6.8,19.2,12.5,18.0,10.6,84.0,1.2,0,15.5
+GE35006-SP-10-65,RECOILSTARTERASSEMBLY,A,BAJO: con cobertura,3,1,0.0,3.0,10.2,7.2,8.0,10.6,68.0,1.0,0,0.0
+FS3208-SP-1,foamplate,A,BAJO: con cobertura,4,1,2.0,4.1,14.1,10.0,11.0,10.7,71.0,1.1,1,0.5
+ING-MMA1606-SP-11,ElectrodeHolderSubassembly,A,BAJO: con cobertura,1,1,4.0,0.7,2.8,2.1,2.0,10.8,21.0,,17,4.4
+AG90028-SP-36,CarbonBrush,A,BAJO: con cobertura,1,1,0.0,0.7,2.8,2.1,2.0,10.8,21.0,,17,0.3
+PBS12001-SP-44,engine rack,B,BAJO: con cobertura,1,1,9.0,0.7,2.4,1.7,2.0,11.1,23.0,,7,8.9
+RH150038-SP-77,Rotor,B,BAJO: con cobertura,1,1,8.0,1.8,5.3,3.5,5.0,11.1,54.0,1.3,1,8.0
+VC14301-SP-43,Motor,A,BAJO: con cobertura,4,1,70.0,5.4,18.6,13.2,15.0,11.2,75.0,2.0,0,17.4
+HPWR12008-SP-24/25,HandleMerge&SectorHeadAssy,A,BAJO: con cobertura,5,1,28.0,4.7,17.5,12.9,13.0,11.2,61.0,0.0,3,5.6
+HSPP41602-SP-R.H,rubber hose ,A,BAJO: con cobertura,16,1,4.0,18.9,68.9,50.0,53.0,11.2,75.0,0.5,1,0.3
+ING-MMA1805-SP-23,Strap,B,BAJO: con cobertura,1,1,0.0,4.6,13.0,8.4,13.0,11.2,74.0,0.8,0,0.5
+SPG5008-SP-S.G.A,spray gun assemblies,A,BAJO: con cobertura,4,1,20.0,7.4,24.6,17.2,21.0,11.3,78.0,0.4,0,5.0
+AC25508-SP-43/44,WheelPin/Wheel,A,BAJO: con cobertura,4,1,11.0,2.5,10.6,8.1,7.0,11.3,51.0,2.0,2,2.8
+SPD7508-SP-2,Infloat Switch,B,BAJO: con cobertura,1,1,2.0,2.8,8.6,5.7,8.0,11.3,48.0,0.0,4,2.2
+DP207505-SP-88,Chuck,B,BAJO: con cobertura,1,1,13.0,1.4,4.9,3.5,4.0,11.6,36.0,2.0,2,12.9
+PL7508-SP-3,Belt,A,BAJO: con cobertura,2,1,2.0,5.5,17.3,11.8,16.0,11.6,75.0,1.6,0,0.8
+PDB130018-SP-1-6,Head assembly (assembly),A,BAJO: con cobertura,2,1,12.0,2.4,8.2,5.8,7.0,11.7,54.0,0.0,3,6.2
+GPT361-2-SP-4,Clutch,A,BAJO: con cobertura,2,1,38.0,1.4,5.3,3.9,4.0,11.8,44.0,2.0,0,18.9
+ACS175406-SP-37,Electromagnetic Valve,A,BAJO: con cobertura,2,1,6.0,2.7,9.8,7.1,8.0,11.8,65.0,1.5,1,3.2
+GRT75-2-SP-AF,Airfilterelement,A,BAJO: con cobertura,2,1,4.0,3.4,11.5,8.1,10.0,11.8,70.0,1.3,0,2.2
+GLM141181-SP-33,AIRFILTERELEMENT,A,BAJO: con cobertura,1,1,2.0,7.8,23.4,15.6,23.0,11.8,84.0,0.9,0,1.9
+TP15003-SP-56,Belt,A,BAJO: con cobertura,2,1,1.0,10.7,34.2,23.5,33.0,12.3,78.0,0.4,0,0.7
+GE75006-SP-14-38,CarburetorAssembly,A,BAJO: con cobertura,1,1,11.0,1.6,5.7,4.1,5.0,12.5,51.0,2.0,0,10.7
+WAP4R22-SP-66,Drain Valve,B,BAJO: con cobertura,1,1,0.0,1.2,4.0,2.8,4.0,13.0,36.0,0.0,5,0.2
+AG200028-SP-14/25,Gear/Pinion,A,BAJO: con cobertura,1,1,4.0,2.7,9.7,6.9,9.0,13.1,63.0,0.8,0,4.0
+AG18008-SP-3,Wheel guard,A,BAJO: con cobertura,2,1,3.0,1.8,7.6,5.7,6.0,13.1,38.0,2.0,0,1.4
+HPWR12008-SP-11,PressureHoseAssy6510,A,BAJO: con cobertura,3,1,17.0,3.9,15.4,11.5,13.0,13.3,65.0,0.3,0,5.6
+WGM1543-SP-2-19,Gear Case,A,BAJO: con cobertura,2,1,12.0,2.1,8.2,6.1,7.0,13.5,54.0,2.0,0,6.2
+TS15008-SP-102,MotorParts,A,BAJO: con cobertura,2,1,131.0,0.9,4.2,3.3,3.0,13.7,26.0,0.0,5,65.6
+HPWR13018-SP-S.G,Spray gun,A,BAJO: con cobertura,2,1,9.0,1.7,8.0,6.3,6.0,13.8,32.0,0.0,5,4.5
+GRT75-2-SP-R.S,Recoilstarter,A,BAJO: con cobertura,1,1,8.0,3.4,12.9,9.5,12.0,13.9,66.0,0.4,0,7.8
+CSPLI2001-SP-S.H,Switch + hose,A,BAJO: con cobertura,1,1,1.0,0.6,2.7,2.2,2.0,14.2,17.0,,16,1.2
+CM30-1-SP-38,MOTOR,A,BAJO: con cobertura,1,1,37.0,2.0,7.7,5.8,7.0,14.3,49.0,0.0,3,36.7
+GSF16-2-SP-CAR,GSF16-2-SP-CAR,A,BAJO: con cobertura,1,1,16.0,0.6,2.8,2.3,2.0,14.3,19.0,,7,16.0
+RH150038-SP-1-26,Straight barrel assembly,A,BAJO: con cobertura,1,1,12.0,0.6,2.8,2.3,2.0,14.3,19.0,,7,11.7
+GDW65001-SP-202,GDW65001-SP-CABLE,A,BAJO: con cobertura,1,1,0.0,0.5,2.6,2.0,2.0,15.2,16.0,,20,0.0
+AG24008-SP-29,Rotor,A,BAJO: con cobertura,1,1,14.0,2.0,8.4,6.4,8.0,16.0,59.0,1.3,0,13.6
+GDE50001-SP-3-7-4,Startingmotorassembly,A,BAJO: con cobertura,1,1,34.0,0.5,2.7,2.2,2.0,16.2,16.0,,15,34.0
+HPWR20008-SP-15-A,pumpassembly,A,BAJO: con cobertura,1,1,10.0,2.4,10.2,7.8,10.0,16.7,45.0,0.0,4,10.1
+AG9608-SP-42,Switch,A,BAJO: con cobertura,3,1,3.0,8.1,36.1,28.0,34.0,16.7,48.0,0.0,4,1.0
+GDE50001-SP-55-9,STATOR,A,BAJO: con cobertura,1,1,79.0,0.5,2.7,2.2,2.0,17.2,16.0,,12,79.4
+ING-TIG1601-SP-30,Tig torch,A,BAJO: con cobertura,1,1,46.0,1.4,6.3,4.9,6.0,17.2,43.0,0.7,2,46.5
+AC301008-SP-M.H,MachineHead,A,BAJO: con cobertura,1,1,0.0,0.5,2.7,2.2,2.0,17.3,16.0,,10,0.0
+HPWR30008-SP-26,MOTOR,A,BAJO: con cobertura,1,1,133.0,0.6,3.1,2.4,3.0,18.9,21.0,0.0,5,132.6
+GE150006ES-SP-21,Wheel,A,BAJO: con cobertura,1,1,25.0,0.6,3.1,2.4,3.0,18.9,21.0,0.0,5,24.8
+WHP3A12-SP-4,Water inlet,A,BAJO: con cobertura,1,1,1.0,8.0,46.2,38.2,46.0,23.1,41.0,0.0,4,0.8
