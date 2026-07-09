@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import mean_absolute_error, roc_auc_score
 
-from . import config
+from . import config, features
 
 TARGET = f"demanda_{config.TARGET_MESES}m"
 PERCENTILES = sorted(set(config.PERCENTIL_POR_CLASE.values()))
@@ -41,8 +41,14 @@ def predecir(modelos, X):
 def validar(dataset: pd.DataFrame, meses_test: int = 3) -> None:
     fechas = sorted(dataset["fecha"].unique())
     corte = fechas[-meses_test]
-    train = dataset[dataset["fecha"] < corte]
-    test = dataset[dataset["fecha"] >= corte]
+    train = dataset[dataset["fecha"] < corte].copy()
+    test = dataset[dataset["fecha"] >= corte].copy()
+
+    # Índice estacional recalculado SOLO con el train, para que la validación
+    # no mire el futuro (en producción se estima con todo el histórico).
+    idx_fam, idx_glob, cnt = features.tabla_estacional(train)
+    train = features.aplicar_estacional(train, idx_fam, idx_glob, cnt)
+    test = features.aplicar_estacional(test, idx_fam, idx_glob, cnt)
 
     clfs = _fit_ensemble(lgb.LGBMClassifier, train[config.FEATURES], train["habra_demanda"])
     proba = predecir_proba(clfs, test[config.FEATURES])

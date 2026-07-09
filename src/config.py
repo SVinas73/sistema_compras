@@ -38,10 +38,15 @@ EXCLUIR = [
 # (con 17 meses eran casi todo NaN; con 29 meses el lag_12 tiene dato
 # en ~55% de las filas y es una de las features más usadas del modelo)
 FEATURES = [
+    # --- Pasado directo ---
     "lag_1", "lag_2", "lag_3", "lag_6", "lag_12",
-    "media_movil_3", "media_movil_6", "std_movil_3",
-    "meses_desde_ultima_venta", "tasa_actividad_6m", "mes",
-    "tendencia",
+    # --- Nivel y volatilidad ---
+    "media_movil_3", "media_movil_6", "media_movil_12", "std_movil_3",
+    # --- Intermitencia / ciclo de vida (¿se apaga o despierta el SKU?) ---
+    "meses_desde_ultima_venta", "tasa_actividad_6m", "tasa_actividad_12m",
+    "ratio_actividad", "tendencia", "tendencia_larga",
+    # --- Estacionalidad ---
+    "mes", "mes_sin", "mes_cos", "indice_estacional",
 ]
 
 # Hiperparámetros encontrados con Optuna (40 trials, validación temporal)

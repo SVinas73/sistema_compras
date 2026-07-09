@@ -1,0 +1,8 @@
+pandas==3.0.3
+numpy==2.4.6
+lightgbm==4.6.0
+scikit-learn==1.9.0
+joblib==1.5.3
+xlrd==2.0.2
+openpyxl==3.1.5
+pyarrow==24.0.0
