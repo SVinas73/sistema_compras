@@ -6,7 +6,7 @@ Regla sagrada: ninguna feature puede mirar el futuro (data leakage).
 import numpy as np
 import pandas as pd
 
-from . import config
+from . import config, taller
 
 
 def tabla_estacional(df: pd.DataFrame):
@@ -45,6 +45,42 @@ def aplicar_estacional(df, indice_familia, indice_global, conteo, min_n=8):
     out = out.fillna(idx_glob).fillna(1.0)
     df["indice_estacional"] = out.values
     return df
+
+
+def _taller_mensual(largo: pd.DataFrame):
+    """Carga la demanda de taller alineada al panel y devuelve (serie mensual
+    por SKU, mes desde el que taller está activo). Devuelve (None, None) si no
+    hay planilla de taller."""
+    cant_master = largo.groupby("cod_articulo")["cant_master"].last().to_dict()
+    tall = taller.cargar(cant_master)
+    if tall is None or tall.empty:
+        return None, None
+    # Mes desde el que taller se registra en serio (>=5 pedidos en el mes):
+    # antes de eso "sin dato" es desconocido, no un cero real.
+    por_mes = tall.groupby("fecha").size()
+    activos = por_mes[por_mes >= 5].index
+    inicio = activos.min() if len(activos) else tall["fecha"].min()
+    return tall, inicio
+
+
+def _agregar_taller(largo: pd.DataFrame) -> pd.DataFrame:
+    """Agrega taller_mm3: demanda de reparación de los 3 meses previos.
+    NaN antes de que taller empiece a registrarse (dato desconocido, no cero)."""
+    tall, inicio = _taller_mensual(largo)
+    if tall is None:
+        largo["taller_mm3"] = np.nan
+        return largo
+
+    largo = largo.merge(tall, on=["cod_articulo", "fecha"], how="left")
+    # Dentro del período activo, "sin registro" = 0 pedidos reales.
+    en_rango = largo["fecha"] >= inicio
+    largo.loc[en_rango, "demanda_taller"] = largo.loc[en_rango, "demanda_taller"].fillna(0)
+    largo = largo.sort_values(["cod_articulo", "fecha"]).reset_index(drop=True)
+
+    gt = largo.groupby("cod_articulo")["demanda_taller"]
+    largo["taller_mm3"] = gt.transform(lambda s: s.shift(1).rolling(3).sum())
+    largo = largo.drop(columns=["demanda_taller"])
+    return largo
 
 
 def _meses_sin_venta(s: pd.Series) -> pd.Series:
@@ -107,6 +143,9 @@ def construir(largo: pd.DataFrame) -> pd.DataFrame:
     # --- Estacionalidad por familia (índice de temporada) ---
     idx_fam, idx_glob, cnt = tabla_estacional(largo)
     largo = aplicar_estacional(largo, idx_fam, idx_glob, cnt)
+
+    # --- Demanda de taller (reparación) ---
+    largo = _agregar_taller(largo)
 
     # --- Target: demanda acumulada de los próximos N meses ---
     n = config.TARGET_MESES
@@ -183,4 +222,18 @@ def foto_actual(largo: pd.DataFrame) -> pd.DataFrame:
     largo_mes = largo.assign(mes=largo["fecha"].dt.month)
     idx_fam, idx_glob, cnt = tabla_estacional(largo_mes)
     ult = aplicar_estacional(ult, idx_fam, idx_glob, cnt)
+
+    # Demanda de taller de los últimos 3 meses hasta hoy (misma ventana que
+    # taller_mm3 en entrenamiento).
+    tall, inicio = _taller_mensual(largo)
+    if tall is not None:
+        fin = largo["fecha"].max()
+        ventana = tall[
+            (tall["fecha"] <= fin) & (tall["fecha"] > fin - pd.DateOffset(months=3))
+        ]
+        tmm3 = ventana.groupby("cod_articulo")["demanda_taller"].sum()
+        relleno = 0.0 if fin >= inicio else np.nan
+        ult["taller_mm3"] = ult["cod_articulo"].map(tmm3).fillna(relleno)
+    else:
+        ult["taller_mm3"] = np.nan
     return ult

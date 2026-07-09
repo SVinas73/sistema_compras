@@ -8,6 +8,9 @@ from pathlib import Path
 RAIZ = Path(__file__).parent.parent
 RUTA_RAW = RAIZ / "data" / "raw"
 RUTA_PROCESSED = RAIZ / "data" / "processed"
+# Planilla propia de taller (Solicitud de Repuestos). Opcional: si la carpeta
+# está vacía, el sistema funciona igual. NO reemplaza a la planilla AMyyyymm.
+RUTA_TALLER = RAIZ / "data" / "taller"
 
 # ---------- Negocio ----------
 LEAD_TIME_MESES = 3
@@ -47,6 +50,8 @@ FEATURES = [
     "ratio_actividad", "tendencia", "tendencia_larga",
     # --- Estacionalidad ---
     "mes", "mes_sin", "mes_cos", "indice_estacional",
+    # --- Demanda de reparación (taller). Ausente/NaN si no hay planilla. ---
+    "taller_mm3",
 ]
 
 # Hiperparámetros encontrados con Optuna (40 trials, validación temporal)
