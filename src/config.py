@@ -13,9 +13,13 @@ RUTA_PROCESSED = RAIZ / "data" / "processed"
 RUTA_TALLER = RAIZ / "data" / "taller"
 
 # ---------- Negocio ----------
-LEAD_TIME_MESES = 3
-PERIODO_REVISION = 1
-HORIZONTE = LEAD_TIME_MESES + PERIODO_REVISION   # 4 meses de protección
+# Demora del proveedor: los repuestos importados tardan 90-120 días en llegar.
+# Se usa el PEOR caso (120 días = 4 meses): en repuestos importados el costo de
+# un quiebre (otros ~4 meses de espera) es mucho mayor que el de algo de stock
+# de más. Si se quiere menos inventario, bajar a 3 (usa el mejor caso, 90 días).
+LEAD_TIME_MESES = 4
+PERIODO_REVISION = 1                             # cada cuánto se revisa/pide
+HORIZONTE = LEAD_TIME_MESES + PERIODO_REVISION   # 5 meses de protección
 
 # Nivel de servicio por clase ABC → percentil del modelo quantile
 # A: cubre el 95% de los escenarios | B: 90% | C: 80%
