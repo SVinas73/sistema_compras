@@ -79,6 +79,14 @@ def run(ult: pd.DataFrame, clfs, regs, quantiles) -> pd.DataFrame:
     # últimos 3 meses (vacío si no hay planilla de taller cargada).
     ult["pedidos_taller_3m"] = ult.get("taller_mm3", pd.Series(np.nan, index=ult.index)).round(0)
 
+    # Desglose de la posición, para que se pueda VERIFICAR qué consideró el
+    # modelo: posicion = stock_fisico + en_camino - pendiente_entregar.
+    # 'en_camino' = compras_encurso (lo ya pedido al proveedor, que está por
+    # llegar): el modelo lo descuenta para no volver a comprar lo que ya viene.
+    ult["stock_fisico"] = ult["stock"].fillna(0) + ult["stock_nodisp"].fillna(0)
+    ult["en_camino"] = ult["compras_encurso"].fillna(0)
+    ult["pendiente_entregar"] = ult["pedidos_pendientes"].fillna(0)
+
     orden = (
         ult[ult["comprar"] > 0]
         .sort_values(["alcance_meses", "inversion_usd"], ascending=[True, False])
@@ -87,7 +95,8 @@ def run(ult: pd.DataFrame, clfs, regs, quantiles) -> pd.DataFrame:
 
     cols = ["cod_articulo", "nom_articulo", "clase_abc", "urgencia",
             "comprar", "cant_master", "inversion_usd",
-            "pred_esperada", "objetivo", "stock_seguridad", "posicion",
+            "ventas_ult_3m", "pred_esperada", "objetivo", "stock_seguridad",
+            "posicion", "stock_fisico", "en_camino", "pendiente_entregar",
             "alcance_meses", "prob_demanda", "tendencia", "pedidos_taller_3m",
             "meses_desde_ultima_venta", "Fob"]
     salida = config.RUTA_PROCESSED / "orden_de_compra.csv"
