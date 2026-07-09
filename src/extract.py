@@ -7,9 +7,12 @@ import pandas as pd
 
 from . import config
 
-# Columnas de negocio que arrastramos junto al histórico
+# Columnas de negocio que arrastramos junto al histórico.
+# "familia" se deriva del código (prefijo antes de -SP- = modelo de máquina):
+# agrupa repuestos que comparten estacionalidad y permite estimar la forma
+# de la temporada con muchos más datos que SKU por SKU.
 COLS_NEGOCIO = [
-    "cod_articulo", "nom_articulo", "cant_master", "Fob", "ingresos",
+    "cod_articulo", "familia", "nom_articulo", "cant_master", "Fob", "ingresos",
     "stock", "stock_nodisp", "pedidos_pendientes", "compras_encurso",
 ]
 
@@ -60,6 +63,11 @@ def leer_planillas() -> pd.DataFrame:
 
     # Exclusiones del negocio
     df = df[~df["cod_articulo"].isin(config.EXCLUIR)].copy()
+
+    # Familia = modelo de máquina (prefijo antes de -SP-). Los SKUs sin ese
+    # patrón quedan como su propio código (familia unipersonal).
+    cod = df["cod_articulo"].astype(str)
+    df["familia"] = cod.str.split("-SP-").str[0]
     return df
 
 
