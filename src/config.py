@@ -52,6 +52,9 @@ FEATURES = [
     "mes", "mes_sin", "mes_cos", "indice_estacional",
     # --- Demanda de reparación (taller). Ausente/NaN si no hay planilla. ---
     "taller_mm3",
+    # --- Calendario del período a predecir (días hábiles Uruguay).
+    #     feriados_objetivo se calcula pero no se usa: redundante con hábiles. ---
+    "habiles_objetivo",
 ]
 
 # Hiperparámetros encontrados con Optuna (40 trials, validación temporal)
