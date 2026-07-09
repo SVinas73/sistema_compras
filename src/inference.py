@@ -95,7 +95,7 @@ def run(ult: pd.DataFrame, clfs, regs, quantiles) -> pd.DataFrame:
 
     cols = ["cod_articulo", "nom_articulo", "clase_abc", "urgencia",
             "comprar", "cant_master", "inversion_usd",
-            "pred_esperada", "objetivo", "stock_seguridad",
+            "ventas_ult_3m", "pred_esperada", "objetivo", "stock_seguridad",
             "posicion", "stock_fisico", "en_camino", "pendiente_entregar",
             "alcance_meses", "prob_demanda", "tendencia", "pedidos_taller_3m",
             "meses_desde_ultima_venta", "Fob"]

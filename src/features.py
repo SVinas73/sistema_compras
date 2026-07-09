@@ -224,6 +224,9 @@ def foto_actual(largo: pd.DataFrame) -> pd.DataFrame:
         media_movil_3=("ventas", lambda s: s.iloc[-3:].mean()),
         media_movil_6=("ventas", lambda s: s.iloc[-6:].mean()),
         media_movil_12=("ventas", lambda s: s.iloc[-12:].mean()),
+        # Ventas reales de los últimos 3 meses: el criterio "a ojo" del
+        # comprador, para poder compararlo con la recomendación del modelo.
+        ventas_ult_3m=("ventas", lambda s: s.iloc[-3:].sum()),
         std_movil_3=("ventas", lambda s: s.iloc[-3:].std()),
         tasa_actividad_6m=("ventas", lambda s: (s.iloc[-6:] > 0).mean()),
         tasa_actividad_12m=("ventas", lambda s: (s.iloc[-12:] > 0).mean()),
