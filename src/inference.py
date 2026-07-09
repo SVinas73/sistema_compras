@@ -75,6 +75,9 @@ def run(ult: pd.DataFrame, clfs, regs, quantiles) -> pd.DataFrame:
     ult["inversion_usd"] = (ult["comprar"] * ult["Fob"].fillna(0)).round(0)
     ult["prob_demanda"] = (ult["prob_demanda"] * 100).round(0)
     ult["tendencia"] = ult["tendencia"].round(2)
+    # Señal de reparación para el comprador: unidades pedidas por taller en los
+    # últimos 3 meses (vacío si no hay planilla de taller cargada).
+    ult["pedidos_taller_3m"] = ult.get("taller_mm3", pd.Series(np.nan, index=ult.index)).round(0)
 
     orden = (
         ult[ult["comprar"] > 0]
@@ -85,7 +88,7 @@ def run(ult: pd.DataFrame, clfs, regs, quantiles) -> pd.DataFrame:
     cols = ["cod_articulo", "nom_articulo", "clase_abc", "urgencia",
             "comprar", "cant_master", "inversion_usd",
             "pred_esperada", "objetivo", "stock_seguridad", "posicion",
-            "alcance_meses", "prob_demanda", "tendencia",
+            "alcance_meses", "prob_demanda", "tendencia", "pedidos_taller_3m",
             "meses_desde_ultima_venta", "Fob"]
     salida = config.RUTA_PROCESSED / "orden_de_compra.csv"
     orden[cols].round(1).to_csv(salida, index=False)
