@@ -1,0 +1,29 @@
+name: Generar orden de compra
+
+# Se ejecuta con un botón manual desde la pestaña "Actions" de GitHub.
+on:
+  workflow_dispatch:
+
+jobs:
+  reposicion:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Traer el código y los datos
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Correr el modelo (genera la orden de compra)
+        run: python main.py
+
+      - name: Publicar la orden de compra descargable
+        uses: actions/upload-artifact@v4
+        with:
+          name: orden_de_compra
+          path: data/processed/orden_de_compra.csv

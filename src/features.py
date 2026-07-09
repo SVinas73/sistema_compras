@@ -3,10 +3,38 @@ features.py — Fase 3: Feature Engineering.
 Crea las variables que le dan "memoria" al modelo y el target.
 Regla sagrada: ninguna feature puede mirar el futuro (data leakage).
 """
+import holidays as _holidays
 import numpy as np
 import pandas as pd
 
 from . import config, taller
+
+
+def _tabla_calendario(periodos):
+    """Días hábiles (lun-vie sin feriados) y feriados de cada mes (Period)."""
+    hab, fer = {}, {}
+    for p in periodos:
+        h = _holidays.Uruguay(years=p.year)
+        dias = pd.date_range(p.start_time, p.end_time, freq="D")
+        habil = [(d.weekday() < 5) and (d.date() not in h) for d in dias]
+        feriado = [(d.weekday() < 5) and (d.date() in h) for d in dias]
+        hab[p], fer[p] = int(sum(habil)), int(sum(feriado))
+    return hab, fer
+
+
+def _agregar_calendario(largo: pd.DataFrame) -> pd.DataFrame:
+    """habiles_objetivo / feriados_objetivo: días hábiles y feriados de los 3
+    meses que se van a predecir (t+1..t+3). Determinista y conocido de
+    antemano → sin fuga de datos. Un período con feriados/menos días hábiles
+    tiende a vender menos."""
+    fechas = pd.PeriodIndex(pd.to_datetime(largo["fecha"]).dt.to_period("M")).unique()
+    needed = {p + k for p in fechas for k in (1, 2, 3)}
+    hab, fer = _tabla_calendario(sorted(needed))
+    map_h = {p.to_timestamp(): sum(hab[p + k] for k in (1, 2, 3)) for p in fechas}
+    map_f = {p.to_timestamp(): sum(fer[p + k] for k in (1, 2, 3)) for p in fechas}
+    largo["habiles_objetivo"] = largo["fecha"].map(map_h)
+    largo["feriados_objetivo"] = largo["fecha"].map(map_f)
+    return largo
 
 
 def tabla_estacional(df: pd.DataFrame):
@@ -147,6 +175,9 @@ def construir(largo: pd.DataFrame) -> pd.DataFrame:
     # --- Demanda de taller (reparación) ---
     largo = _agregar_taller(largo)
 
+    # --- Calendario del período a predecir (días hábiles / feriados) ---
+    largo = _agregar_calendario(largo)
+
     # --- Target: demanda acumulada de los próximos N meses ---
     n = config.TARGET_MESES
     largo[f"demanda_{n}m"] = g.transform(
@@ -236,4 +267,10 @@ def foto_actual(largo: pd.DataFrame) -> pd.DataFrame:
         ult["taller_mm3"] = ult["cod_articulo"].map(tmm3).fillna(relleno)
     else:
         ult["taller_mm3"] = np.nan
+
+    # Calendario de los próximos 3 meses (igual que en entrenamiento)
+    p0 = pd.Period(largo["fecha"].max(), "M")
+    hab, fer = _tabla_calendario([p0 + k for k in (1, 2, 3)])
+    ult["habiles_objetivo"] = sum(hab[p0 + k] for k in (1, 2, 3))
+    ult["feriados_objetivo"] = sum(fer[p0 + k] for k in (1, 2, 3))
     return ult
