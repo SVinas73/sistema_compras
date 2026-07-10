@@ -15,7 +15,10 @@ from . import config
 from .train import predecir, predecir_proba
 
 
-def run(ult: pd.DataFrame, clfs, regs, quantiles) -> pd.DataFrame:
+def run(ult: pd.DataFrame, clfs, regs, quantiles):
+    """Genera la orden de compra. Devuelve (orden, panel): la orden filtrada
+    a lo que hay que comprar, y el panel completo de SKUs con todas las
+    predicciones (lo consume el monitor de la fase 6)."""
     print("[FASE 5] Orden de compra...")
     ult = ult.copy()
     # Estiramiento de la predicción (3 meses) al horizonte: por SKU, según la
@@ -27,10 +30,17 @@ def run(ult: pd.DataFrame, clfs, regs, quantiles) -> pd.DataFrame:
     ).fillna(config.HORIZONTE / config.TARGET_MESES)
 
     # --- Predicciones del ensemble ---
+    # Se guardan también las NATIVAS a 3 meses (sin estirar al horizonte):
+    # son las que el monitor (fase 6) compara después contra la realidad.
     ult["prob_demanda"] = predecir_proba(clfs, ult[config.FEATURES])
-    ult["pred_esperada"] = (ult["prob_demanda"] * predecir(regs, ult[config.FEATURES])) * factor
+    ult["pred_3m"] = ult["prob_demanda"] * predecir(regs, ult[config.FEATURES])
+    ult["pred_esperada"] = ult["pred_3m"] * factor
     for alpha, modelos in quantiles.items():
-        ult[f"p{int(alpha*100)}"] = predecir(modelos, ult[config.FEATURES]) * factor
+        q3 = predecir(modelos, ult[config.FEATURES])
+        ult[f"p{int(alpha*100)}_3m"] = q3
+        ult[f"p{int(alpha*100)}"] = q3 * factor
+    # Baseline ingenuo (últimos 3 meses proyectados): la vara a superar.
+    ult["baseline_3m"] = (ult["media_movil_3"] * config.TARGET_MESES).fillna(0)
 
     # --- Clase ABC por ingresos ---
     ult["valor_abc"] = ult["ingresos"].fillna(0)
@@ -124,4 +134,4 @@ def run(ult: pd.DataFrame, clfs, regs, quantiles) -> pd.DataFrame:
     print(f"  ✔ {len(orden)} SKUs a comprar | USD {orden['inversion_usd'].sum():,.0f}")
     print(resumen.to_string())
     print(f"  ✔ Exportado a {salida}")
-    return orden
+    return orden, ult

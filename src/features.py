@@ -163,6 +163,12 @@ def _meses_sin_venta(s: pd.Series) -> pd.Series:
 def construir(largo: pd.DataFrame) -> pd.DataFrame:
     """Agrega todas las features y el target al formato largo."""
     print("[FASE 3] Feature engineering...")
+    # Normalizar orden e índice ANTES de todo: los transform de abajo se
+    # asignan por índice, y los merges (taller/calendario) lo reinician.
+    # Sin esta línea, un frame filtrado (índice con huecos) desalinearía el
+    # target EN SILENCIO: cada fila recibiría el futuro de otro SKU.
+    # (Detectado por el boletín de aprendizaje en un backtest.)
+    largo = largo.sort_values(["cod_articulo", "fecha"]).reset_index(drop=True)
     g = largo.groupby("cod_articulo")["ventas"]
 
     # --- Lags: el pasado directo ---
@@ -206,17 +212,20 @@ def construir(largo: pd.DataFrame) -> pd.DataFrame:
     idx_fam, idx_glob, cnt = tabla_estacional(largo)
     largo = aplicar_estacional(largo, idx_fam, idx_glob, cnt)
 
+    # --- Target: demanda acumulada de los próximos N meses ---
+    # OJO: calcularlo ANTES de los merges de taller/calendario, que crean un
+    # frame nuevo; g quedó atado al índice original y una asignación después
+    # de un merge podría desalinear target y features.
+    n = config.TARGET_MESES
+    largo[f"demanda_{n}m"] = g.transform(
+        lambda s: s.shift(-1).rolling(n).sum().shift(-(n - 1))
+    )
+
     # --- Demanda de taller (reparación) ---
     largo = _agregar_taller(largo)
 
     # --- Calendario del período a predecir (días hábiles / feriados) ---
     largo = _agregar_calendario(largo)
-
-    # --- Target: demanda acumulada de los próximos N meses ---
-    n = config.TARGET_MESES
-    largo[f"demanda_{n}m"] = g.transform(
-        lambda s: s.shift(-1).rolling(n).sum().shift(-(n - 1))
-    )
 
     # Filas entrenables: con historia suficiente y con futuro conocido
     dataset = largo.dropna(

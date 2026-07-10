@@ -6,7 +6,7 @@ Uso mensual:
   2. Ejecutar:  python main.py
   3. Revisar:   data/processed/orden_de_compra.csv
 """
-from src import extract, features, inference, train
+from src import extract, features, inference, monitor, train
 
 
 def main():
@@ -27,7 +27,11 @@ def main():
 
     # Fase 5: predicción al día de hoy y orden de compra
     hoy = features.foto_actual(largo)
-    inference.run(hoy, clfs, regs, quantiles)
+    orden, panel = inference.run(hoy, clfs, regs, quantiles)
+
+    # Fase 6: boletín de aprendizaje — evalúa las predicciones de corridas
+    # pasadas contra lo que realmente pasó y registra las de hoy.
+    monitor.run(largo, panel)
 
     print("=" * 50)
     print("LISTO ✔")

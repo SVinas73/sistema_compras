@@ -54,12 +54,16 @@ FEATURES = [
     "ratio_actividad", "tendencia", "tendencia_larga",
     # --- Estacionalidad ---
     "mes", "mes_sin", "mes_cos", "indice_estacional",
-    # --- Demanda de reparación (taller). Ausente/NaN si no hay planilla. ---
-    "taller_mm3",
     # --- Calendario del período a predecir (días hábiles Uruguay).
     #     feriados_objetivo se calcula pero no se usa: redundante con hábiles. ---
     "habiles_objetivo",
 ]
+# taller_mm3 (demanda de taller 3m) NO entra al modelo por ahora, a propósito:
+# con ~5 meses de registro, ninguna fila del train de la validación temporal
+# la tiene con datos => su aporte es imposible de medir, y sí agrega varianza
+# no validada (medido: cambia >25% la predicción de ~424 SKUs). La planilla
+# de taller SIGUE: se ingesta y se muestra en el reporte (pedidos_taller_3m).
+# Re-evaluar sumarla a FEATURES cuando haya 12+ meses de historia de taller.
 
 # Hiperparámetros encontrados con Optuna (40 trials, validación temporal)
 PARAMS_LGBM = dict(

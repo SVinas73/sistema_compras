@@ -4,6 +4,11 @@ name: Generar orden de compra
 on:
   workflow_dispatch:
 
+# Necesario para que la corrida pueda guardar su memoria (historial de
+# predicciones y orden) de vuelta en el repositorio.
+permissions:
+  contents: write
+
 jobs:
   reposicion:
     runs-on: ubuntu-latest
@@ -27,3 +32,13 @@ jobs:
         with:
           name: orden_de_compra
           path: data/processed/orden_de_compra.csv
+
+      # El servidor de Actions se destruye al terminar: si no se commitea,
+      # el historial de predicciones (la memoria del boletín de aprendizaje)
+      # se perdería. Se guarda solo lo liviano: orden + historial.
+      - name: Guardar orden e historial en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/processed/orden_de_compra.csv data/processed/historial
+          git diff --cached --quiet || { git commit -m "Registro de corrida: orden de compra + snapshot de predicciones"; git push; }
