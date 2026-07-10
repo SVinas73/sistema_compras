@@ -18,7 +18,13 @@ from .train import predecir, predecir_proba
 def run(ult: pd.DataFrame, clfs, regs, quantiles) -> pd.DataFrame:
     print("[FASE 5] Orden de compra...")
     ult = ult.copy()
-    factor = config.HORIZONTE / config.TARGET_MESES
+    # Estiramiento de la predicción (3 meses) al horizonte: por SKU, según la
+    # forma de la temporada de su familia (features.factor_horizonte). Si la
+    # columna no está, cae al uniforme de siempre.
+    factor = ult.get(
+        "factor_horizonte",
+        pd.Series(config.HORIZONTE / config.TARGET_MESES, index=ult.index),
+    ).fillna(config.HORIZONTE / config.TARGET_MESES)
 
     # --- Predicciones del ensemble ---
     ult["prob_demanda"] = predecir_proba(clfs, ult[config.FEATURES])
@@ -87,13 +93,24 @@ def run(ult: pd.DataFrame, clfs, regs, quantiles) -> pd.DataFrame:
     ult["en_camino"] = ult["compras_encurso"].fillna(0)
     ult["pendiente_entregar"] = ult["pedidos_pendientes"].fillna(0)
 
+    # Alerta de demanda oculta: si no hay stock y hace meses que "no vende",
+    # esos ceros pueden ser venta PERDIDA (no había qué vender), no falta de
+    # demanda. El modelo tiende a SUBestimar estos casos: revisarlos a mano.
+    ult["alerta"] = np.where(
+        (ult["stock_fisico"] <= 0)
+        & (ult["en_camino"] <= 0)
+        & (ult["meses_desde_ultima_venta"] >= 1),
+        "SIN STOCK: meses sin venta pueden ser venta perdida",
+        "",
+    )
+
     orden = (
         ult[ult["comprar"] > 0]
         .sort_values(["alcance_meses", "inversion_usd"], ascending=[True, False])
         .reset_index(drop=True)
     )
 
-    cols = ["cod_articulo", "nom_articulo", "clase_abc", "urgencia",
+    cols = ["cod_articulo", "nom_articulo", "clase_abc", "urgencia", "alerta",
             "comprar", "cant_master", "inversion_usd",
             "ventas_ult_3m", "pred_esperada", "objetivo", "stock_seguridad",
             "posicion", "stock_fisico", "en_camino", "pendiente_entregar",
