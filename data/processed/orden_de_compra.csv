@@ -33,8 +33,8 @@ ING-MMA16018-SP-5,DC fan,B,ALTO: quiebra antes de que llegue el pedido,SIN STOCK
 CPWLI20082-SP-2,Pumpassembly,C,ALTO: quiebra antes de que llegue el pedido,,9,1,53.0,4.0,5.2,8.6,3.4,0.0,0.0,0,0,0.0,84.0,1.3,1.0,0,5.9
 P08-51-062,starter assembly,B,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,36,1,50.0,0.0,13.9,35.5,21.5,0.0,0.0,0,0,0.0,42.0,0.0,0.0,3,1.4
 MX214008-SP-53,SoftStart,B,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,24,1,43.0,1.0,8.8,23.3,14.6,0.0,0.0,0,0,0.0,74.0,0.2,2.0,1,1.8
-RH1500528-SP-78,Eccentric gear subassembl,C,ALTO: quiebra antes de que llegue el pedido,,2,1,43.0,2.0,1.2,1.7,0.5,0.0,0.0,0,0,0.0,38.0,2.0,2.0,0,21.6
 CIDLI20668-SP-7/10/12,Stator and electric control assembly,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,4,1,43.0,0.0,2.2,3.3,1.1,0.0,0.0,0,0,0.0,43.0,0.0,0.0,5,10.6
+RH1500528-SP-78,Eccentric gear subassembl,C,ALTO: quiebra antes de que llegue el pedido,,2,1,43.0,2.0,1.2,1.7,0.5,0.0,0.0,0,0,0.0,38.0,2.0,2.0,0,21.6
 AC255011-SP-37,Coil,B,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,42.0,0.0,0.8,1.9,1.1,0.0,0.0,0,0,0.0,15.0,,0.0,21,21.2
 TS15007-SP-98,On/Offswitch,A,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,12,1,40.0,0.0,2.2,11.3,9.1,0.0,0.0,0,0,0.0,40.0,0.0,0.0,5,3.3
 JAP15001-SP-174,ROTOR,B,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,40.0,0.0,0.5,1.4,0.9,0.0,0.0,0,0,0.0,17.0,,0.0,12,20.0
@@ -82,8 +82,8 @@ GWP202-SP-1-25,Carburetor,B,ALTO: quiebra antes de que llegue el pedido,SIN STOC
 CDLI20051-SP-11/12,Switch,B,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,9.0,0.0,0.9,1.9,0.9,0.0,0.0,0,0,0.0,21.0,,0.0,17,4.7
 CIDLI201452-SP-13,Switch,B,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,9.0,0.0,0.6,1.6,1.0,0.0,0.0,0,0,0.0,18.0,,0.0,17,4.7
 CVLI2001-SP-7,Motor,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,8.0,1.0,1.3,1.9,0.6,0.0,0.0,0,0,0.0,32.0,2.0,1.0,2,4.1
-WLC15008-SP-55,Stator,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,8.0,0.0,0.6,0.4,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,14,7.6
 CIWLI20010-SP-5,Rotor,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,8.0,0.0,2.2,2.1,0.0,0.0,0.0,0,0,0.0,75.0,,0.0,28,2.7
+WLC15008-SP-55,Stator,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,8.0,0.0,0.6,0.4,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,14,7.6
 GHPW2003-SP-1-13,"Rod Assembly., Connecting",C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,8.0,0.0,1.5,2.5,1.0,0.0,0.0,0,0,0.0,33.0,0.0,0.0,4,2.6
 CDLI20028-SP-2,Drill Chuck 0.8-10mm,A,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,7,1,7.0,0.0,1.1,6.4,5.3,0.0,0.0,0,0,0.0,17.0,,0.0,22,1.1
 CSSLI2001-SP-9,UpCutterBlade,A,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,7.0,0.0,0.6,2.6,2.0,0.0,0.0,0,0,0.0,18.0,,0.0,18,2.2
@@ -114,8 +114,8 @@ MD541141-SP-1-38,The Stator Coil,C,ALTO: quiebra antes de que llegue el pedido,S
 CGSLI20682-SP-5,Tensioning mechanism,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,3.0,0.0,1.0,1.2,0.2,0.0,0.0,0,0,0.0,22.0,,0.0,10,1.3
 AAC1408-SP-14,Pressure Gage,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,3.0,0.0,1.0,1.1,0.1,0.0,0.0,0,0,0.0,21.0,,0.0,7,1.6
 CRSLI1152-SP-23,Reciprocating Rod Assembly,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,0,3.0,0.0,0.5,0.5,0.0,0.0,0.0,0,0,0.0,18.0,,0.0,10,2.9
-CIWLI2001-SP-3,STATOR,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,3.0,0.0,0.5,0.6,0.1,0.0,0.0,0,0,0.0,15.0,,0.0,21,2.7
 CRTLI2005-SP-1,Outer Tube,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,3.0,0.0,0.7,0.6,0.0,0.0,0.0,0,0,0.0,19.0,0.0,0.0,3,2.8
+CIWLI2001-SP-3,STATOR,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,3.0,0.0,0.5,0.6,0.1,0.0,0.0,0,0,0.0,15.0,,0.0,21,2.7
 ACN18641-SP-D,Main Piston Assy,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,3.0,0.0,0.8,1.6,0.8,0.0,0.0,0,0,0.0,23.0,,0.0,7,1.7
 BMS14007-SP-123,Cable,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,3.0,0.0,0.5,0.8,0.3,0.0,0.0,0,0,0.0,21.0,,0.0,18,3.2
 AC202411-SP-51,Check Valve,B,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,2.0,0.0,0.4,1.5,1.1,0.0,0.0,0,0,0.0,19.0,,0.0,11,0.9
@@ -136,9 +136,9 @@ AC255011-SP-54,High Pressure Pipe,C,ALTO: quiebra antes de que llegue el pedido,
 RGH6528-SP-82,Switch,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,1.0,0.0,0.8,0.6,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,15,1.3
 RH150038-SP-25-V1,gear,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,1.0,0.0,0.6,0.7,0.0,0.0,0.0,0,0,0.0,19.0,,0.0,11,1.4
 RS4508-SP-23,BEARING 6002,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,1.0,0.0,0.6,0.4,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,12,0.6
-AAC1408-SP-15/18-20/29-30,Cylinder head assembly,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,1.0,0.0,1.0,0.9,0.0,0.0,0.0,0,0,0.0,17.0,,0.0,22,1.3
-WGM1543-SP-1-42,Spark Plug,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,1.0,0.0,1.3,1.6,0.3,0.0,0.0,0,0,0.0,16.0,,0.0,19,0.7
 CRTLI2005-SP-2,Claw Sets,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,1.0,0.0,0.7,0.6,0.0,0.0,0.0,0,0,0.0,19.0,0.0,0.0,3,0.9
+WGM1543-SP-1-42,Spark Plug,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,1.0,0.0,1.3,1.6,0.3,0.0,0.0,0,0,0.0,16.0,,0.0,19,0.7
+AAC1408-SP-15/18-20/29-30,Cylinder head assembly,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,1.0,0.0,1.0,0.9,0.0,0.0,0.0,0,0,0.0,17.0,,0.0,22,1.3
 AAC1408-SP-5,Switch,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,1.0,0.0,2.1,1.1,0.0,0.0,0.0,0,0,0.0,35.0,,0.0,23,0.5
 PC3558-SP-90,SawBlade,A,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,5,1,0.0,0.0,1.3,4.7,3.3,0.0,0.0,0,0,0.0,22.0,,0.0,18,0.0
 GE150006ES-SP-A.C.A,AircleanerAssy,A,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,4,1,0.0,0.0,0.6,3.7,3.1,0.0,0.0,0,0,0.0,14.0,,0.0,11,0.0
@@ -188,47 +188,47 @@ ACS215506-SP-47,BallValve,C,ALTO: quiebra antes de que llegue el pedido,SIN STOC
 PBS12001-SP-54,BallBearing6001/C3-Zrs,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,1.1,1.0,0.0,0.0,0.0,0,0,0.0,32.0,,0.0,23,0.0
 RH18008-SP-9,OilSealFb35×51×6,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.8,2.8,0.0,0.0,0.0,0,0,0.0,78.0,,0.0,25,0.0
 RH10508-SP-13,X-RING,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.8,2.5,0.0,0.0,0.0,0,0,0.0,75.0,,0.0,25,0.0
-RS8008-SP-19,bearing6000,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.2,1.7,0.5,0.0,0.0,0,0,0.0,22.0,,0.0,17,0.0
+SPG3508-SP-19,nozzlesets,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,1.2,0.7,0.0,0.0,0.0,0,0,0.0,18.0,,0.0,14,0.0
 CIDLI2002-SP-11-13,Switch&Terminal,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.2,2.1,0.0,0.0,0.0,0,0,0.0,78.0,,0.0,28,0.0
+RS8008-SP-19,bearing6000,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.2,1.7,0.5,0.0,0.0,0,0,0.0,22.0,,0.0,17,0.0
+RS4508-SP-17,Stator,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.1,1.8,0.7,0.0,0.0,0,0,0.0,31.0,0.0,0.0,4,0.0
 CSLI1651-SP-23,Pcb,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.3,2.1,0.0,0.0,0.0,0,0,0.0,21.0,,0.0,17,0.0
-RH17001-SP-85,Stator,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,4,1,0.0,0.0,3.1,3.0,0.0,0.0,0.0,0,0,0.0,78.0,,0.0,27,0.0
 AG10108-5-SP-1,OuterFlange,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.6,0.7,0.1,0.0,0.0,0,0,0.0,15.0,,0.0,21,0.0
+CAGLI1152-SP-23,Motor,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,3.3,2.9,0.0,0.0,0.0,0,0,0.0,77.0,,0.0,25,0.0
+RH17001-SP-85,Stator,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,4,1,0.0,0.0,3.1,3.0,0.0,0.0,0.0,0,0,0.0,78.0,,0.0,27,0.0
 AG10108-5-SP-47,Wrench,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.7,2.6,0.0,0.0,0.0,0,0,0.0,78.0,,0.0,26,0.0
-CPM15008-SP-9,Impeller,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.8,0.2,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,8,0.0
-CIDLI20608-SP-2,Motor   Assy,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,3.5,2.7,0.0,0.0,0.0,0,0,0.0,78.0,,0.0,28,0.0
-WLC30001-SP-48,SoftStart,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.2,1.7,0.5,0.0,0.0,0,0,0.0,27.0,0.0,0.0,5,0.0
-WRH2D26-SP-14,Hammer,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.6,0.7,0.2,0.0,0.0,0,0,0.0,14.0,,0.0,20,0.4
+CDLI20012-SP-2,DrillChuck0.8-10mm,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.8,2.2,0.0,0.0,0.0,0,0,0.0,77.0,,0.0,25,0.0
 CJSLI8501-SP-25,SwitchComponents,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.0,1.8,0.8,0.0,0.0,0,0,0.0,27.0,0.0,0.0,4,0.0
 CROSLI2001-SP-7,Motorassembly,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.5,0.3,0.0,0.0,0.0,0,0,0.0,17.0,,0.0,15,0.0
-SPG3508-SP-19,nozzlesets,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,1.2,0.7,0.0,0.0,0.0,0,0,0.0,18.0,,0.0,14,0.0
-RS4508-SP-17,Stator,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.1,1.8,0.7,0.0,0.0,0,0,0.0,31.0,0.0,0.0,4,0.0
+WRH2D26-SP-14,Hammer,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.6,0.7,0.2,0.0,0.0,0,0,0.0,14.0,,0.0,20,0.4
+WLC30001-SP-48,SoftStart,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.2,1.7,0.5,0.0,0.0,0,0,0.0,27.0,0.0,0.0,5,0.0
+GDE50001-SP-75,PanelAssembly,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,0.9,1.4,0.5,0.0,0.0,0,0,0.0,22.0,,0.0,18,0.0
+CIDLI20608-SP-2,Motor   Assy,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,3.5,2.7,0.0,0.0,0.0,0,0,0.0,78.0,,0.0,28,0.0
+CDLI12415-SP-13,SwitchAssy,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.6,0.5,0.0,0.0,0.0,0,0,0.0,19.0,,0.0,16,0.0
 VCRR30201-SP-17-1,LSideBrushesAssy,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.4,0.0,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,9,0.0
+CDLI12325-SP-2,DrillChuck10mm,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.4,2.4,0.0,0.0,0.0,0,0,0.0,55.0,,0.0,24,0.0
 VCRG30261-SP-12-2,RWheelAssy,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.4,0.1,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,8,0.0
-HPWR13018-SP-1,Micro switch+copper value,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.6,0.5,0.0,0.0,0.0,0,0,0.0,17.0,,0.0,13,0.0
+ING-CD2201-SP-11,Transformer,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,2.0,1.4,2.0,0.6,0.0,0.0,0,0,0.0,39.0,2.0,1.0,0,0.0
+GE55003-SP-57,IgnitionCoil,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.4,0.4,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,14,0.0
+GE55003-SP-43,Tie-RodAssembly,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.4,0.4,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,14,0.0
+GE8002-SP-1-4,Muffler,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,3.0,1.0,2.0,1.0,0.0,0.0,0,0,0.0,34.0,2.0,3.0,1,0.0
 HPWR18008-SP-33,LANCE,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.7,0.2,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,7,0.0
 HPWR15028-SP-2-29,stator,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.3,2.0,0.6,0.0,0.0,0,0,0.0,23.0,,0.0,18,0.0
 HPWR18008-SP-32,GUN,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,1.0,2.1,2.7,0.6,0.0,0.0,0,0,0.0,37.0,2.0,0.0,1,0.0
-GDE50001-SP-75,PanelAssembly,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,0.9,1.4,0.5,0.0,0.0,0,0,0.0,22.0,,0.0,18,0.0
+CPM15008-SP-9,Impeller,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.8,0.2,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,8,0.0
+HPWR13018-SP-1,Micro switch+copper value,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.6,0.5,0.0,0.0,0.0,0,0,0.0,17.0,,0.0,13,0.0
 ID6808-SP-2,Chuck,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.8,1.0,0.2,0.0,0.0,0,0,0.0,16.0,,0.0,19,0.0
-GE8002-SP-1-4,Muffler,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,3.0,1.0,2.0,1.0,0.0,0.0,0,0,0.0,34.0,2.0,3.0,1,0.0
-CAGLI1152-SP-23,Motor,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,3.3,2.9,0.0,0.0,0.0,0,0,0.0,77.0,,0.0,25,0.0
-GWP202-SP-1-16,CylinderHead,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0,0,0.0,15.0,,0.0,9,0.0
-GE55003-SP-57,IgnitionCoil,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.4,0.4,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,14,0.0
-GE55003-SP-43,Tie-RodAssembly,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.4,0.4,0.0,0.0,0.0,0,0,0.0,16.0,,0.0,14,0.0
-PDB17008-SP-9,BLOCKBLESSING,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.9,0.8,0.0,0.0,0.0,0,0,0.0,17.0,,0.0,22,0.0
-AG220018-SP-26,Bearing6201,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.0,2.3,0.2,0.0,0.0,0,0,0.0,56.0,,0.0,24,0.0
 RGH6508-SP-6-2,O-Ring,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.2,1.9,0.7,0.0,0.0,0,0,0.0,43.0,,0.0,24,0.0
-RGH9028-SP-44,Piston,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.8,0.8,0.0,0.0,0.0,0,0,0.0,19.0,,0.0,10,0.0
-RH10506-SP-100,Cable2*1.02m,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.7,1.0,0.0,0.0,0.0,0,0,0.0,34.0,,0.0,23,0.0
-RGH9028-SP-64,33 Dens Slanting Gear,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.7,0.5,0.0,0.0,0.0,0,0,0.0,17.0,0.0,0.0,4,0.0
-CSTLI20018-SP-17/18,MOTOR,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.4,1.8,0.4,0.0,0.0,0,0,0.0,16.0,,0.0,19,0.0
 RGH6508-SP-21,REPUESTOSINGCORGH6508-SP-21SWITCH,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,1.9,2.2,0.3,0.0,0.0,0,0,0.0,71.0,,0.0,25,0.0
-GCP100-2-SP-AF,AirFilter,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,3.1,2.7,0.0,0.0,0.0,0,0,0.0,77.0,,0.0,25,0.0
-ING-CD2201-SP-11,Transformer,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,2.0,1.4,2.0,0.6,0.0,0.0,0,0,0.0,39.0,2.0,1.0,0,0.0
-CDLI12415-SP-13,SwitchAssy,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.6,0.5,0.0,0.0,0.0,0,0,0.0,19.0,,0.0,16,0.0
-CDLI20012-SP-2,DrillChuck0.8-10mm,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.8,2.2,0.0,0.0,0.0,0,0,0.0,77.0,,0.0,25,0.0
-CDLI12325-SP-2,DrillChuck10mm,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.4,2.4,0.0,0.0,0.0,0,0,0.0,55.0,,0.0,24,0.0
+RGH9028-SP-44,Piston,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.8,0.8,0.0,0.0,0.0,0,0,0.0,19.0,,0.0,10,0.0
+CSTLI20018-SP-17/18,MOTOR,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.4,1.8,0.4,0.0,0.0,0,0,0.0,16.0,,0.0,19,0.0
 AG24008-SP-45/48/49,Switch,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,2.0,1.8,1.6,0.0,0.0,0.0,0,0,0.0,35.0,2.0,0.0,0,0.0
+AG220018-SP-26,Bearing6201,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,2.0,2.3,0.2,0.0,0.0,0,0,0.0,56.0,,0.0,24,0.0
+RGH9028-SP-64,33 Dens Slanting Gear,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.7,0.5,0.0,0.0,0.0,0,0,0.0,17.0,0.0,0.0,4,0.0
+RH10506-SP-100,Cable2*1.02m,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,2,1,0.0,0.0,1.7,1.0,0.0,0.0,0.0,0,0,0.0,34.0,,0.0,23,0.0
+GWP202-SP-1-16,CylinderHead,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.5,0.0,0.0,0.0,0.0,0,0,0.0,15.0,,0.0,9,0.0
+GCP100-2-SP-AF,AirFilter,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,3,1,0.0,0.0,3.1,2.7,0.0,0.0,0.0,0,0,0.0,77.0,,0.0,25,0.0
+PDB17008-SP-9,BLOCKBLESSING,C,ALTO: quiebra antes de que llegue el pedido,SIN STOCK: meses sin venta pueden ser venta perdida,1,1,0.0,0.0,0.9,0.8,0.0,0.0,0.0,0,0,0.0,17.0,,0.0,22,0.0
 ING-MGT1601-SP-C.T,Contact tubeM6X25/0.6mm,A,ALTO: quiebra antes de que llegue el pedido,,82,1,15.0,17.0,22.8,82.4,59.6,1.0,1.0,0,0,0.2,70.0,0.7,0.0,1,0.2
 HPWR14008-SP-C.B,CarbonBrush,A,ALTO: quiebra antes de que llegue el pedido,,45,1,0.0,13.0,18.5,45.7,27.2,1.0,1.0,0,0,0.3,88.0,1.1,0.0,0,0.0
 GBC5434411-SP-2-29,DoubleBelt,A,ALTO: quiebra antes de que llegue el pedido,,113,1,487.0,38.0,48.9,116.3,67.4,4.0,4.0,0,0,0.4,88.0,1.6,28.0,0,4.3
@@ -282,8 +282,8 @@ CGTLI20328-SP-20/35/41-45,Cover Grass assy,B,ALTO: quiebra antes de que llegue e
 HPWR16008-SP-13,Water Connector,B,ALTO: quiebra antes de que llegue el pedido,,9,1,7.0,0.0,3.4,9.2,5.8,1.0,1.0,0,0,1.5,18.0,,0.0,8,0.8
 WAP4R11-SP-4,Air Filter,B,ALTO: quiebra antes de que llegue el pedido,,8,1,6.0,1.0,3.4,8.9,5.5,1.0,1.0,0,0,1.5,49.0,2.0,0.0,0,0.8
 MD541141-SP-2-105/106,Connecting Pipe/Guide Duct,C,ALTO: quiebra antes de que llegue el pedido,,2,1,3.0,0.0,3.3,2.7,0.0,1.0,1.0,0,0,1.5,78.0,,0.0,25,1.5
-ID8508-SP-2,Chuck(13mm),C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,0.0,3.4,2.3,0.0,1.0,1.0,0,0,1.5,77.0,,0.0,26,0.0
 CDLI2003-SP-3,GEARBOXASSY,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,0.0,3.3,2.9,0.0,1.0,1.0,0,0,1.5,77.0,,0.0,25,0.0
+ID8508-SP-2,Chuck(13mm),C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,0.0,3.4,2.3,0.0,1.0,1.0,0,0,1.5,77.0,,0.0,26,0.0
 GDE50001-SP-55,MachineAssembly,A,ALTO: quiebra antes de que llegue el pedido,,3,1,422.0,0.0,3.0,3.3,0.3,1.0,1.0,0,0,1.6,77.0,,0.0,25,140.8
 CIDLI20968-SP-2,drill chuck,C,ALTO: quiebra antes de que llegue el pedido,,34,1,86.0,24.0,27.9,42.1,14.2,9.0,9.0,0,0,1.6,47.0,2.0,75.0,0,2.5
 GCP100-2-SP-C.S,GCP100-2-SP-C.S,C,ALTO: quiebra antes de que llegue el pedido,,2,1,47.0,0.0,3.1,2.7,0.0,1.0,1.0,0,0,1.6,77.0,,0.0,27,23.3
@@ -308,9 +308,9 @@ RH10506-SP-23,Gear34,C,ALTO: quiebra antes de que llegue el pedido,,7,1,10.0,1.0
 WAP3A50-SP-45,Exhaust Pipe Group,C,ALTO: quiebra antes de que llegue el pedido,,5,1,8.0,2.0,2.8,5.1,2.3,1.0,1.0,0,0,1.8,51.0,0.8,0.0,1,1.5
 CRHLI20208-SP-6,Switch,C,ALTO: quiebra antes de que llegue el pedido,,3,1,5.0,2.0,2.8,3.5,0.7,1.0,1.0,0,0,1.8,47.0,2.0,0.0,0,1.8
 GHPW2003-SP-A.F,airfilter,C,ALTO: quiebra antes de que llegue el pedido,,3,1,0.0,0.0,2.8,3.0,0.2,1.0,1.0,0,0,1.8,56.0,,0.0,24,0.0
+GCS45185-SP-E49,clutchshell,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,0.0,5.5,3.3,0.0,2.0,2.0,0,0,1.8,56.0,,0.0,24,0.0
 GHPW2003-SP-CRANKSHAFT,Crankshaft ,C,ALTO: quiebra antes de que llegue el pedido,,3,1,0.0,0.0,2.8,3.0,0.2,1.0,1.0,0,0,1.8,56.0,,0.0,24,0.0
 GE30005-SP-62,"GASKET,  CRANKCASE   COVER",C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,0.0,2.7,2.7,0.0,1.0,1.0,0,0,1.8,78.0,,0.0,27,0.1
-GCS45185-SP-E49,clutchshell,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,0.0,5.5,3.3,0.0,2.0,2.0,0,0,1.8,56.0,,0.0,24,0.0
 GCP100-2-SP-R.S,RecoilStarter,A,ALTO: quiebra antes de que llegue el pedido,,35,1,311.0,18.0,18.3,41.6,23.2,7.0,7.0,0,0,1.9,88.0,1.6,18.0,0,8.9
 VCRR30201-SP-31,LithiumBatteryAssy,A,ALTO: quiebra antes de que llegue el pedido,,20,1,156.0,9.0,7.7,22.1,14.4,3.0,3.0,0,0,1.9,86.0,1.1,0.0,0,7.8
 AC1301008-SP-1,Filter,A,ALTO: quiebra antes de que llegue el pedido,,39,1,43.0,8.0,13.2,43.2,30.0,5.0,5.0,0,0,1.9,81.0,0.8,15.0,0,1.1
@@ -346,8 +346,8 @@ GBC5434411-SP-2-24,Protect Cover Plate,B,ALTO: quiebra antes de que llegue el pe
 ING-MGT1601-SP-NOZZLE,nozzle,A,ALTO: quiebra antes de que llegue el pedido,,105,1,77.0,47.0,53.7,130.6,76.9,26.0,26.0,0,0,2.4,89.0,1.6,5.0,0,0.7
 AC202416-SP-6,Cylinder Head,C,ALTO: quiebra antes de que llegue el pedido,,3,1,6.0,2.0,2.1,3.1,0.9,1.0,1.0,0,0,2.4,36.0,2.0,3.0,0,2.0
 GEA55221-1-SP-1-34,Oil Tank Assy,B,ALTO: quiebra antes de que llegue el pedido,,9,1,0.0,5.0,4.2,10.6,6.4,2.0,2.0,0,0,2.4,66.0,1.4,0.0,0,0.0
-HPWR25008-SP-P.T.B,Plainthrustbearing,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,0.0,4.2,3.2,0.0,2.0,2.0,0,0,2.4,77.0,,0.0,25,0.0
 GSE50001-SP-1-1-30,Crankcasecover,C,ALTO: quiebra antes de que llegue el pedido,,1,1,0.0,0.0,2.1,2.0,0.0,1.0,1.0,0,0,2.4,75.0,,0.0,27,0.0
+HPWR25008-SP-P.T.B,Plainthrustbearing,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,0.0,4.2,3.2,0.0,2.0,2.0,0,0,2.4,77.0,,0.0,25,0.0
 GRT75-2-SP-CAR,Carburetorassy.,A,ALTO: quiebra antes de que llegue el pedido,,13,1,208.0,1.0,4.0,14.1,10.2,2.0,2.0,0,0,2.5,64.0,1.0,0.0,0,16.0
 GHPW2003-SP-R.S.A,RecoilStarterAssembly,A,ALTO: quiebra antes de que llegue el pedido,,21,1,81.0,7.0,12.2,26.7,14.5,6.0,6.0,0,0,2.5,86.0,1.0,8.0,0,3.9
 CIWLI2038-SP-2,Gear Box Assy & Hammer Assy,B,ALTO: quiebra antes de que llegue el pedido,,5,0,48.0,0.0,2.0,5.7,3.7,1.0,1.0,0,0,2.5,30.0,0.0,0.0,3,9.6
@@ -383,9 +383,9 @@ RH16008-SP-89,Rotor,A,ALTO: quiebra antes de que llegue el pedido,,7,1,47.0,1.0,
 GE55003-SP-98,Voltage  Regulator,A,ALTO: quiebra antes de que llegue el pedido,,6,1,36.0,2.0,1.7,6.4,4.7,1.0,1.0,0,0,3.0,53.0,1.0,0.0,1,6.1
 CCSNLI6008-SP-98,Pcba Assembly,C,ALTO: quiebra antes de que llegue el pedido,,2,1,36.0,3.0,1.7,2.6,0.9,1.0,1.0,0,0,3.0,33.0,2.0,4.0,2,18.2
 GDE30001-SP-32-20,Fuelinjector,B,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,0.0,1.7,2.2,0.6,1.0,1.0,0,0,3.0,75.0,,0.0,26,0.0
-GWP402-SP-1,EngineFc177,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,1.0,1.7,3.0,1.3,1.0,1.0,0,0,3.0,22.0,2.0,2.0,0,0.0
-APS1512-SP-1,Housing,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,1.0,1.7,3.0,1.3,1.0,1.0,0,0,3.0,22.0,2.0,0.0,0,0.0
 GBC5434411-SP-1-53-55,Piston,C,ALTO: quiebra antes de que llegue el pedido,,1,1,0.0,0.0,1.6,1.2,0.0,1.0,1.0,0,0,3.0,19.0,,0.0,22,0.0
+APS1512-SP-1,Housing,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,1.0,1.7,3.0,1.3,1.0,1.0,0,0,3.0,22.0,2.0,0.0,0,0.0
+GWP402-SP-1,EngineFc177,C,ALTO: quiebra antes de que llegue el pedido,,2,1,0.0,1.0,1.7,3.0,1.3,1.0,1.0,0,0,3.0,22.0,2.0,2.0,0,0.0
 HPWR15028-SP-1,SprayGun,A,ALTO: quiebra antes de que llegue el pedido,,32,1,164.0,13.0,19.4,43.3,23.9,12.0,2.0,10,0,3.1,88.0,1.4,0.0,0,5.1
 ED2808-SP-5,housing,C,ALTO: quiebra antes de que llegue el pedido,,1,1,0.0,0.0,3.2,2.4,0.0,2.0,2.0,0,0,3.1,77.0,,0.0,25,0.0
 CIWLI2040-SP-2-21,Gear Box Assy,B,ALTO: quiebra antes de que llegue el pedido,,10,1,91.0,2.0,6.3,13.0,6.8,4.0,4.0,0,0,3.2,75.0,0.7,0.0,0,9.1
@@ -692,8 +692,8 @@ GE30005-SP-38,PISTONRINGSET,B,BAJO: con cobertura,,1,1,0.0,1.0,0.6,1.8,1.2,1.0,1
 AP12008-SP-25,Stator,B,BAJO: con cobertura,,1,1,0.0,1.0,0.6,1.7,1.1,1.0,1.0,0,0,7.9,26.0,2.0,0.0,0,0.0
 GRT75-2-SP-14,FUELTANK,A,BAJO: con cobertura,,14,1,143.0,6.0,10.7,30.1,19.4,17.0,5.0,12,0,8.0,84.0,0.9,4.0,0,10.2
 WAY1A10-SP-N,Nozzle,A,BAJO: con cobertura,,14,1,29.0,8.0,13.7,35.5,21.8,22.0,22.0,0,0,8.0,86.0,0.9,26.0,0,2.1
-HPWR16008-SP-2-1,HC8040HB motor,C,BAJO: con cobertura,,1,1,19.0,2.0,4.4,8.0,3.6,7.0,1.0,6,0,8.0,53.0,0.8,3.0,0,19.4
 LM385-SP-4-13,MotorAssemble,C,BAJO: con cobertura,,1,1,19.0,7.0,12.6,20.4,7.8,20.0,20.0,0,0,8.0,81.0,1.1,0.0,0,18.8
+HPWR16008-SP-2-1,HC8040HB motor,C,BAJO: con cobertura,,1,1,19.0,2.0,4.4,8.0,3.6,7.0,1.0,6,0,8.0,53.0,0.8,3.0,0,19.4
 GDE50001-SP-32-20,Fuel injector,B,BAJO: con cobertura,,2,1,15.0,2.0,1.2,3.6,2.4,2.0,2.0,0,0,8.0,29.0,2.0,0.0,2,7.5
 CGTLI20301-SP-30,Cover Grass,B,BAJO: con cobertura,,4,1,3.0,6.0,5.0,11.9,6.9,8.0,8.0,0,0,8.0,67.0,2.0,5.0,0,0.7
 CPWLI2036-SP-8,Barrel assembly,C,BAJO: con cobertura,,1,1,2.0,1.0,2.5,4.6,2.1,4.0,4.0,0,0,8.0,55.0,0.5,5.0,1,1.5
