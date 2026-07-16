@@ -10,6 +10,10 @@ CASOS_TIER = {
     "Gear Box": "MEDIO", "Water Pump": "MEDIO", "Switch Assembly": "TINY",
     "Left and Right Case": "STRUCT", "Pressure pipe Assy": "SMALL",
     "Motor": "STRUCT", "Rotor": "MEDIO", "Bearing": "TINY",
+    # la pieza grande solo cuenta si es el sustantivo principal (última palabra)
+    "Fuel Tank Cap": "TINY", "FUEL TANK CAP": "TINY", "Fuel tank filter": "SMALL",
+    "Joint Assy, Fuel Tank": "TINY", "Housing Left": "STRUCT",
+    "Tank Cover": "MEDIO", "Motor Bolt": "TINY",
 }
 
 
@@ -26,6 +30,9 @@ def test_casos_reportados_por_negocio():
     # Motor de un atornillador = chico; el mismo motor en un generador, no
     assert clasificar("Motor", "ATORNILLADOR 20V CDLI20028 INGCO")[0] == "Chico"
     assert clasificar("Motor", "GENERADOR 12KW INGCO GE12000")[0] in ("Grande", "Extradimensional")
+    # tapa de tanque de nafta = chica; el tanque entero = extradimensional
+    assert clasificar("Fuel Tank Cap", "GENERADOR 5KW INGCO GE50006")[0] == "Chico"
+    assert clasificar("Fuel Tank", "GENERADOR 5KW INGCO GE50006")[0] == "Extradimensional"
 
 
 if __name__ == "__main__":
