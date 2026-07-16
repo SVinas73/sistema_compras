@@ -161,8 +161,19 @@ TIERS = {
         "CARTEL", "SPONGE", "ESPONJA", "FOAM", "GROMMET", "GAUGE",
         "MANOMETRO", "DIPSTICK", "OUTLET", "PLUG", "SOCKET", "COLLAR",
         "CLAMP", "ABRAZADERA", "MEMBRANE", "DIAPHRAGM", "MEMBRANA", "BAFFLE",
+        "CAP", "LID", "TAPON", "JOINT", "LENS", "LENTE", "GLASS", "VIDRIO",
+        "LAMP", "LAMPARA", "BULB", "STOPPER", "TOPE", "NIPPLE", "JET",
     ],
 }
+# Piezas cuyo tier grande SOLO vale si son el sustantivo principal (última
+# palabra): si aparecen como modificador ('Fuel TANK Cap') no cuentan.
+_TIER_GRANDE = {"STRUCT", "FULL"}
+# Piezas chicas-medianas que se suman a SMALL
+TIERS["SMALL"] += [
+    "ELEMENT", "ELEMENTO", "CARTRIDGE", "CARTUCHO", "MODULE", "MODULO",
+    "HARNESS", "ARNES", "LINER", "PLUNGER", "EMBOLO", "HOOK", "GANCHO",
+    "LATCH", "TUBE", "FERRULE", "SLEEVE", "CAMISA",
+]
 # Prioridad si un tier "gana" ante empate de posición: el más grande.
 _RANK = {"FULL": 5, "STRUCT": 4, "MEDIO": 3, "SMALL": 2, "TINY": 1}
 # Diccionarios derivados
@@ -170,9 +181,20 @@ WORD2TIER, PHRASE2TIER = {}, {}
 for _tier, _kws in TIERS.items():
     for _kw in _kws:
         (PHRASE2TIER if " " in _kw else WORD2TIER).setdefault(_kw, _tier)
-# Palabras de relleno que se ignoran al buscar el sustantivo principal
-_RELLENO = {"ASSY", "ASSEMBLY", "ASSEMBLIES", "SET", "KIT", "PARTS", "PART",
-            "COMP", "UNIT", "AND", "OR", "FOR", "OF", "THE", "A", "DE", "PARA"}
+# Palabras que se ignoran al buscar el sustantivo principal: relleno y
+# CALIFICADORES de posición/tamaño (no son la pieza; 'Housing Left' -> Housing)
+_RELLENO = {
+    "ASSY", "ASSEMBLY", "ASSEMBLIES", "ASM", "SET", "KIT", "PARTS", "PART",
+    "COMP", "COMPONENT", "UNIT", "AND", "OR", "FOR", "OF", "THE", "A", "DE",
+    "PARA", "CON", "WITH",
+    # calificadores de posición / tamaño / lado
+    "LEFT", "RIGHT", "UPPER", "LOWER", "TOP", "BOTTOM", "FRONT", "REAR",
+    "INNER", "OUTER", "INTERIOR", "EXTERIOR", "INTERNAL", "EXTERNAL",
+    "MAIN", "SUB", "BIG", "SMALL", "LONG", "SHORT", "NEW", "OLD", "STD",
+    "STANDARD", "IZQUIERDO", "IZQUIERDA", "DERECHO", "DERECHA", "SUPERIOR",
+    "INFERIOR", "DELANTERO", "DELANTERA", "TRASERO", "TRASERA", "INTERNO",
+    "EXTERNO", "GRANDE", "CHICO", "COMPLETA", "SIDE",
+}
 
 
 def _norm(texto):
@@ -205,20 +227,33 @@ def _tier_substring(token):
     return mejor_tier
 
 
-def tipo_pieza(nom_repuesto):
-    """Tier de la pieza leyendo el sustantivo principal (derecha a izquierda).
-    None si no reconoce nada."""
-    toks = _tokens(nom_repuesto)
-    for i in range(len(toks) - 1, -1, -1):
+def _clasificar_segmento(toks):
+    """Tier del sustantivo principal de una lista de tokens (derecha a
+    izquierda). Una pieza GRANDE (estructural/enorme) solo cuenta si es la
+    ÚLTIMA palabra: si está en el medio es un modificador ('Fuel TANK Cap')."""
+    n = len(toks)
+    for i in range(n - 1, -1, -1):
+        es_ultima = (i == n - 1)
         if i > 0:  # frase de dos palabras terminando acá (p.ej. CONNECTING ROD)
-            bg = toks[i - 1] + " " + toks[i]
-            if bg in PHRASE2TIER:
-                return PHRASE2TIER[bg]
-        if toks[i] in WORD2TIER:
-            return WORD2TIER[toks[i]]
-        sub = _tier_substring(toks[i])  # palabra pegada tipo CARBONBRUSH
-        if sub:
-            return sub
+            t = PHRASE2TIER.get(toks[i - 1] + " " + toks[i])
+            if t and not (t in _TIER_GRANDE and not es_ultima):
+                return t
+        t = WORD2TIER.get(toks[i]) or _tier_substring(toks[i])
+        if t and not (t in _TIER_GRANDE and not es_ultima):
+            return t
+    return None
+
+
+def tipo_pieza(nom_repuesto):
+    """Tier de la pieza. Lee la descripción COMPLETA: si hay coma, la pieza
+    principal suele ir antes ('Joint Assy, Fuel Tank' = un joint). None si no
+    reconoce nada."""
+    partes = str(nom_repuesto).split(",")
+    t = _clasificar_segmento(_tokens(partes[0]))
+    if t is not None:
+        return t
+    if len(partes) > 1:  # fallback: toda la descripción junta
+        return _clasificar_segmento(_tokens(str(nom_repuesto).replace(",", " ")))
     return None
 
 
@@ -229,7 +264,7 @@ CH, ME, GR, EX = "Chico", "Mediano", "Grande", "Extradimensional"
 MATRIZ = {
     #            MICRO HAND  MEDIUM LARGE  XLARGE
     "TINY":   {"MICRO": CH, "HAND": CH, "MEDIUM": CH, "LARGE": CH, "XLARGE": CH},
-    "SMALL":  {"MICRO": CH, "HAND": CH, "MEDIUM": CH, "LARGE": ME, "XLARGE": ME},
+    "SMALL":  {"MICRO": CH, "HAND": CH, "MEDIUM": CH, "LARGE": CH, "XLARGE": ME},
     "MEDIO":  {"MICRO": CH, "HAND": CH, "MEDIUM": ME, "LARGE": GR, "XLARGE": GR},
     "STRUCT": {"MICRO": CH, "HAND": ME, "MEDIUM": GR, "LARGE": GR, "XLARGE": EX},
     "FULL":   {"MICRO": ME, "HAND": GR, "MEDIUM": EX, "LARGE": EX, "XLARGE": EX},
