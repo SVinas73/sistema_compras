@@ -1,0 +1,42 @@
+name: Clasificar tamaño con IA
+
+# Botón manual. Requiere el secreto ANTHROPIC_API_KEY configurado en el repo
+# (Settings -> Secrets and variables -> Actions -> New repository secret).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  clasificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Traer el código y los datos
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Clasificar tamaño con IA (Claude)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m src.tamano_ia
+
+      - name: Publicar la clasificación descargable
+        uses: actions/upload-artifact@v4
+        with:
+          name: clasificacion_tamano_ia
+          path: data/processed/clasificacion_tamano_ia.csv
+
+      - name: Guardar resultado y cache en el repositorio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/processed/clasificacion_tamano_ia.csv data/processed/cache_tamano_ia.json
+          git diff --cached --quiet || { git commit -m "Clasificación de tamaño con IA (corrida de Actions)"; git push; }
