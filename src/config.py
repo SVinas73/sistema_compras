@@ -11,6 +11,10 @@ RUTA_PROCESSED = RAIZ / "data" / "processed"
 # Planilla propia de taller (Solicitud de Repuestos). Opcional: si la carpeta
 # está vacía, el sistema funciona igual. NO reemplaza a la planilla AMyyyymm.
 RUTA_TALLER = RAIZ / "data" / "taller"
+# Reporte detallado EDINTOR (venta + garantía + presupuesto). Opcional: se usa
+# para extender la historia hacia atrás, antes de que arranque la planilla
+# AMyyyymm. Si la carpeta está vacía, el sistema funciona igual.
+RUTA_HISTORICO = RAIZ / "data" / "historico"
 
 # ---------- Negocio ----------
 # Demora del proveedor: los repuestos importados tardan 90-120 días en llegar.
