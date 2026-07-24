@@ -199,7 +199,8 @@ def construir(largo: pd.DataFrame) -> pd.DataFrame:
 
     # --- Tendencia de nivel: ¿acelera o se apaga? ---
     # corta (3 vs 6 meses) y larga (3 vs 12 meses): detecta el "vendió 3 meses
-    # y paró" (corta) y el declive lento de todo un año (larga).
+    # y paró" (corta) y el declive lento de todo un año (larga). El tope de
+    # sensatez (max_horizonte_historico) se aplica después en inference.
     largo["tendencia"] = largo["media_movil_3"] / largo["media_movil_6"].replace(0, np.nan)
     largo["tendencia_larga"] = largo["media_movil_3"] / largo["media_movil_12"].replace(0, np.nan)
 
@@ -274,9 +275,11 @@ def foto_actual(largo: pd.DataFrame) -> pd.DataFrame:
         tasa_actividad_6m=("ventas", lambda s: (s.iloc[-6:] > 0).mean()),
         tasa_actividad_12m=("ventas", lambda s: (s.iloc[-12:] > 0).mean()),
         _tasa_3m=("ventas", lambda s: (s.iloc[-3:] > 0).mean()),
-        # Mejor trimestre histórico: la mayor demanda real que el SKU
-        # mostró en 3 meses seguidos. Base del tope de sensatez.
-        max_trim_historico=("ventas", lambda s: s.rolling(3).sum().max()),
+        # Máxima demanda real del SKU en una ventana del largo del horizonte
+        # de protección. Base del tope de sensatez (evita sobre-comprar por
+        # picos que el cuantil extrapola de más).
+        max_horizonte_historico=("ventas",
+                                 lambda s: s.rolling(config.HORIZONTE).sum().max()),
     ).reset_index()
 
     ult["meses_desde_ultima_venta"] = (

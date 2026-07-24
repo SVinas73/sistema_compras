@@ -57,7 +57,13 @@ def run(ult: pd.DataFrame, clfs, regs, quantiles):
         lambda fila: fila[f"p{int(config.PERCENTIL_POR_CLASE[fila['clase_abc']] * 100)}"],
         axis=1,
     )
-    tope = (ult["max_trim_historico"] * (config.HORIZONTE / 3) * 2).fillna(np.inf)
+    # Tope de sensatez: el objetivo no puede superar lo MÁS que el SKU consumió
+    # en una ventana del largo del horizonte (best rolling-HORIZONTE), por un
+    # margen de seguridad. Frena la sobre-compra cuando el cuantil se dispara
+    # por un pico reciente en items que casi no venden (ej. GMT55231: vendió 4
+    # en 40 meses, el modelo pedía 6). Un item que crece de verdad tiene su
+    # mejor ventana reciente y alta, así que el tope no lo limita.
+    tope = (ult["max_horizonte_historico"] * config.TOPE_FACTOR).fillna(np.inf)
     ult["objetivo"] = np.minimum(ult["objetivo"], tope.clip(lower=1))
     ult["stock_seguridad"] = (ult["objetivo"] - ult["pred_esperada"]).clip(0).round(1)
 
