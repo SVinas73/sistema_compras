@@ -32,6 +32,12 @@ PERCENTIL_POR_CLASE = {"A": 0.95, "B": 0.90, "C": 0.80}
 ABC_CORTE_A = 80
 ABC_CORTE_B = 95
 
+# Tope de sensatez: el objetivo de cobertura no puede superar la máxima demanda
+# real del SKU en una ventana del horizonte, por este factor. Frena la
+# sobre-compra en items intermitentes cuando el cuantil se dispara por un pico.
+# Subir da más colchón (más stock); bajar es más conservador.
+TOPE_FACTOR = 1.5
+
 EXCLUIR = [
     "PMDSBD02-SP-P.9",
     "PMST01A-SP-HOOK12.J",
