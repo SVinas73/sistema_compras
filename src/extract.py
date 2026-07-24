@@ -18,7 +18,9 @@ COLS_NEGOCIO = [
 
 
 def leer_planillas() -> pd.DataFrame:
-    """Lee y concatena todos los .xls/.xlsx de data/raw."""
+    """Lee y concatena las planillas de ventas (formato AMyyyymm) de data/raw.
+    Ignora otros Excel que puedan estar ahí (p.ej. el maestro de artículos),
+    que no tienen ese formato."""
     archivos = sorted(config.RUTA_RAW.glob("*.xls*"))
     if not archivos:
         raise FileNotFoundError(f"No hay archivos Excel en {config.RUTA_RAW}")
@@ -28,7 +30,16 @@ def leer_planillas() -> pd.DataFrame:
         # engine según extensión: .xls viejo usa xlrd, .xlsx usa openpyxl
         engine = "xlrd" if archivo.suffix == ".xls" else "openpyxl"
         df = pd.read_excel(archivo, engine=engine, skiprows=4)
+        # Solo planillas de ventas: deben tener cod_articulo y columnas AMyyyymm.
+        tiene_am = any(str(c).startswith("AM2") for c in df.columns)
+        if "cod_articulo" not in df.columns or not tiene_am:
+            print(f"  - {archivo.name}: ignorado (no es planilla de ventas AMyyyymm)")
+            continue
         tablas.append(df)
+
+    if not tablas:
+        raise FileNotFoundError(
+            f"No hay planillas de ventas (formato AMyyyymm) en {config.RUTA_RAW}")
         print(f"  - {archivo.name}: {len(df)} filas")
 
     # --- Unificación correcta de múltiples archivos con períodos distintos ---
@@ -99,9 +110,14 @@ def a_formato_largo(df: pd.DataFrame) -> pd.DataFrame:
 
 def run() -> pd.DataFrame:
     """Punto de entrada de la fase. Devuelve el formato largo y lo guarda."""
+    from . import historico  # import local: evita ciclo (historico usa COLS_NEGOCIO)
+
     print("[FASE 1] Ingesta...")
     df = leer_planillas()
     largo = a_formato_largo(df)
+    # Extiende la historia hacia atrás con el reporte EDINTOR (si está). No
+    # toca los meses de la planilla AMyyyymm; solo agrega los previos.
+    largo = historico.prepend(largo)
     largo.to_parquet(config.RUTA_PROCESSED / "ventas_largo.parquet", index=False)
     print(f"  ✔ {largo['cod_articulo'].nunique()} SKUs activos, {len(largo)} filas")
     return largo
